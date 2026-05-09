@@ -1,5 +1,5 @@
 import https from 'node:https';
-import { readFileSync, writeFileSync, existsSync } from 'node:fs';
+import { readFileSync, writeFileSync, readdirSync } from 'node:fs';
 import { resolve } from 'node:path';
 
 const args = process.argv.slice(2);
@@ -164,9 +164,7 @@ function parseXML(xml) {
 function getAlreadySummarizedPmids() {
   const pmids = new Set();
   try {
-    const files = [];
     const dir = ALREADY_SUMMARIZED_DIR;
-    const { readdirSync } = await import('node:fs');
     const entries = readdirSync(dir);
     for (const f of entries) {
       if (f.startsWith('parkinson-') && f.endsWith('.html')) {
@@ -195,7 +193,6 @@ async function main() {
 
   let alreadyPmids;
   try {
-    const { readdirSync } = await import('node:fs');
     alreadyPmids = new Set();
     const entries = readdirSync(ALREADY_SUMMARIZED_DIR);
     for (const f of entries) {

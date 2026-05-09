@@ -13,15 +13,15 @@ const OUTPUT = getArg('output') || 'docs/parkinson-report.html';
 const REPORT_DATE = process.env.REPORT_DATE || new Date().toISOString().slice(0, 10);
 const API_KEY = process.env.ZHIPU_API_KEY;
 const API_BASE = 'https://open.bigmodel.cn/api/coding/paas/v4';
-const MAX_TOKENS = 50000;
+const MAX_TOKENS = 16384;
 const TIMEOUT = 480000;
 const MODELS = ['GLM-5-Turbo', 'GLM-4.7', 'GLM-4.7-Flash'];
 
 function httpsPost(url, headers, body) {
-  return new Promise((resolve, reject) => {
+  return new Promise((resolvePost, reject) => {
     const urlObj = new URL(url);
     const postData = JSON.stringify(body);
-    const options = {
+    const req = https.request({
       hostname: urlObj.hostname,
       path: urlObj.pathname,
       method: 'POST',
@@ -31,167 +31,124 @@ function httpsPost(url, headers, body) {
         'Content-Length': Buffer.byteLength(postData),
       },
       timeout: TIMEOUT,
-    };
-
-    const req = https.request(options, (res) => {
+    }, (res) => {
       let data = '';
       res.on('data', chunk => data += chunk);
       res.on('end', () => {
         if (res.statusCode >= 200 && res.statusCode < 300) {
-          resolve(data);
+          resolvePost(data);
         } else {
           reject(new Error(`HTTP ${res.statusCode}: ${data.slice(0, 500)}`));
         }
       });
     });
-
     req.on('error', reject);
-    req.on('timeout', () => {
-      req.destroy();
-      reject(new Error(`Request timeout after ${TIMEOUT}ms`));
-    });
+    req.on('timeout', () => { req.destroy(); reject(new Error('timeout')); });
     req.write(postData);
     req.end();
   });
 }
 
 function safeParseJSON(text) {
-  try {
-    return JSON.parse(text);
-  } catch {}
-
-  const patterns = [
-    /```json\s*([\s\S]*?)```/,
-    /```\s*([\s\S]*?)```/,
-    /\{[\s\S]*\}/,
-    /\[[\s\S]*\]/,
-  ];
-
-  for (const pattern of patterns) {
-    const match = text.match(pattern);
-    if (match) {
-      try {
-        return JSON.parse(match[1] || match[0]);
-      } catch {}
-    }
+  try { return JSON.parse(text); } catch {}
+  const patterns = [/```json\s*([\s\S]*?)```/, /```\s*([\s\S]*?)```/, /\{[\s\S]*\}/];
+  for (const p of patterns) {
+    const m = text.match(p);
+    if (m) { try { return JSON.parse(m[1] || m[0]); } catch {} }
   }
-
-  const jsonBlocks = text.match(/\{[^{}]*(?:\{[^{}]*(?:\{[^{}]*\}[^{}]*)*\}[^{}]*)*\}/g);
-  if (jsonBlocks) {
-    for (const block of jsonBlocks.reverse()) {
-      try {
-        return JSON.parse(block);
-      } catch {}
-    }
-  }
-
-  throw new Error('Failed to parse JSON from AI response');
+  throw new Error('JSON parse failed');
 }
 
-async function callAI(prompt, retryCount = 3) {
-  for (const model of MODELS) {
-    for (let attempt = 1; attempt <= retryCount; attempt++) {
+async function callAI(prompt, modelOverride) {
+  const models = modelOverride ? [modelOverride, ...MODELS.filter(m => m !== modelOverride)] : MODELS;
+  for (const model of models) {
+    for (let attempt = 1; attempt <= 2; attempt++) {
       try {
-        console.log(`Calling ${model} (attempt ${attempt}/${retryCount})...`);
+        console.log(`Calling ${model} (attempt ${attempt})...`);
         const response = await httpsPost(
           `${API_BASE}/chat/completions`,
           { 'Authorization': `Bearer ${API_KEY}` },
-          {
-            model,
-            messages: [{ role: 'user', content: prompt }],
-            temperature: 0.3,
-            max_tokens: MAX_TOKENS,
-          }
+          { model, messages: [{ role: 'user', content: prompt }], temperature: 0.3, max_tokens: MAX_TOKENS }
         );
-
         const json = JSON.parse(response);
         const content = json.choices?.[0]?.message?.content || '';
-        if (!content) throw new Error('Empty response from AI');
+        if (!content) throw new Error('Empty response');
         return safeParseJSON(content);
       } catch (e) {
         console.error(`${model} attempt ${attempt} failed: ${e.message}`);
-        if (attempt < retryCount) {
-          const wait = 60000 * attempt;
-          console.log(`Waiting ${wait / 1000}s before retry...`);
-          await new Promise(r => setTimeout(r, wait));
-        }
+        if (attempt < 2) await new Promise(r => setTimeout(r, 30000));
       }
     }
   }
   throw new Error('All models failed');
 }
 
-function buildPrompt(papers) {
+function escapeHTML(str) {
+  return String(str || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+}
+
+function buildSummaryPrompt(papers) {
   const paperList = papers.map((p, i) =>
-    `[${i + 1}] PMID: ${p.pmid}\nTitle: ${p.title}\nJournal: ${p.journal}\nDate: ${p.date}\nAbstract: ${p.abstract || 'N/A'}\nKeywords: ${(p.keywords || []).join(', ')}\nURL: ${p.url}`
+    `[${i + 1}] PMID:${p.pmid}\nTitle:${p.title}\nJournal:${p.journal}\nAbstract:${(p.abstract || 'N/A').slice(0, 800)}`
   ).join('\n\n');
 
-  return `You are an expert neurologist and research analyst specializing in Parkinson's disease. Analyze the following recent research papers and produce a comprehensive daily research digest.
+  return `你是巴金森病研究分析專家。分析以下最新論文，用繁體中文生成每日摘要。
 
-PAPERS:
+論文列表:
 ${paperList}
 
-Return your analysis as a JSON object with EXACTLY this structure:
+回傳JSON格式:
 {
-  "market_summary": "A 3-5 paragraph executive summary of today's most important findings, written in Traditional Chinese (繁體中文). Cover major themes, breakthroughs, and clinical implications.",
+  "market_summary": "3-5段繁體中文總結，涵蓋主要發現與臨床意義",
+  "keywords": ["10-15個關鍵詞"],
+  "topic_distribution": {"Biomarkers":0,"Treatment":0,"Genetics":0,"Neuroimaging":0,"Non-motor Symptoms":0,"Rehabilitation":0,"Nutrition":0,"Psychiatry":0,"Epidemiology":0,"Basic Science":0,"Caregiver/Quality of Life":0}
+}
+
+只回傳JSON，不要markdown格式。`;
+}
+
+function buildDetailPrompt(papers) {
+  const paperList = papers.map((p, i) =>
+    `[${i + 1}] PMID:${p.pmid}\nTitle:${p.title}\nJournal:${p.journal}\nDate:${p.date}\nAbstract:${(p.abstract || 'N/A').slice(0, 600)}\nKeywords:${(p.keywords || []).join(',')}\nURL:${p.url}`
+  ).join('\n\n');
+
+  return `你是巴金森病研究分析專家。為以下論文生成詳細分析，用繁體中文。
+
+論文:
+${paperList}
+
+回傳JSON:
+{
   "top_picks": [
     {
-      "pmid": "string",
-      "title": "string",
-      "journal": "string",
-      "date": "string",
-      "url": "string",
-      "utility": "high|medium|low",
-      "reason": "1-2 sentence reason why this paper is notable, in Traditional Chinese",
-      "category": "string - one of: Biomarkers, Treatment, Genetics, Neuroimaging, Non-motor Symptoms, Rehabilitation, Nutrition, Psychiatry, Epidemiology, Basic Science, Caregiver/Quality of Life",
-      "pico": {
-        "population": "string in Traditional Chinese",
-        "intervention": "string in Traditional Chinese",
-        "comparison": "string in Traditional Chinese",
-        "outcome": "string in Traditional Chinese"
-      }
+      "pmid":"string","title":"string","journal":"string","date":"string","url":"string",
+      "utility":"high|medium|low",
+      "reason":"1-2句繁體中文說明",
+      "category":"Biomarkers|Treatment|Genetics|Neuroimaging|Non-motor Symptoms|Rehabilitation|Nutrition|Psychiatry|Epidemiology|Basic Science|Caregiver/Quality of Life",
+      "pico":{"population":"繁體中文","intervention":"繁體中文","comparison":"繁體中文","outcome":"繁體中文"}
     }
   ],
   "all_papers": [
     {
-      "pmid": "string",
-      "title": "string",
-      "journal": "string",
-      "date": "string",
-      "url": "string",
-      "category": "string - same categories as above",
-      "summary": "1-2 sentence summary in Traditional Chinese",
-      "utility": "high|medium|low"
+      "pmid":"string","title":"string","journal":"string","date":"string","url":"string",
+      "category":"同上分類","summary":"1-2句繁體中文摘要","utility":"high|medium|low"
     }
-  ],
-  "keywords": ["list of top 10-15 key terms found across papers"],
-  "topic_distribution": {
-    "Biomarkers": number,
-    "Treatment": number,
-    "Genetics": number,
-    "Neuroimaging": number,
-    "Non-motor Symptoms": number,
-    "Rehabilitation": number,
-    "Nutrition": number,
-    "Psychiatry": number,
-    "Epidemiology": number,
-    "Basic Science": number,
-    "Caregiver/Quality of Life": number
-  }
+  ]
 }
 
-IMPORTANT RULES:
-- Select 5-8 papers as "top_picks" (the most clinically relevant or groundbreaking)
-- Include ALL papers in "all_papers"
-- All text fields (reason, summary, pico, market_summary) MUST be in Traditional Chinese (繁體中文)
-- Keep the PICO analysis concise
-- topic_distribution values should be the count of papers in each category
-- Return ONLY valid JSON, no markdown formatting`;
+規則:
+- 選5-8篇最精選為top_picks
+- 所有論文都要在all_papers
+- 所有文字欄位用繁體中文
+- 只回傳JSON`;
 }
 
-function generateHTML(data, reportDate) {
+function generateHTML(data, reportDate, allPapersRaw) {
   const topPicks = data.top_picks || [];
-  const allPapers = data.all_papers || [];
+  const allPapers = data.all_papers || allPapersRaw.map(p => ({
+    pmid: p.pmid, title: p.title, journal: p.journal, date: p.date, url: p.url,
+    category: 'General', summary: '', utility: 'medium'
+  }));
   const keywords = data.keywords || [];
   const topicDist = data.topic_distribution || {};
   const summary = data.market_summary || '';
@@ -203,19 +160,14 @@ function generateHTML(data, reportDate) {
   };
 
   const maxTopicCount = Math.max(...Object.values(topicDist), 1);
-
-  const topicBars = Object.entries(topicDist)
-    .filter(([, v]) => v > 0)
-    .sort((a, b) => b[1] - a[1])
-    .map(([topic, count]) => `
+  const topicBars = Object.entries(topicDist).filter(([, v]) => v > 0).sort((a, b) => b[1] - a[1]).map(([topic, count]) => `
       <div style="display:flex;align-items:center;gap:12px;margin-bottom:8px">
-        <span style="min-width:140px;text-align:right;font-size:14px;color:var(--text)">${topic}</span>
+        <span style="min-width:140px;text-align:right;font-size:14px;color:var(--text)">${escapeHTML(topic)}</span>
         <div style="flex:1;height:22px;background:var(--accent-soft);border-radius:11px;overflow:hidden">
           <div style="width:${(count / maxTopicCount) * 100}%;height:100%;background:linear-gradient(90deg,var(--accent),#c47a4a);border-radius:11px;transition:width 0.6s ease"></div>
         </div>
         <span style="min-width:30px;font-size:14px;color:var(--muted)">${count}</span>
-      </div>
-    `).join('');
+      </div>`).join('');
 
   const topPicksHTML = topPicks.map(p => {
     const uc = utilityColors[p.utility] || utilityColors.medium;
@@ -233,11 +185,9 @@ function generateHTML(data, reportDate) {
         <span style="color:var(--muted);font-size:13px;line-height:28px">${escapeHTML(p.date || '')}</span>
       </div>
       <p style="margin:0 0 16px;color:var(--text);font-size:14px;line-height:1.7">${escapeHTML(p.reason || '')}</p>
-      ${p.pico ? `
-      <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px">
-        ${['population', 'intervention', 'comparison', 'outcome'].map(k => p.pico[k] ? `
-        <div style="background:rgba(140,79,43,0.06);border-radius:10px;padding:10px 14px">
-          <span style="font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:0.5px;color:var(--accent)">${k === 'population' ? 'P' : k === 'intervention' ? 'I' : k === 'comparison' ? 'C' : 'O'}</span>
+      ${p.pico ? `<div style="display:grid;grid-template-columns:1fr 1fr;gap:8px">
+        ${['population','intervention','comparison','outcome'].map(k => p.pico[k] ? `<div style="background:rgba(140,79,43,0.06);border-radius:10px;padding:10px 14px">
+          <span style="font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:0.5px;color:var(--accent)">${k[0].toUpperCase()}</span>
           <p style="margin:4px 0 0;font-size:13px;color:var(--text);line-height:1.5">${escapeHTML(p.pico[k])}</p>
         </div>` : '').join('')}
       </div>` : ''}
@@ -256,7 +206,7 @@ function generateHTML(data, reportDate) {
           <span style="font-size:12px;color:var(--line)">|</span>
           <span style="font-size:12px;color:var(--muted)">${escapeHTML(p.date || '')}</span>
         </div>
-        <p style="margin:6px 0 0;color:var(--muted);font-size:13px;line-height:1.6">${escapeHTML(p.summary || '')}</p>
+        ${p.summary ? `<p style="margin:6px 0 0;color:var(--muted);font-size:13px;line-height:1.6">${escapeHTML(p.summary)}</p>` : ''}
       </div>
       <span style="background:var(--accent-soft);color:var(--accent);padding:3px 10px;border-radius:999px;font-size:12px;white-space:nowrap;margin-top:2px">${escapeHTML(p.category || '')}</span>
     </div>`;
@@ -266,7 +216,7 @@ function generateHTML(data, reportDate) {
     `<span style="background:var(--accent-soft);color:var(--accent);padding:4px 14px;border-radius:999px;font-size:13px;white-space:nowrap">${escapeHTML(k)}</span>`
   ).join('');
 
-  const today = new Date(reportDate);
+  const today = new Date(reportDate + 'T00:00:00+08:00');
   const dateStr = today.toLocaleDateString('zh-TW', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'Asia/Taipei' });
 
   return `<!DOCTYPE html>
@@ -334,29 +284,13 @@ h2{font-size:20px;font-weight:700;color:var(--accent);margin:36px 0 16px;padding
     </div>
   </div>
 
-  ${keywords.length > 0 ? `
-  <div class="section">
-    <h2>🏷️ 關鍵詞</h2>
-    <div style="display:flex;flex-wrap:wrap;gap:8px;margin-bottom:8px">${keywordHTML}</div>
-  </div>` : ''}
+  ${keywords.length > 0 ? `<div class="section"><h2>🏷️ 關鍵詞</h2><div style="display:flex;flex-wrap:wrap;gap:8px;margin-bottom:8px">${keywordHTML}</div></div>` : ''}
 
-  ${Object.keys(topicDist).length > 0 ? `
-  <div class="section">
-    <h2>📈 主題分布</h2>
-    ${topicBars}
-  </div>` : ''}
+  ${topicBars ? `<div class="section"><h2>📈 主題分布</h2>${topicBars}</div>` : ''}
 
-  ${topPicks.length > 0 ? `
-  <div class="section">
-    <h2>⭐ 精選文獻（Top Picks）</h2>
-    ${topPicksHTML}
-  </div>` : ''}
+  ${topPicksHTML ? `<div class="section"><h2>⭐ 精選文獻（Top Picks）</h2>${topPicksHTML}</div>` : ''}
 
-  ${allPapers.length > 0 ? `
-  <div class="section">
-    <h2>📋 所有文獻</h2>
-    ${allPapersHTML}
-  </div>` : ''}
+  ${allPapersHTML ? `<div class="section"><h2>📋 所有文獻</h2>${allPapersHTML}</div>` : ''}
 
   <div class="footer">
     <a href="https://www.leepsyclinic.com/" target="_blank" rel="noopener" class="clinic">🏥 李政洋身心診所</a>
@@ -369,41 +303,61 @@ h2{font-size:20px;font-weight:700;color:var(--accent);margin:36px 0 16px;padding
 </html>`;
 }
 
-function escapeHTML(str) {
-  if (!str) return '';
-  return String(str)
-    .replace(/&/g, '&amp;')
-    .replace(/</g, '&lt;')
-    .replace(/>/g, '&gt;')
-    .replace(/"/g, '&quot;')
-    .replace(/'/g, '&#39;');
-}
-
 async function main() {
-  if (!API_KEY) {
-    console.error('ZHIPU_API_KEY environment variable is required');
-    process.exit(1);
-  }
+  if (!API_KEY) { console.error('ZHIPU_API_KEY is required'); process.exit(1); }
 
   const raw = readFileSync(INPUT, 'utf-8');
   const data = JSON.parse(raw);
   const papers = data.papers || [];
-
-  if (papers.length === 0) {
-    console.log('No papers to analyze');
-    process.exit(0);
-  }
+  if (papers.length === 0) { console.log('No papers'); process.exit(0); }
 
   console.log(`Analyzing ${papers.length} papers with AI...`);
-  const prompt = buildPrompt(papers);
-  const analysis = await callAI(prompt);
 
-  const html = generateHTML(analysis, REPORT_DATE);
+  let summaryData = {};
+  let detailData = {};
+
+  try {
+    console.log('Step 1: Generating summary...');
+    summaryData = await callAI(buildSummaryPrompt(papers));
+  } catch (e) {
+    console.error('Summary generation failed:', e.message);
+    summaryData = { market_summary: '今日摘要生成失敗，請稍後再試。', keywords: [], topic_distribution: {} };
+  }
+
+  const batchSize = 25;
+  const batches = [];
+  for (let i = 0; i < papers.length; i += batchSize) {
+    batches.push(papers.slice(i, i + batchSize));
+  }
+
+  const allTopPicks = [];
+  const allPaperDetails = [];
+
+  for (let bi = 0; bi < batches.length; bi++) {
+    try {
+      console.log(`Step 2.${bi + 1}: Analyzing batch ${bi + 1}/${batches.length} (${batches[bi].length} papers)...`);
+      const batchResult = await callAI(buildDetailPrompt(batches[bi]));
+      if (batchResult.top_picks) allTopPicks.push(...batchResult.top_picks);
+      if (batchResult.all_papers) allPaperDetails.push(...batchResult.all_papers);
+    } catch (e) {
+      console.error(`Batch ${bi + 1} analysis failed:`, e.message);
+      for (const p of batches[bi]) {
+        allPaperDetails.push({ pmid: p.pmid, title: p.title, journal: p.journal, date: p.date, url: p.url, category: 'General', summary: '', utility: 'medium' });
+      }
+    }
+  }
+
+  const mergedData = {
+    market_summary: summaryData.market_summary || '',
+    keywords: summaryData.keywords || [],
+    topic_distribution: summaryData.topic_distribution || {},
+    top_picks: allTopPicks,
+    all_papers: allPaperDetails,
+  };
+
+  const html = generateHTML(mergedData, REPORT_DATE, papers);
   writeFileSync(OUTPUT, html, 'utf-8');
   console.log(`Report generated: ${OUTPUT}`);
 }
 
-main().catch(e => {
-  console.error('Fatal error:', e);
-  process.exit(1);
-});
+main().catch(e => { console.error('Fatal:', e); process.exit(1); });

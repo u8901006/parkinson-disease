@@ -16,7 +16,7 @@ permissions:
 jobs:
   generate-report:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 45
 
     steps:
       - name: Checkout repository
@@ -59,7 +59,7 @@ jobs:
         env:
           ZHIPU_API_KEY: ${{ secrets.ZHIPU_API_KEY }}
           REPORT_DATE: ${{ steps.date.outputs.date }}
-        timeout-minutes: 15
+        timeout-minutes: 30
 
       - name: Generate index page
         if: steps.papers.outputs.count != '0'

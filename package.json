@@ -1,0 +1,12 @@
+{
+  "name": "parkinson-disease-digest",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "fetch": "node scripts/fetch-papers.js",
+    "report": "node scripts/generate-report.js",
+    "index": "node scripts/generate-index.js"
+  },
+  "dependencies": {}
+}

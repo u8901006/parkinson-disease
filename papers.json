@@ -1,51 +1,96 @@
 {
-  "date": "2026-06-21",
-  "generated_at": "2026-06-21T15:03:20.564Z",
-  "total_fetched": 5,
+  "date": "2026-06-23",
+  "generated_at": "2026-06-22T17:19:14.600Z",
+  "total_fetched": 10,
   "papers": [
     {
-      "pmid": "42310192",
-      "title": "Engineering functional ventral midbrain dopaminergic neurons in human organoids through WNT modulation and bioreactor culture.",
-      "journal": "Molecular psychiatry",
+      "pmid": "42323209",
+      "title": "Quality of \"on\": a novel therapeutic objective in advanced Parkinson's disease.",
+      "journal": "Parkinsonism & related disorders",
       "date": "2026",
-      "abstract": "Human midbrain organoids (hMOs) derived from induced pluripotent stem cells provide a powerful system to model disorders involving dopamine (DA) dysfunction, including Parkinson's disease (PD) and neuropsychiatric conditions. However, current differentiation protocols still fall short in recapitulating early specification, substantia nigra pars compacta (SNpc)-like identity, and the functional maturation of vulnerable DA neurons. Here, we established a differentiation strategy that combines tri-phasic WNT modulation with dynamic bioreactor culture to generate hMOs enriched in SNpc-like DA neurons. This approach significantly increases the yield of TH&#x207a;/GIRK2&#x207a; and TH&#x207a;/ALDH1A1&#x207a; DA neurons and promotes enhanced synaptic maturation, robust electrophysiological activity, and elevated DA release. Single-cell transcriptomics revealed that this strategy drives the emergence of SOX6+",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42310192/",
+      "abstract": "Parkinson's disease (PD) is typically managed by dopaminergic supplementation. As the disease progresses, most patients receiving levodopa treatment develop motor and non-motor symptoms that may be managed with therapy modifications. However, in time, they become refractory to conventional medical treatment and require device-aided therapies (DATs). The characterization of \"on-off\" periods and therapeutic efficacy variables in DATs have received ample attention in the literature, but only limited information is available on variables that affect the well-being of patients during \"on\" periods unrelated to their duration. In this Point of View article, therefore, we reflected on the concept of the quality of \"on\" periods - that is to say, the motor and non-motor fluctuating symptoms experienced during \"on\" time by patients with advanced PD (APD) treated with DATs that must be addressed and defined by acknowledging those issues raised by the patients as essential to their well-being. To explore this definition, a panel of experts in movement disorders met to discuss and subsequently conducted an exhaustive literature search. By this approach, we offer an analysis of symptoms that impact the quality of \"on\" periods in patients undergoing DATs which may be modifiable with therapy and propose a definition and initial approach to consider the quality of \"on\" as a therapeutic goal in treating persons with APD.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42323209/",
       "keywords": []
     },
     {
-      "pmid": "42307803",
-      "title": "Mechanistic Insights into metformin's neuroprotective effects against drug-induced neurotoxicity.",
-      "journal": "Metabolic brain disease",
+      "pmid": "42322379",
+      "title": "LPS-Induced Neuroinflammation in Neurodegenerative Diseases: A Double-Edged Sword?",
+      "journal": "Molecular neurobiology",
       "date": "2026",
-      "abstract": "Drugs contribute to one of the most harmful contributors to neurotoxicity as they stimulate multiple neurotransmitter systems, inculcating oxidative damage, cell death, and glutamate excitotoxicity, which together contribute to brain injury. Common drugs capable of causing neurotoxicity include methylglyoxal, chemotherapy agents, aluminium, glutamate, Lipopolysaccharide (LPS), and aggregated proteins such as Amyloid &#x3b2;1-40",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42307803/",
+      "abstract": "Lipopolysaccharide (LPS), a glycolipid endotoxin derived from Gram-negative bacteria, activates Toll-like receptor 4 (TLR4) signaling in microglia and astrocytes, initiating neuroimmune cascades characterized by pro-inflammatory cytokine release, oxidative stress, and glial reactivity. Chronic or high-dose LPS exposure promotes sustained neuroinflammation, blood-brain barrier disruption, impaired amyloid-&#x3b2; (A&#x3b2;) clearance in Alzheimer's disease (AD), and exacerbated &#x3b1;-synuclein pathology in Parkinson's disease (PD). In contrast, low-dose or intermittent exposure may promote adaptive neuroimmune responses characterized by regulated glial signaling and enhanced neuronal resilience. Emerging evidence suggests that these divergent outcomes are shaped by the biological context of LPS exposure, including dose, duration, route of administration, and host inflammatory status. The gut-brain axis further modulates these effects by linking peripheral inflammatory signals and microbial metabolites to central nervous system responses. Despite growing mechanistic insight, important knowledge gaps remain, particularly regarding the translational relevance of region-specific glial responses in humans. Improved understanding of context-dependent LPS signaling may help explain inconsistencies across experimental studies, refine neuroinflammation models, and support the development of therapeutic strategies targeting TLR4 signaling, autophagy, and gut-brain interactions. Collectively, current evidence suggests that LPS-induced neuroinflammation exists along a dynamic continuum, with transient immune activation potentially supporting adaptive neuroimmune responses, whereas chronic or dysregulated exposure promotes sustained neuroinflammation and progressive neurodegenerative changes.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42322379/",
       "keywords": []
     },
     {
-      "pmid": "42312129",
-      "title": "Decoding basal ganglia motor circuit dysfunction from handwriting: a physics-informed neural signal interpretation framework for Parkinson's disease screening.",
-      "journal": "Frontiers in neuroinformatics",
+      "pmid": "42322399",
+      "title": "An exploratory 18F-Florzolotau tau PET study in putative body-first versus brain-first Parkinson's disease.",
+      "journal": "European journal of nuclear medicine and molecular imaging",
       "date": "2026",
-      "abstract": "The decoding of latent neural states from observable signals is a key focus of modern brain-AI research. Although most neural decoding models are based on electrophysiological recordings, peripheral motor outputs also convey information about circuit-level dynamics. Handwriting is a channeled behavioral signal that indexes the health of the cortico-basal ganglia-thalamo-cortical loop. In Parkinson's disease (PD), dopaminergic loss disrupts this circuit, leading to tremor oscillations, micrographia, and movement irregularities. The challenge of decoding behavior-encoded neural signals from handwriting images constitutes a principled neural signal interpretation problem. We propose a physics-informed and interpretable AI framework for decoding basal ganglia motor dysfunction through harmonic oscillator perturbation analysis. Six energy-inspired measures are extracted to quantify different aspects of motor system dynamics: intensity variation, spatial gradients, multi-scale stability, deviation variability, directional anisotropy, and cross-scale interactions. The transparent mapping between computational models and neurophysiological processes is enabled by these steps, which have their basis in mechanistic theories of amplitude modulation and oscillatory instability. High levels of discrimination were achieved when 594 handwriting trials (279 with PD and 315 controls) were assessed using repeated 10-fold cross-validation for spiral, circle, and meander tasks. Support Vector Machines achieved 84.06% accuracy and 93.56% sensitivity, with highly significant group differences across all features (p",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42312129/",
+      "abstract": "PURPOSE: The proposed body-first and brain-first Parkinson's disease (PD) subtypes are classified based on the initial localization of &#x3b1;-synuclein inclusions. Emerging evidence indicates the copathology of &#x3b1;-synuclein and tau in PD. However, the topographical pattern of tau deposition and its difference between these two phenotypes remain unclear. This study aimed to describe the tau deposits via 18 METHODS: A total of ten PD patients with presumed body-first subtypes (PDpRBD+), sixteen PD patients with presumed brain-first subtypes (PDpRBD-), and seventeen healthy controls (HCs) were enrolled. Clinical assessments and 18 RESULTS: 18 CONCLUSION: Our preliminary findings demonstrated distinct 18",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42322399/",
       "keywords": []
     },
     {
-      "pmid": "42304076",
-      "title": "Multi-omic analysis of deep learning-derived phenotypes links ophthalmic imaging to cardiovascular and neurological traits.",
-      "journal": "Nature cardiovascular research",
+      "pmid": "42318821",
+      "title": "3D-printed lab-on-chip platforms for the detection of neurodegenerative diseases: opportunities and challenges.",
+      "journal": "Journal of materials chemistry. B",
       "date": "2026",
-      "abstract": "The eye is a recognized source of biomarkers for cardiovascular and neurodegenerative disease risk. Here we characterize the breadth of these associations and identify biological axes that may mediate them. Using UK Biobank data, we developed a multi-omic analysis pipeline integrating physiological, radiomic, metabolomic and genomic information. We trained retinal adversarial autoencoders to represent optical coherence tomography images and color fundus photographs as 256-dimensional embeddings. Retinal adversarial autoencoder-derived embeddings were associated with a range of cardiovascular and neurodegenerative diseases, including ischemic heart disease, cerebrovascular disease, Parkinson's disease and dementia. Examining associations across diverse omics datasets, we provide evidence linking ophthalmic imaging features to neurological and cardiovascular anatomy and function, lipid metabolism and gene sets associated with neurodegenerative pathology. Collectively, our findings show that ophthalmic features reflect complex, multisystem biological processes and reinforce the role of the eye as a composite indicator of systemic health.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42304076/",
+      "abstract": "Neurodegenerative diseases (NDs) such as Alzheimer's, Parkinson's, and ALS remain some of the most challenging disorders to diagnose at an early stage. Conventional approaches rely on costly neuroimaging or invasive cerebrospinal fluid sampling, which limit accessibility and early intervention. Recent advances in 3D printing have enabled rapid prototyping of lab-on-chip (LOC) platforms that integrate microfluidics, biosensors, and biological models to detect disease-specific biomarkers with high sensitivity and throughput. Herein, we explore the synergistic role of 3D printing technologies and biomaterials in fabricating LOC systems for NDs. We highlight key biomarkers, and neuron- and organoid-on-chip platforms, and discuss the challenges and opportunities in clinical translation. By combining technical innovation in additive manufacturing with biological relevance, 3D-printed LOC devices represent a transformative approach toward precision diagnostics in neuro-medicine.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42318821/",
       "keywords": []
     },
     {
-      "pmid": "42289359",
-      "title": "Brain Metabolic Signatures of Amyloid-&#x3b2; and Tau Pathology in Corticobasal Syndrome: A Multimodal Biomarker Study.",
-      "journal": "Movement disorders : official journal of the Movement Disorder Society",
+      "pmid": "42325059",
+      "title": "Electroconvulsive Therapy in Movement Disorders: A Systematic Review.",
+      "journal": "The journal of ECT",
       "date": "2026",
-      "abstract": "BACKGROUND: Corticobasal syndrome (CBS) may arise from heterogeneous neuropathological substrates, including corticobasal degeneration (CBD), progressive supranuclear palsy (PSP), and Alzheimer's disease (AD), and biomarker-based stratification has therefore become central to its characterization in vivo. In a large CBS cohort, we examined whether 18 METHODS: We conducted a cross-sectional study of consecutive patients with CBS and were enrolled at Huashan Hospital, Fudan University, between December 2019 and February 2025. Each patient underwent 18 RESULTS: Among 113 patients, 18 CONCLUSIONS: 18",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42289359/",
+      "abstract": "Electroconvulsive therapy (ECT) is an established treatment strategy for a range of psychiatric disorders, including depression, mania, psychosis, and catatonia. A growing body of evidence suggests that ECT may affect motor symptoms in movement disorders. In a systematic review, we aim to review the evidence on the use of ECT in movement disorders. We searched PubMed, SCOPUS, Cochrane, Web of Science, and Embase to identify relevant publications. Fifty-eight papers were retained for data extraction. The existing evidence suggests a beneficial impact of ECT on both motor and nonmotor symptoms across various movement disorders, with the most substantial findings reported for Parkinson disease. Conversely, the evidence pertaining to Huntington disease and related disorders cannot rule out a potentially negative effect. Given that the data reviewed are constrained in both quantitative and qualitative rigor, predominantly derived from case reports, further research through the publication of case reports and the conduct of standardized clinical trials is warranted.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42325059/",
+      "keywords": []
+    },
+    {
+      "pmid": "42324708",
+      "title": "Malnutrition and clinical correlates in dementia with Lewy bodies: A retrospective cross-sectional study.",
+      "journal": "Nutrition in clinical practice : official publication of the American Society for Parenteral and Enteral Nutrition",
+      "date": "2026",
+      "abstract": "BACKGROUND: Dementia with Lewy bodies (DLB)&#xa0;is a multisystem neurodegenerative disorder often accompanied by autonomic and neuropsychiatric symptoms. Nutritional impairment is increasingly recognized yet under-characterized in DLB. DLB was chosen due to its early multisystem involvement, including brainstem-mediated autonomic and sleep disturbances, which may uniquely affect nutrition. This study evaluated nutritional status and its associations with cognitive, mood, autonomic, and sleep-related features. METHODS: Seventy patients with probable DLB (2017 McKeith criteria) were retrospectively included. Cases of Parkinson's disease dementia or other Lewy body-related conditions were excluded. Nutritional status was assessed with the Mini Nutritional Assessment-Short Form (MNA-SF). Cognitive function (Addenbrooke's Cognitive Examination, ACE-III), depressive symptoms (Geriatric Depression Scale, GDS), motor severity (Hoehn and Yahr staging), sleep disturbances (Rapid Eye Movement Sleep Behavior Disorder, RBD, insomnia), and autonomic symptoms (urinary incontinence, constipation, orthostatic hypotension) were extracted from clinical records. Multivariable logistic, ordinal regression, and hierarchical cluster analyses were performed. RESULTS: Normal nutrition was observed in 14.3% of patients, 60.0% were at risk, and 25.7% were malnourished. Malnutrition was significantly associated with lower ACE-III and higher GDS scores (p&#x2009;<&#x2009;0.05). RBD and urinary incontinence differed across nutritional groups. Ordinal regression showed age and female sex independently associated with worse nutritional status. Cluster analysis identified a high-risk phenotype with greater cognitive, depressive, autonomic, and sleep-related burden linked to malnutrition. CONCLUSION: Malnutrition is highly prevalent in DLB and correlates with cognitive, psychiatric, autonomic, and sleep-related features. These associations support that nutritional impairment reflects the multisyste",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42324708/",
+      "keywords": []
+    },
+    {
+      "pmid": "42324363",
+      "title": "Robot-Assisted versus non-robotic frame-based deep brain stimulation: a systematic review and meta-analysis of targeting accuracy and clinical outcomes.",
+      "journal": "Journal of robotic surgery",
+      "date": "2026",
+      "abstract": "Deep brain stimulation (DBS) outcomes depend on accurate lead placement. Robot-assisted DBS (RA-DBS) has been increasingly adopted, yet its advantages over conventional non-robotic frame-based DBS (NRA-DBS) regarding targeting accuracy, operative efficiency, and clinical outcomes remain debated.To compare RA-DBS versus NRA-DBS for targeting accuracy and clinical outcomes in patients undergoing DBS for movement disorders.This meta-analysis and systematic review was registered in PROSPERO (CRD420261336001) and adhered to PRISMA. Patients with mobility disorders treated with RA-DBS versus frame-based NRA-DBS were included in comparative studies (RCTs and prospective/retrospective cohorts). Targeting accuracy measures (such as target point error, vector error, and radial error) and extreme targeting outliers were the main results. Operative time measurements, perioperative problems (such as cerebral bleeding), and motor improvement (UPDRS-III) were secondary outcomes. Fixed-effects or random-effects models based on heterogeneity were used to compute pooled odds ratios (OR) and weighted mean differences (MD) with 95% confidence intervals (CI). Nine high-quality comparative studies encompassing 495 patients (227 RA-DBS vs. 268 NRA-DBS) were synthesized. RA-DBS significantly minimized target point error (MD = -0.31&#xa0;mm, 95% CI: -0.61 to -0.01; P&#x2009;=&#x2009;0.04) and significantly reduced the incidence of clinically significant targeting outliers (OR&#x2009;=&#x2009;0.15, 95% CI: 0.04 to 0.51; P&#x2009;=&#x2009;0.002). Comprehensive three-dimensional vector error was marginally lower in the RA-DBS cohort (MD = -0.70&#xa0;mm; P&#x2009;=&#x2009;0.05), whereas two-dimensional radial error and total operating room time, surgical duration, anesthesia time, perioperative complications, and 12-month UPDRS-III motor improvements were statistically equivalent between groups. Subgroup analyses revealed that the spatial precision advantage of RA-DBS was geographically robust ",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42324363/",
+      "keywords": []
+    },
+    {
+      "pmid": "42323228",
+      "title": "The impact of arts-based interventions on alleviating motor and non-motor symptoms in Parkinson's disease: A meta-analysis and systematic review.",
+      "journal": "Geriatric nursing (New York, N.Y.)",
+      "date": "2026",
+      "abstract": "Grounded in the conceptual framework of arts-based rehabilitation, this study systematically evaluated the effectiveness of arts-based interventions (ABIs) in alleviating motor and non-motor symptoms among individuals with Parkinson's disease (PD). A systematic review and meta-analysis were conducted following PRISMA and Cochrane guidelines by searching PubMed, Web of Science, Embase, and the Cochrane Library through October 2025. Thirty-four randomized controlled trials (RCTs) were included. Meta-analysis suggested that ABIs significantly improved motor symptoms, as indicated by reductions in UPDRS III scores (SMD = -0.58, 95% CI [-0.81, -0.35]) and improvements in functional mobility assessed by the TUG test (SMD = -0.22, 95% CI [-0.37, -0.07]). Additional benefits were observed in balance (Mini-BESTest, SMD = 0.41, 95% CI [0.10, 0.72]), walking endurance (6MWT, SMD = 0.41, 95% CI [0.11, 0.72]), and gait speed (SMD = 0.34, 95% CI [0.03, 0.65]). Non-motor outcomes also improved, including quality of life (PDQ-39, SMD = -0.29, 95% CI [-0.48, -0.10]) and fall self-efficacy (FES, SMD = -0.41, 95% CI [-0.67, -0.15]). Prediction intervals showed heterogeneous future effect ranges across outcomes. Subgroup analyses indicated that dance-and yoga-based interventions appeared to be associated with relatively consistent effects, whereas no statistically significant changes were observed in depressive symptoms (BDI) or cadence. These findings suggest that ABIs may offer a potentially safe and cost-effective complementary approach for reducing overall symptom burden in PD. Future large-scale, rigorously designed RCTs are warranted to further clarify long-term effects and underlying mechanisms.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42323228/",
+      "keywords": []
+    },
+    {
+      "pmid": "42322653",
+      "title": "Locus coeruleus-norepinephrine system dysfunction: A new concept in cognitive aging and neurodegenerative diseases.",
+      "journal": "Neural regeneration research",
+      "date": "2026",
+      "abstract": "The role of the locus coeruleus in aging and neurodegenerative diseases has recently attracted attention. There is growing evidence of changes in the locus coeruleus-norepinephrine system in aging and neurodegenerative diseases, including increased tau accumulation, an inverted U-shaped pattern in the neuromelanin signal, and altered functional connectivity. This review summarizes the research applications and advancements in the study of cognitive aging and dysfunction of the locus coeruleus-norepinephrine system in neurodegenerative diseases. Recent evidence has suggested pathologic protein accumulation, locus coeruleus degeneration, reduced neuromelanin signal, and altered functional connectivity in neurodegenerative diseases in both human and animal models. Notably, the specific regions affected and the severity of these changes can vary subtly among different neurodegenerative disorders. Additionally, recent studies have shown a link between alterations in the locus coeruleus-norepinephrine system and both Alzheimer's and Parkinson's diseases. The possible mechanisms include promoting pathological protein accumulation, pro-inflammatory responses, synaptic plasticity dysfunction, oxidative stress, and blood- brain barrier dysfunction. Advanced experimental technologies have recently been applied to investigate the role of the locus coeruleus-norepinephrine system in aging, Alzheimer's disease, and Parkinson's disease. These advanced technologies, including optogenetic or chemogenetic methods and omics analysis help uncover the effects of specific locus coeruleus activation patterns and the locus coeruleus-related circuit mechanisms underlying its vulnerability during aging and neurodegenerative diseases. Thus, therapies targeting the locus coeruleus-norepinephrine system, including drugs and vagus nerve stimulation, have the potential for clinical application. Many studies have demonstrated the effects of adrenoreceptor-targeted drugs on cognitive function and P",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42322653/",
+      "keywords": []
+    },
+    {
+      "pmid": "42324924",
+      "title": "The Multiple Sclerosis Severity Allele rs10191329A and Cognitive Function: A UK Biobank Study.",
+      "journal": "Annals of clinical and translational neurology",
+      "date": "2026",
+      "abstract": "The genome-wide association study of Multiple Sclerosis severity linked the genetic variant rs10191329A",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42324924/",
       "keywords": []
     }
   ]

@@ -11,11 +11,11 @@ function getArg(name) {
 const INPUT = getArg('input') || 'papers.json';
 const OUTPUT = getArg('output') || 'docs/parkinson-report.html';
 const REPORT_DATE = process.env.REPORT_DATE || new Date().toISOString().slice(0, 10);
-const API_KEY = process.env.ZHIPU_API_KEY;
-const API_BASE = 'https://open.bigmodel.cn/api/coding/paas/v4';
+const API_KEY = process.env.NVIDIA_API_KEY;
+const API_BASE = 'https://integrate.api.nvidia.com/v1';
 const MAX_TOKENS = 16384;
 const TIMEOUT = 480000;
-const MODELS = ['GLM-5-Turbo', 'GLM-4.7', 'GLM-4.7-Flash'];
+const MODELS = ['nvidia/nemotron-3-super-120b-a12b', 'nvidia/nemotron-3-nano-30b-a3b'];
 
 function httpsPost(url, headers, body) {
   return new Promise((resolvePost, reject) => {
@@ -68,7 +68,7 @@ async function callAI(prompt, modelOverride) {
         const response = await httpsPost(
           `${API_BASE}/chat/completions`,
           { 'Authorization': `Bearer ${API_KEY}` },
-          { model, messages: [{ role: 'user', content: prompt }], temperature: 0.3, max_tokens: MAX_TOKENS }
+          { model, messages: [{ role: 'user', content: prompt }], temperature: 1.0, top_p: 0.95, max_tokens: MAX_TOKENS, stream: false, chat_template_kwargs: { enable_thinking: false } }
         );
         const json = JSON.parse(response);
         const content = json.choices?.[0]?.message?.content || '';
@@ -304,7 +304,7 @@ h2{font-size:20px;font-weight:700;color:var(--accent);margin:36px 0 16px;padding
 }
 
 async function main() {
-  if (!API_KEY) { console.error('ZHIPU_API_KEY is required'); process.exit(1); }
+  if (!API_KEY) { console.error('NVIDIA_API_KEY is required'); process.exit(1); }
 
   const raw = readFileSync(INPUT, 'utf-8');
   const data = JSON.parse(raw);

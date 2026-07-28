@@ -57,7 +57,7 @@ jobs:
         if: steps.papers.outputs.count != '0'
         run: node scripts/generate-report.js --input papers.json --output docs/parkinson-${{ steps.date.outputs.date }}.html
         env:
-          ZHIPU_API_KEY: ${{ secrets.ZHIPU_API_KEY }}
+          NVIDIA_API_KEY: ${{ secrets.NVIDIA_API_KEY }}
           REPORT_DATE: ${{ steps.date.outputs.date }}
         timeout-minutes: 30
 

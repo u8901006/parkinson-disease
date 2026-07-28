@@ -3,7 +3,7 @@
 🧠 巴金森病（Parkinson's Disease）每日研究文獻自動摘要系統
 
 - 每日自動從 PubMed 抓取最新巴金森病相關文獻
-- 使用 AI（GLM-5-Turbo）進行分析、分類、總結
+- 使用 NVIDIA Nemotron 進行分析、分類、總結
 - 生成美觀的 HTML 報告並部署至 GitHub Pages
 
 ## Features

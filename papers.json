@@ -1,114 +1,69 @@
 {
-  "date": "2026-08-16",
-  "generated_at": "2026-08-16T13:19:13.365Z",
-  "total_fetched": 17,
+  "date": "2026-08-17",
+  "generated_at": "2026-08-17T13:26:46.875Z",
+  "total_fetched": 11,
   "papers": [
     {
-      "pmid": "42603493",
-      "title": "Alterations in regional cerebral perfusion in drug-induced Parkinsonism: Spatial covariance analyses of early-phase 18F-FP-CIT PET data.",
-      "journal": "Parkinsonism & related disorders",
-      "date": "2026",
-      "abstract": "BACKGROUND AND OBJECTIVES: Drug-induced Parkinsonism (DIP) develops in patients who are treated with drugs with D2 receptor-blocking activity, despite normal ranges of the striatal dopamine transporter (DAT) availability. This study aimed to investigate distinct cerebral perfusion patterns on early-phase 18 METHODS: This retrospective study included 70 patients with DIP who showed visually preserved DAT availability in late-phase 18 RESULTS: Compared with healthy controls, patients with DIP showed largely preserved striatal DAT availability and hypoperfusion in the frontal, insula, precuneus, occipital, limbic, and posterior cingulate cortices. Compared with PD, DIP exhibited greater frontal, insula, parietal, limbic, and posterior cingulate hypoperfusion but comparable occipital perfusion. The DIPRP and PDRP showed distinct spatial covariance topographies, while the DIPRP was characterized by prominent positive weights in the striatum and negative weights in distributed cortical regions. The severity of parkinsonian motor deficits correlated with DIPRP expression, but not with putaminal DAT availability, in patients with DIP. CONCLUSIONS: DIP is associated with distinct spatial covariance patterns on early-phase 18",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42603493/",
-      "keywords": []
-    },
-    {
-      "pmid": "42571320",
-      "title": "Artificial Intelligence for the Diagnosis and Management of Neurodegenerative Diseases: A Comprehensive Review With an Emphasis on Parkinson's and Alzheimer's Diseases.",
-      "journal": "Cureus",
-      "date": "2026",
-      "abstract": "Artificial intelligence (AI) is rapidly transforming research in neurodegenerative diseases, yet its clinical translation remains limited. We conducted a structured literature search across Google Scholar, PubMed, Scopus, and Web of Science, screening studies published between 2015 and April 2026 that applied machine learning (ML), deep learning (DL), and multimodal data integration to neuroimaging, biomarkers, and digital phenotyping. Our analysis revealed that AI models demonstrate strong potential for differentiating disease subtypes, predicting progression, and enhancing diagnostic accuracy, with notable advances in neuroimaging interpretation, fluid biomarker analysis, and wearable sensor data. In Parkinson's disease (PD), digital phenotyping through gait, speech, and handwriting analysis has enabled sensitive monitoring, while in Alzheimer's disease (AD), AI applied to imaging and plasma biomarkers has improved risk stratification. Despite these advances, barriers such as dataset heterogeneity, label noise, lack of external validation, and ethical concerns regarding bias, transparency, and patient trust persist. We conclude that while AI holds promise to revolutionize the care of PD and AD, real-world adoption requires multicenter validation, standardized reporting frameworks, regulatory guidance, and interdisciplinary collaboration, alongside prospective trials that embed AI tools into clinical workflows to ensure safety, equity, and effectiveness.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42571320/",
-      "keywords": []
-    },
-    {
-      "pmid": "42602177",
-      "title": "The Gut-Brain Axis in Neurodegeneration: Mechanistic Links Between Dysbiosis and Neuropathology.",
-      "journal": "Iranian journal of pathology",
-      "date": "2026",
-      "abstract": "BACKGROUND &amp; OBJECTIVE: The gut-brain axis is essentially a two-way communication system that physically connects the brain and the intestinal tract. The connection is mediated through a series of pathways, including neural, endocrine, and immune pathways. Gut dysbiosis, which is explained as an imbalance in the microbial community, has been linked to the causation of various neurodegenerative disorders such as Alzheimer's disease, Parkinson's disease, and multiple sclerosis. However, the pathological mechanisms in the brain are only partially known. The present review outlines the process of gut dysbiosis and neurodegeneration, detailing the roles of protein aggregation, neuroinflammation, barrier disruption, and neuroglial dysfunction. Then, extending the comparison to a range of neurodegenerative diseases, we discuss the possibility of common pathway therapeutics and actual microbiome-based treatment options planning from the standpoint of microbiome-directed interventions. CONTENT/FINDINGS: Gut dysbiosis triggers a definable cascade, starting with the disruption of the intestinal barrier and increased permeability (leaky gut), which allows bacterial products (lipopolysaccharides, bacterial amyloids) and pro-inflammatory cytokines to enter systemic circulation. Such peripheral changes weaken the blood-brain barrier and thus allow these factors to access the CNS, where they lead to neuroglial dysfunction (microglial priming, astrocytic reactivity, and oligodendrocyte injury) by disruption of glial homeostasis. CNS glial cell malfunction leads to the development of proteinopathies characteristic of each disease: amyloid and tau hyperphosphorylation in Alzheimer's disease through BACE1 upregulation and kinase activation; synuclein in Parkinson's disease via molecular mimicry, oxidative stress, and impaired clearance; and demyelination in multiple sclerosis through oligodendrocyte apoptosis. Oral bacteria such as Porphyromonas gingivalis aggravate this inflammato",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42602177/",
-      "keywords": []
-    },
-    {
-      "pmid": "42592186",
-      "title": "Rhynchophylline rewires DLAT lipoylation via conformational control to reverse mitochondrial bioenergetic collapse against dopaminergic neuronal injury.",
-      "journal": "Acta pharmaceutica Sinica. B",
-      "date": "2026",
-      "abstract": "Parkinson's disease (PD), the second most prevalent neurodegenerative disorder, is characterized by progressive loss of dopaminergic neurons in the substantia nigra. Although the molecular mechanisms of PD remain incompletely understood, mitochondrial dysfunction has emerged as a central pathological driver, highlighting the urgent need for therapies targeting mitochondrial homeostasis. In this study, we demonstrate that rhynchophylline (Rhy), a bioactive alkaloid from Uncaria",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42592186/",
-      "keywords": []
-    },
-    {
-      "pmid": "42570666",
-      "title": "Gender-Specific Lipid Parameters Predict Excessive Daytime Sleepiness in Parkinson's Disease.",
-      "journal": "Clinical laboratory",
-      "date": "2026",
-      "abstract": "BACKGROUND: Lipid metabolism plays an important role in neurodegenerative diseases, including Parkinson's disease (PD). However, the relationship between lipid profiles and excessive daytime sleepiness (EDS) remains unclear. This study aimed to explore the relationship between lipid parameters and EDS in PD patients, especially focusing on gender differences. METHODS: A total of 176 PD patients were included in this study, and clinical data was collected. The Epworth Sleepiness Scale (ESS) was used to classify patients into PD EDS (ESS &#x2265; 8) and PD non-EDS (ESS < 8) groups. Univariate and multivariate analyses, along with receiver operating characteristic (ROC) analyses, were performed to detect potential biomarkers for EDS in PD. RESULTS: In male PD patients, univariate analysis indicated an association between disease duration, Hoehn-Yahr (H-Y) stage, and lipid parameters (total cholesterol (TC), low-density lipoprotein cholesterol (LDL-C), and high-density lipoprotein cholesterol (HDL-C)) and EDS. Multivariate analysis identified TC and HDL-C as significant predictors, especially HDL-C. The TC/HDL-C ratio (AUC = 0.745) and non-HDL-C (defined as TC - HDL-C, AUC = 0.691) exhibited high predictive ability for EDS. Female PD patients, in contrast, showed no significant link between lipid parameters and EDS. Instead, motor dysfunction (UPDRS score) and psychological factors (HAMD/HAMA scores) were the main predictors of EDS in females. CONCLUSIONS: Research findings indicate a significant gender difference in the factors influencing EDS in PD patients. In male PD patients, lipid metabolism disorders (elevated TC, reduced HDL-C) predict EDS, with TC/ HDL-C and non-HDL-C as potential biomarkers. In female PD patients, motor and psychological factors primarily contribute to the risk of EDS.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42570666/",
-      "keywords": []
-    },
-    {
-      "pmid": "42599806",
-      "title": "ATF4 activates a transcriptional program that chronically suppresses mTOR activity and promotes neurodegeneration in Parkinson disease models.",
-      "journal": "Cell reports",
-      "date": "2026",
-      "abstract": "The integrated stress response (ISR) enables cells to adapt to diverse cellular stresses, but during chronic or unresolved stress it becomes maladaptive and is implicated in neurodegenerative diseases, including Parkinson disease (PD). The mechanisms underlying maladaptive ISR-driven neurodegeneration, however, remain poorly defined. Here, we find a critical pathway by which chronic ISR activation promotes neurodegeneration in neurotoxin and &#x3b1; synucleinopathy models of PD in vitro and in vivo. We show that sustained activation of ATF4, the central ISR transcription factor, induces the coordinated transcriptional upregulation of SESN2, DDIT4, and Trib3, which cooperate to suppress both mTORC1 and mTORC2 activity. This ATF4-dependent inhibition of mTOR signaling promotes dopaminergic neuron death by facilitating activation of the pro apoptotic BCL 2 family protein PUMA. Together, these findings define a maladaptive ISR/ATF4-mTOR pathway with potential therapeutic relevance for neurodegenerative disorders characterized by chronic ISR activation.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42599806/",
-      "keywords": []
-    },
-    {
-      "pmid": "42603633",
-      "title": "p53 deficiency increases vulnerability to chronic stress-induced anxiety- and depression-like behaviors: Role of calcium dysregulation and BDNF signaling.",
-      "journal": "Behavioural brain research",
-      "date": "2026",
-      "abstract": "The tumor suppressor protein p53 is a known modulator of neurodegenerative disease (ND) processes. Although p53 expression is increased in the brains of patients with Alzheimer's disease, Parkinson's disease, and ischemic stroke, its role in mood disorders such as anxiety and depression remains unclear. To investigate the role of p53 in behavioral responses to chronic stress, we examined behavioral and molecular alterations in p53 knockout (p53-/-",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42603633/",
-      "keywords": []
-    },
-    {
-      "pmid": "42602230",
-      "title": "Nocturnal heart rate variability in Parkinson's disease: associations with autonomic dysfunction, cognitive function, and mood symptoms.",
-      "journal": "Clinical parkinsonism & related disorders",
-      "date": "2026",
-      "abstract": "INTRODUCTION: Heart Rate Variability (HRV) analysis reflects beat-to-beat fluctuations in RR intervals, serving as a method to non-invasively monitor sympatho-vagal balance during sleep. The primary aim of this study is to investigate nocturnal HRV in Parkinson's Disease (PD). In addition, we explore its association with various non-motor symptoms. METHODS: In 36 participants with PD and 20 healthy controls (HC), frequency-domain HRV analysis of polysomnography-derived electrocardiogram data was conducted to derive low-frequency power (LF), high-frequency power (HF), and LF/HF ratio in NREM and REM sleep. In PD subjects, Spearman correlations were determined between HRV variables and the MDS-UPDRS sub-scores for autonomic symptoms (1.10-1.12) and mood (1.3, 1.4), the Pittsburgh Sleep Quality Index (PSQI), the Beck Depression Inventory (BDI), and a comprehensive neurocognitive battery. RESULTS: Individuals with PD demonstrated lower LF (NREM p CONCLUSION: Our findings offer novel insight into the association between HRV and non-motor symptoms in PD. Individuals with PD have reduced sympathetic influence on HRV during sleep compared to HC. However, stronger parasympathetic influence correlates with better cognitive performance. Furthermore, subjective autonomic symptoms are correlated with poorer cognition and mood.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42602230/",
-      "keywords": []
-    },
-    {
-      "pmid": "42570776",
-      "title": "Dopamine D2 receptor dependent and independent structural, intrinsic and synaptic adaptations in experimental parkinsonism.",
+      "pmid": "42571859",
+      "title": "Gait-cycle-locked cortico-subthalamic signatures underlying freezing of gait and their modulation in Parkinson's disease.",
       "journal": "Neurobiology of disease",
       "date": "2026",
-      "abstract": "The main motor symptoms of Parkinson's disease (PD) emerge following dopamine depletion in the dorsal striatum and are associated with structural and functional adaptations of striatal medium spiny neurons (MSN). Although the indirect pathway MSN (iMSN) selectively expresses dopamine D2 receptors (D2R), the contribution of D2R signaling to these adaptations remains incompletely understood. Here, we examined neuronal morphology, dendritic spine density, corticostriatal transmission, and intrinsic excitability in direct pathway MSN (dMSN) and iMSN from constitutive D2R knockout mice, with or without chronic nigrostriatal lesions induced by 6-hydroxydopamine. D2R ablation reduced dendritic length and complexity in both MSN subtypes, although the effects were markedly greater in iMSN. In iMSN, D2R ablation also reduced spine density and increased intrinsic excitability, reproducing well known effects of nigrostriatal lesions and largely occluding additional effects of dopamine denervation. In contrast, D2R ablation produced only modest changes in dMSN spine density and excitability and did not prevent the additional spine loss and hyperexcitability induced by 6-OHDA lesions. Basal corticostriatal transmission remained largely preserved after D2R ablation in either MSN subtype, except for a slower excitatory postsynaptic current decay in iMSN, which was not enhanced further by the dopamine depleting lesion. Remarkably, nigrostriatal lesions continued to depress corticostriatal excitatory postsynaptic currents in D2R-deficient mice, indicating that this synaptic adaptation does not require D2R signaling. Together, these findings identify D2R signaling as a major determinant of iMSN structural and intrinsic physiological integrity and demonstrate that global loss of D2R function reproduces many of the adaptations induced by dopamine depletion. More broadly, they indicate that dopamine depletion drives distinct forms of plasticity through separable D2R dependent and indepen",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42570776/",
+      "abstract": "OBJECTIVE: Research on freezing of gait (FOG) in Parkinson's disease (PD) has identified relevant electrophysiological markers. However, their brief temporal windows limit their utility for individualized deep brain stimulation (DBS). This study explored gait performance and neural features in freezing-susceptible walking to develop novel FOG-predictive biomarkers. METHODS: Gait kinematics and local field potentials (LFP) from the cortex and subthalamic nucleus (STN) were simultaneously acquired in FOG patients during walking. Using the gait cycle as the analytic unit, we compared freezing trials (FOGT) and non-freezing trials (nFOGT) under the no-intervention condition (OFF) to identify gait parameters and neural features associated with FOG risk. Subsequently, we assessed the modulatory effects of high-frequency (HFS) and low-frequency (LFS) STN-DBS on abnormal gait and cortical power. Finally, we analyzed changes in abnormal gait and cortico-STN coherence after levodopa administration. RESULTS: FOGT showed aberrant gait parameters compared to nFOGT, along with disrupted lowbeta oscillations in primary somatosensory cortex (S1) and superior parietal lobule (SPL). Both HFS and LFS mitigated gait impairment and freezing severity, with LFS exerting broader effects: HFS reversed pathological lowbeta power reduction in SPL during the double support phase, while LFS restored phase-dependent oscillations between the stance phase and swing phase in S1. Additionally, abnormal theta coherence between S1 and STN could be modulated by levodopa, accompanied by gait recovery. CONCLUSION: This study identifies gait-cycle-locked cortico-STN signatures for FOG, which have extended temporal windows and are modulable by DBS, suggesting the gait cycle as a promising intervention target.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42571859/",
       "keywords": []
     },
     {
-      "pmid": "42603777",
-      "title": "Evaluation of Novel Isatin-Schiff Base Derivatives: Monoamine Oxidase Inhibition and Antimicrobial Assessment.",
-      "journal": "ChemMedChem",
+      "pmid": "42571858",
+      "title": "Insulin like growth factor and cytokine signalling predict future cognitive impairment in Parkinson's disease.",
+      "journal": "Neurobiology of disease",
       "date": "2026",
-      "abstract": "Five novel series of isatin-Schiff base derivatives (1a-5e) were synthesized, and their neuroprotective and anti-infective potential was evaluated. Their half-maximal inhibitory concentration (IC50",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42603777/",
+      "abstract": "Cognitive impairment is a common non-motor sym.ptom of neurodegenerative Parkinson's disease (PD). However, the onset and severity of cognitive impairment is heterogenous and currently cannot be predicted. This makes it challenging for informing patients in advance, and for the application of early therapeutic interventions. Moreover, the biological pathways that underlie cognitive impairment in PD remain to be fully determined. To better predict and understand the biological pathways involved in cognitive impairment, we have integrated multimodal datasets including clinical, demographic, biomarker and high throughout proteomic data from the longitudinal Parkinson's progression markers initiative (PPMI). The integrated dataset was used to develop three machine learning models that could predict the development of cognitive impairment nine years in the future, compared to patients that remained cognitively normal over the same duration. The best model could predict future cognitive impairment with 88% area under the curve. Permutation feature importance revealed that cytokine, interleukin-2 (IL-2) and insulin like growth factor (IGF) signalling were significant biological pathways contributing to the prediction of future cognitive impairment.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42571858/",
       "keywords": []
     },
     {
-      "pmid": "42602715",
-      "title": "IMU-based gait analysis methods: a systematic review of techniques for different body locations.",
-      "journal": "Frontiers in sports and active living",
+      "pmid": "42605152",
+      "title": "Evolution of Epidemiological Studies in Movement Disorders.",
+      "journal": "Movement disorders : official journal of the Movement Disorder Society",
       "date": "2026",
-      "abstract": "BACKGROUND: Gait analysis is a crucial tool for evaluating human motor function, with its applications expanding across clinical and health-monitoring domains. The growth of the aging global population and an increasing emphasis on sports health have positioned gait abnormalities as significant biomarkers for assessing fall risk and neurological disorders, including Parkinson's disease. Compared with conventional optical systems, inertial measurement units (IMUs) provide a high-precision, cost-effective, and portable alternative, thereby facilitating the practical capture of gait data in real-world contexts. OBJECTIVE: This review aims to deliver a comprehensive guide for selecting the most suitable IMU-based gait analysis methodologies, tailored to various application scenarios. Unlike existing reviews, which primarily focus on specific algorithms or populations, this study uniquely synthesizes current IMU-based methods from a sensor-placement perspective. Furthermore, we propose a practical decision framework to guide researchers and clinicians in selecting the optimal sensor locations and algorithms tailored to specific application scenarios and computational constraints. METHOD: A systematic search was conducted across the China National Knowledge Infrastructure, Wanfang, PubMed, and Web of Science databases from January 2019 to December 2025 using relevant English and Chinese keywords related to IMUs and gait analysis. To ensure methodological completeness in this mature field, foundational studies published before 2019 were additionally included through targeted supplementary retrieval. The retrieved studies underwent a systematic review. RESULTS AND CONCLUSIONS: This paper provides a comprehensive comparison of IMU-based gait analysis methods across various sensor placements on the body (e.g., foot, leg, chest). The findings reveal substantial differences in algorithm complexity, accuracy, and suitability across distinct populations and scenarios. This study ",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42602715/",
+      "abstract": "In celebration of the 40-year legacy of Movement Disorders Journal (MDJ), this historical reflection traces the evolution of epidemiological research in movement disorders through the lens of papers published in MDJ from 1986 through 2025. Over four decades, the discipline has transformed from clinic-based descriptive observations into population-based methodologies, with both genetic and environmental factors taken into consideration. The initial decade (1986-1995) established foundational measures of movement disorders and identified key environmental risks. These clinic-based studies expanded during the second decade (1996-2005) into door-to-door community prevalence studies and health services research utilizing administrative databases. The third decade (2006-2015) marked a paradigm shift driven by genetic epidemiology (particularly the mapping of global LRRK2 variants), gene-environment interactions, and the characterization of prodromal biomarkers. The modern era (2016-2025) has embraced race-ethnicity diversity, pharmacoepidemiology, and advanced causal inference methods to control for time-varying factors. Together, these epidemiological works in MDJ chart a historical trajectory toward precision medicine, delivering the infrastructure to define at-risk populations and deploy trial-ready cohorts for disease-modification trials. &#xa9; 2026 International Parkinson and Movement Disorder Society.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42605152/",
       "keywords": []
     },
     {
-      "pmid": "42602417",
-      "title": "A 3-month music-based recreation program added to stable speech-language therapy in institutionalized patients with Parkinson's disease: a feasibility study.",
-      "journal": "Clinical parkinsonism & related disorders",
+      "pmid": "42574814",
+      "title": "Topology-constrained graph transformer network for structural and functional brain organization.",
+      "journal": "Medical image analysis",
       "date": "2026",
-      "abstract": "Dysphonia and dysphagia are highly prevalent in late-stage Parkinson's disease (PD), particularly among patients residing in long-term care facilities, yet evidence for rehabilitation interventions in this population remains extremely limited. With increasing longevity, more patients progress to advanced stages marked by frailty, long disease duration, and treatment-resistant symptoms, making the development of effective therapeutic strategies an urgent clinical priority. Here, we conducted an uncontrolled, single-arm, open-label exploratory pre-post feasibility study to evaluate a 12-session group music recreation program added to stable ongoing speech-language therapy in institutionalized patients with Parkinson's disease. Twenty-five of 32 enrolled patients attended at least three of the 12 scheduled sessions and completed pre- and post-program assessments. Outcomes included Maximum Phonation Time (MPT), mean sound pressure, Vocal Handicap Index (VHI), modified water swallowing test (MWST), repetitive saliva swallowing test, Dysphagia Severity Scale, swallowing visual analog scale, and a dysphagia screening questionnaire. In unadjusted Wilcoxon signed-rank analyses, nominal pre-post changes were observed in MPT and MWST, and VHI showed a non-significant trend toward reduction; however, no outcome remained statistically significant after Bonferroni correction. Other swallowing measures and subjective swallowing outcomes did not show clear improvement. These findings suggest that adding group music recreation to stable speech-language therapy is feasible in institutionalized patients with PD and may provide hypothesis-generating signals for selected voice and structured water-swallowing outcomes; controlled studies are needed to determine efficacy.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42602417/",
+      "abstract": "The human brain exhibits a complex and hierarchical organization that supports efficient information integration across local and global scales. Accurately characterizing such topological organization from neuroimaging data remains challenging. Conventional graph neural networks (GNNs) effectively capture local dependencies through neighborhood aggregation but often overlook higher-order topological structures that reflect the brain's small-world organization. Although Transformer architectures enable global dependency modeling, their high computational cost limits scalability for large connected brain networks. To address these challenges, we propose a Topology-Constrained Graph Transformer Network (TC-GTN) that explicitly integrates brain network topology into graph learning. TC-GTN combines two complementary modules: a cycle-constrained graph convolution, which captures localized edge aggregation and models modular brain organization, and an MST-guided Transformer, which constrains global attention along minimum spanning tree (MST) pathways to efficiently model long-range dependencies while reducing redundant communication. Moreover, we introduce cycle-based edge positional encodings (CEPE) that provide a topological coordinate system for distinguishing edges with similar local structures but different cycle-level contexts. We evaluate TC-GTN on both structural and functional brain networks, extracted from diffusion-weighted imaging (DWI) and functional MRI (fMRI) respectively, using large-scale datasets, including UK Biobank (38557 participants; 18100 females/20457 males; age 40-70 years) and ABCD (7684 participants; 3782 females/3902 males; age 9-10 years). Experiments on sex classification and brain-age estimation demonstrate that TC-GTN consistently outperforms state-of-the-art graph network approaches, achieving superior accuracy, interpretability, and generalizability. Clinical significance analysis further demonstrates that the model accurately characteriz",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42574814/",
+      "keywords": []
+    },
+    {
+      "pmid": "42604838",
+      "title": "Acute Post-Partum Psychosis and Dystonia Reveals Late-Onset MPAN.",
+      "journal": "Movement disorders clinical practice",
+      "date": "2026",
+      "abstract": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42604838/",
+      "keywords": []
+    },
+    {
+      "pmid": "42571855",
+      "title": "Peripheral GDF15 as an early biomarker for brain disorders: A large prospective cohort study.",
+      "journal": "Progress in neuro-psychopharmacology & biological psychiatry",
+      "date": "2026",
+      "abstract": "BACKGROUND: Growth differentiation factor 15 (GDF15) is a stress-responsive cytokine involved in metabolic and inflammatory pathways. We examined the associations of plasma GDF15 with incident brain disorders and explored potential mediating pathways and causality. METHODS: UK Biobank participants were followed for a median of 14&#xa0;years. Plasma GDF15 was measured at baseline. Cox proportional hazards models assessed associations with incident brain disorders, including all-cause dementia (ACD), Alzheimer's disease (AD), Parkinson's disease (PD), anxiety, depression, sleep disorders, stroke, and epilepsy. Mediation analyses evaluated biochemical and hematological pathways, and one-sample Mendelian randomization (MR) was used to assess potential causal effects. RESULTS: Higher GDF15 levels were associated with increased risks of overall brain disorders and all examined subtypes. In continuous analyses (per 1-unit increase in log2-transformed GDF15), hazard ratios (95% CIs) were 1.54 (1.48-1.60) for overall brain disorders, 1.98 (1.80-2.17) for ACD, 1.84 (1.60-2.10) for AD, 1.37 (1.18-1.59) for PD, 1.26 (1.16-1.37) for anxiety, 1.38 (1.29-1.49) for depression, 1.40 (1.26-1.55) for sleep disorders, 1.92 (1.81-2.05) for stroke, and 1.71 (1.46-2.01) for epilepsy (all P&#xa0;<&#xa0;0.001). Lipid- and inflammation-related markers appeared to partially mediate these associations. High-density lipoprotein cholesterol (HDL-C) accounted for an estimated 7.51% of the association with depression and 11.47% with sleep disorders, while neutrophil count showed relatively larger mediation estimates across multiple outcomes. MR analyses did not support a direct causal effect of GDF15. CONCLUSION: Plasma GDF15 is associated with a broad range of incident brain disorders and may act partly through lipid- and inflammation-related pathways, particularly HDL-C and neutrophil count.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42571855/",
+      "keywords": []
+    },
+    {
+      "pmid": "42572408",
+      "title": "Dual Anatomical Targeting or Dual-Target Stimulation in Tremor-Dominant Parkinson's Disease?",
+      "journal": "Movement disorders : official journal of the Movement Disorder Society",
+      "date": "2026",
+      "abstract": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42572408/",
       "keywords": []
     },
     {
@@ -121,12 +76,12 @@
       "keywords": []
     },
     {
-      "pmid": "42571531",
-      "title": "Long-term real-world effectiveness of carbidopa/levodopa enteral suspension after 36&#xa0;months of treatment initiation in advanced Parkinson's disease in the US: final results from the PROviDE study.",
-      "journal": "Clinical parkinsonism & related disorders",
+      "pmid": "42572563",
+      "title": "Factors Associated With Improved Physical Performance in Individuals With Parkinson's Disease Using the Fisior&#xae; Sequential Square Mat Walking Training Program: A Secondary Gender-Stratified Analysis of a Randomized Controlled Trial.",
+      "journal": "Journal of central nervous system disease",
       "date": "2026",
-      "abstract": "Introduction:",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42571531/",
+      "abstract": "BACKGROUND: Variability in functional response to exercise interventions in Parkinson's disease (PD) remains poorly understood. Sex-related differences in motor performance and rehabilitation outcomes have been described but are rarely examined within intervention studies. This study presents a secondary sex-stratified analysis of a previously published randomized controlled trial (RCT) to explore factors associated with differential improvements in physical performance. OBJECTIVES: To analyze sex-specific factors associated with improvements in physical performance following a 12-week SSM Fisior&#xae; walking training program in individuals with PD. DESIGN: Secondary analysis of a RCT with a sex-stratified approach. METHODS: Fifty-two community-dwelling older adults (57.7% men; mean age 71.4 &#xb1; 8.0 years) participated in the study. Physical performance was assessed using the Short Physical Performance Battery (SPPB), FallSkip system, and Timed Up and Go (TUG) test. Changes in SPPB scores were analyzed using sex-stratified Spearman correlations and multivariable linear regression models adjusted for age, body mass index, baseline Barthel Index, sensory aids, polypharmacy, falls history, and prosthesis use. RESULTS: Women showed greater improvements in SPPB total score compared with men (0.73 &#xb1; 0.09 vs. 0.50 &#xb1; 0.09). In women, SPPB changes were significantly correlated with TUG performance, and TUG improvement remained independently associated with SPPB gains (&#x3b2; = 9.07; 95% CI: 1.34-19.49). In men, SPPB improvements were correlated with FallSkip gait, sit-to-stand performance, FallSkip total score, FallSkip time, and TUG performance. In adjusted models, SPPB gains were independently associated with age, TUG improvement, balance, and sit-to-stand performance. CONCLUSION: Functional improvements following the intervention differed by sex. In women, mobility performance was the primary determinant of SPPB improvement, whereas in men, gains were assoc",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42572563/",
       "keywords": []
     },
     {
@@ -136,15 +91,6 @@
       "date": "2026",
       "abstract": "The gut microbiota contributes to the pathophysiology of Parkinson's disease (PD), but the mechanism is not known. Extracellular vesicles (EVs), membrane-enclosed nanosized particles, contain various biomolecules, cross biological barriers, and reach sterile body compartments. We hypothesized that EVs released by the gut microbiota might influence PD pathophysiology. We isolated gut microbiota-derived EVs from the fecal samples of 20 patients with PD and 19 healthy controls. Patients with PD had higher concentrations of fecal EVs, and the mean particle size of EVs was larger. The 16S ribosomal RNA analysis of gut microbiota and microbiota-derived EVs showed taxonomic differences at both the phylum and genus levels between patients with PD and healthy controls. Proteomic analysis of EVs identified unique protein signatures in patients with PD. These findings suggest that gut microbiota-derived EVs constitute a disease-relevant compartment in PD, with their molecular cargo representing a potential mechanistic link between gut microbiota and PD.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42602545/",
-      "keywords": []
-    },
-    {
-      "pmid": "42570712",
-      "title": "The gut-brain-mitophagy axis: Urolithin A as a transcriptional activator of Parkin in Alzheimer's and Parkinson's diseases.",
-      "journal": "Molecular and cellular neurosciences",
-      "date": "2026",
-      "abstract": "Mitochondrial dysfunction is a cardinal, causative, and convergent hallmark in both Alzheimer's disease (AD) and Parkinson's disease (PD). However, therapeutics that target the process of mitophagy, the selective removal of damaged mitochondria, are relatively undeveloped. Prior work has largely centered around post-translational modifications of the PINK1-Parkin signaling pathway while ignoring the key need for sustained protein synthesis of Parkin. In this review, we explore an innovative transcriptional circuit involving the gut microbiome, AMP-activated protein kinase (AMPK), sirtuin 1 (SIRT1), and mitophagy: gut-derived metabolites, such as Urolithin A (UA), activate AMPK and SIRT1, both of which converge to deacetylate and phosphorylate peroxisome proliferator-activated receptor gamma coactivator 1-alpha (PGC-1&#x3b1;). The transcription of the mitophagy protein, Parkin, is then driven by activation of PGC-1&#x3b1;. This UA/AMPK/SIRT1/PGC-1&#x3b1;/Parkin/mitophagy pathway is disrupted in multiple layers in AD and PD; this includes impaired gut function, lowering the level of UA produced in the body, proteinopathy leading to reduced PGC-1&#x3b1; activity, and decreased transcription of Parkin. Therapeutic targets of these various nodes include UA, PGC-1&#x3b1; activator ZLN005, and SIRT1 activators, such as resveratrol or nicotinamide riboside. By shifting the paradigm from post-translational activation to transcriptional restoration of Parkin, this gut-brain metabolic axis offers a unifying, testable, and therapeutically tractable framework for mitigating mitophagy failure in AD and PD.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42570712/",
       "keywords": []
     },
     {

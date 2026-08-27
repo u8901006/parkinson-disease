@@ -1,204 +1,447 @@
 {
-  "date": "2026-08-26",
-  "generated_at": "2026-08-26T13:40:20.842Z",
-  "total_fetched": 22,
+  "date": "2026-08-28",
+  "generated_at": "2026-08-27T22:36:54.393Z",
+  "total_fetched": 49,
   "papers": [
     {
-      "pmid": "42641565",
-      "title": "GLP-1-mediated delay in gastric emptying and impact on levodopa absorption in Parkinson's disease: Clinical implications.",
-      "journal": "Parkinsonism & related disorders",
-      "date": "2026",
-      "abstract": "Delayed gastric emptying is a well-recognized non-motor feature of Parkinson's disease (PD) and a critical determinant of levodopa pharmacokinetics. Glucagon-like peptide-1 (GLP-1) receptor agonists are increasingly prescribed for metabolic disorders and weight loss and are under investigation as potential disease-modifying therapies in PD. However, GLP-1 signaling exerts a potent inhibitory effect on gastric motility. This creates a mechanistic convergence whereby PD-related gastrointestinal dysfunction and GLP-1-mediated gastric slowing may synergistically impair transmission of levodopa and other dopaminergic drugs to the gut and thereby limit its efficacy. Here, we synthesize current evidence on the shared neuro-gastroenterological pathways linking PD and GLP-1 signaling, and we propose a conceptual \"double-hit\" model of delayed gastric emptying. We further examine the implications of this interaction for levodopa pharmacokinetics and motor fluctuations, highlighting a clinically relevant trade-off between the potential benefits of GLP-1 receptor agonists and their immediate negative impact on dopaminergic therapy.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42641565/",
-      "keywords": []
-    },
-    {
-      "pmid": "42641566",
-      "title": "Helicobacter pylori eradication status is associated with lower motor severity despite similar levodopa pharmacokinetics in Parkinson's disease.",
-      "journal": "Parkinsonism & related disorders",
-      "date": "2026",
-      "abstract": "BACKGROUND: Helicobacter pylori (H. pylori) infection has been associated with impaired levodopa absorption and worse motor symptoms in Parkinson's disease (PD). However, the relationships among H. pylori infection, eradication history, levodopa pharmacokinetics, and motor severity remain unclear. METHODS: We retrospectively analyzed 40 patients with PD who underwent standardized levodopa/carbidopa pharmacokinetic testing. Participants were classified as HP-positive, never infected, or prior eradication. Plasma levodopa and carbidopa concentrations were measured serially after administration of 100&#x202f;mg levodopa and 10&#x202f;mg carbidopa. Pharmacokinetic parameters, including maximum plasma concentration (Cmax), time to Cmax (Tmax), and area under the concentration-time curve (AUC), were compared among groups. Motor severity was assessed using the Movement Disorder Society-Unified Parkinson's Disease Rating Scale (MDS-UPDRS) Part III. RESULTS: No significant differences were observed among the three groups in levodopa or carbidopa pharmacokinetic parameters, including levodopa AUC (p&#x202f;=&#x202f;0.956). In contrast, MDS-UPDRS Part III scores differed significantly among groups (p&#x202f;=&#x202f;0.038). Post hoc analysis demonstrated lower motor scores in the prior eradication group than in the HP-positive group (adjusted p&#x202f;=&#x202f;0.032). Multivariable analysis confirmed an independent association between prior eradication status and lower MDS-UPDRS Part III scores (&#x3b2;&#x202f;=&#x202f;-14.57, p&#x202f;=&#x202f;0.005). No significant correlation was observed between levodopa AUC and motor severity. CONCLUSIONS: H. pylori eradication status was associated with lower motor severity despite similar levodopa and carbidopa pharmacokinetics. These findings suggest that mechanisms beyond acute levodopa absorption may contribute to the relationship between H. pylori and motor symptoms in PD.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42641566/",
-      "keywords": []
-    },
-    {
-      "pmid": "42640743",
-      "title": "Kinetic-rest tremor dominance for differentiating dystonic tremor from Parkinson's disease.",
+      "pmid": "42647110",
+      "title": "Low vs high frequency deep brain stimulation for Parkinson's disease-associated motor symptoms: A systematic review and meta-analysis of randomized control trials.",
       "journal": "Journal of Parkinson's disease",
       "date": "2026",
-      "abstract": "BackgroundDifferentiating dystonic tremor (DT) from Parkinson's disease (PD) remains challenging, particularly when dystonic signs are subtle, and DT is a major contributor to scans without evidence of dopaminergic deficit. Although dopamine transporter imaging can support the distinction, it is costly and not universally accessible. Simple diagnostic indicators less reliant on subjective clinical interpretation are needed.MethodsIn a dopamine transporter imaging-supported cohort (n&#x2009;=&#x2009;102; DT, 51; PD, 51), we used accelerometry to characterize ordinal patterns of tremor amplitude across rest, postural, and kinetic (spiral drawing) conditions. Candidate ordinal rules were evaluated, and the rule with the highest classification accuracy was selected for subsequent blinded visual assessment by three raters within the same cohort.ResultsAccelerometry showed greater kinetic tremor amplitude in DT and greater rest tremor amplitude in PD, whereas postural tremor amplitude did not differ significantly between groups. Among candidate ordinal rules, the pairwise comparison of kinetic versus rest tremor amplitude achieved the highest overall diagnostic performance for identifying DT (90% sensitivity, 85% specificity, 88% accuracy). Blinded visual classification of this rule showed excellent inter-rater agreement (Fleiss' &#x3ba;&#x2009;=&#x2009;0.92), high concordance with accelerometer-based classification (Cohen's &#x3ba;&#x2009;=&#x2009;0.86), and 90% sensitivity, 88% specificity, and 89% accuracy.ConclusionsA simple visual comparison of tremor amplitude during spiral drawing versus at rest required no specialized equipment and showed high reproducibility in blinded ratings. Although probabilistic and requiring validation in independent cohorts, this approach may serve as a practical bedside adjunct for distinguishing DT from PD.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42640743/",
+      "abstract": "PurposeDeep brain stimulation (DBS) is an established treatment for motor symptoms in Parkinson's Disease (PD), but the optimal stimulation frequency remains uncertain. Previous studies have suggested that low and high frequency DBS may produce different clinical effects. This study aimed to compare the effects of low versus high frequency DBS on motor outcomes in PD.MethodsA systematic review and meta-analysis of randomized controlled trials was conducted. PubMed, Ovid, CINAHL, Clinicaltrials.gov and the Cochrane Library were searched from 2010 to November 26, 2025. Studies comparing low and high frequency DBS in patients with PD were included. Motor outcomes were pooled using a random-effects model, and subgroup analyses were performed based on age and disease duration.ResultsA total of 15 randomized controlled trials involving 416 participants were included. Overall, no significant difference in motor outcomes was observed between low and high frequency DBS. Subgroup analysis based on age showed no significant effect modification. However, subgroup analysis suggested greater improvement with high frequency DBS in patients with shorter disease duration, whereas no significant difference was observed in those with longer disease duration. Sensitivity analyses demonstrated that these findings were robust. Additionally, tremor improvement favored the use of HFDBS.ConclusionHigh and low frequency DBS appear to provide comparable overall motor benefit in PD. Stimulation frequency may have differential effects depending on disease duration, although these findings should be interpreted cautiously. Further prospective trials are needed to determine optimal programming strategies across disease stages.RegistrationThis study was registered on PROSPERO (CRD420251238009).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42647110/",
       "keywords": []
     },
     {
-      "pmid": "42640456",
-      "title": "The stalled moment: Parkinson's disease and the timed self.",
-      "journal": "Brain : a journal of neurology",
+      "pmid": "42648890",
+      "title": "Serotonin content and uptake in platelets can distinguish Parkinson's disease from control patients and essential tremor.",
+      "journal": "Journal of Parkinson's disease",
+      "date": "2026",
+      "abstract": "We have demonstrated that platelets from Parkinson's disease patients exhibit impaired serotonin uptake and release. This seems to be caused by a dysfunction in secretory vesicles (SecVs), which share the mechanisms of accumulation with dopaminergic neurons. As a working hypothesis, this dysfunction may create an excess of dopamine causing neurotoxicity a process absent in other conditions like Essential Tremor or Essential Tremor Plus. The serotonin functional analysis in platelets is a potential tool to reduce misdiagnosis.To validate this, we performed a functional study using liquid chromatography (UHPLC) to analyze serotonin content, uptake, and secretion in platelets from 50 Parkinson's disease patients, 23 essential tremor, 17 essential tremor plus, and 50 controls.Parkinson's disease patients show impaired platelet serotonin content and uptake vs",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42648890/",
+      "keywords": []
+    },
+    {
+      "pmid": "42647114",
+      "title": "Impaired olfaction and Parkinsonism: A \"hidden gem\" in the neurological literature.",
+      "journal": "Journal of Parkinson's disease",
+      "date": "2026",
+      "abstract": "Though impaired olfaction in Parkinson disease is now a widely accepted characteristic of this disorder, this discovery arose from several international case reports preceding the first formal research on this topic (conducted in 1975 by Ansari and Johnson). The clinical observations have supplemented findings by Braak and colleagues demonstrating that, like impaired sense of smell, olfactory bulb involvement by Lewy pathology is a common early feature in Parkinson disease.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42647114/",
+      "keywords": []
+    },
+    {
+      "pmid": "42649220",
+      "title": "Oligomeric Alpha-Synuclein from neural-derived extracellular vesicles as possible biomarkers of non-motor symptoms in Parkinson's disease.",
+      "journal": "NPJ Parkinson's disease",
+      "date": "2026",
+      "abstract": "Non-motor symptoms (NMS) in Parkinson's disease (PD) are clinically impactful and lack reliable blood-based biomarkers. Neural-derived extracellular vesicles (NDEVs) enriched from serum may reflect central neurodegenerative processes. In this cross-sectional study, we examined associations between NMS burden and NDEV-associated proteins in 68 patients with PD. NDEVs were immunocaptured from serum using an anti-L1CAM approach and characterized according to MISEV guidelines. NDEV-associated oligomeric &#x3b1;-synuclein, SNARE complex proteins (SNAP-25, VAMP2, STX-1A), and neurotrophic factors (BDNF, GDNF, CDNF) were quantified by ELISA and related to NMS burden and PCA-derived non-motor domains, adjusting for age, sex, disease duration, MDS-UPDRS III, and levodopa equivalent daily dose (LEDD). Higher NDEV-associated oligomeric &#x3b1;-synuclein correlated with total NMSS score (partial Spearman's &#x3c1;&#x2009;=&#x2009;0.252, p&#x2009;=&#x2009;0.02) and with hallucinations (domain 4) and attention/memory (domain 5). These associations were confirmed by multivariable regression analyses. In domain-specific models, oligomeric &#x3b1;-synuclein was independently associated with worse cognitive and behavioral-psychotic scores, whereas higher STX-1A and lower CDNF were associated with greater affective-motivational symptom severity. No significant associations were observed for autonomic or sleep domains. These findings support NDEV-associated oligomeric &#x3b1;-synuclein as a candidate biomarker of non-motor symptom burden in PD and warrant longitudinal validation.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42649220/",
+      "keywords": []
+    },
+    {
+      "pmid": "42659615",
+      "title": "Lesion-Level Subtypes of White Matter Hyperintensity Evolution Beyond Spatial Location.",
+      "journal": "Neurology",
+      "date": "2026",
+      "abstract": "BACKGROUND AND OBJECTIVES: White matter hyperintensities (WMHs) are common neuroimaging markers of cerebrovascular pathology in aging and neurodegeneration. Despite their clinical relevance, WMH are typically quantified using global burden measures that assume a relatively homogeneous pathologic process. However, growing evidence suggests substantial biological heterogeneity across lesions. We aimed to identify lesion-level WMH subtypes beyond anatomic location and evaluate their associations with neurodegeneration and vascular risk. METHODS: We conducted a longitudinal observational study analyzing 3224 MRI scans from 403 participants spanning cognitively normal aging, mild cognitive impairment, Alzheimer, and Parkinson disease. Imaging at baseline and 2-year follow-up included structural, diffusion, and resting-state MRI. A total of 2107 WMH lesions were identified, and lesion-wise longitudinal changes were used to derive subtypes using unsupervised clustering. Associations with neurodegeneration and vascular risk factors were assessed using multivariable models with false discovery rate correction. RESULTS: Three lesion subtypes (L1 DISCUSSION: WMH are not a homogeneous entity but comprise biologically distinct lesion subtypes with differential neurobiological and clinical significance. Lesion composition may therefore offer a more informative framework than global WMH burden for understanding cerebrovascular contributions to aging and neurodegeneration, with potential implications for risk stratification, clinical interpretation, and targeted interventions.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42659615/",
+      "keywords": []
+    },
+    {
+      "pmid": "42656011",
+      "title": "Shared Spectral Parameters Between EEG and Basal Ganglia LFP Distinguish Sleep-Specific Oscillations in Parkinson's Disease.",
+      "journal": "European journal of neurology",
+      "date": "2026",
+      "abstract": "BACKGROUND: In Parkinson's disease (PD), sleep-related oscillatory dynamics between basal ganglia and cortical nodes may inform sleep dysfunction. The subthalamic nucleus (STN) is highly interconnected with human sleep circuitry and is a current target of interest for sleep neuromodulation. METHODS: To investigate correlated cortical-subcortical activity, we recorded simultaneous PSG and STN local field potentials (LFP) in 19 patients undergoing deep brain stimulation (DBS) for PD. We evaluated the correlation in spectral power between STN-LFP and EEG during polysomnogram (PSG)-defined stages of sleep. In addition, we analyzed aperiodic 1/f spectral parameters (exponent and offset), which have been identified as markers of arousal across sleep stages. Finally, we trained classifiers on aperiodic features to test whether 1/f structure alone could recover PSG-defined sleep stages from EEG and STN-LFP. RESULTS: Results revealed a significant interaction between recording modality and sleep stage. During wakefulness and REM sleep, STN-LFP exhibited a significantly steeper spectral slope compared to scalp EEG. However, this dissociation diminished with sleep depth; slopes appeared more similar during N2 and reversed during N3, where EEG became steeper than LFP. Across subjects, the aperiodic component showed robust state dependence and modality differences with STN-LFP maintaining higher exponents overall. STN-LFP aperiodic features alone classified sleep stages above chance and outperformed scalp EEG, approaching the combined-modality ceiling. CONCLUSION: These findings highlight distinct subcortical electrophysiological signatures in sleep-dependent regulation of neural arousal across brain networks in PD. These insights offer potential biomarkers for both invasive and non-invasive forms of closed-loop neuromodulation strategies targeting sleep dysfunction. TRIAL REGISTRATION: ClinicalTrials.gov identifier: NCT04620551.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42656011/",
+      "keywords": []
+    },
+    {
+      "pmid": "42656222",
+      "title": "Parkinson's disease in the United Arab Emirates (UAE): Emirates Neurology Society consensus guidelines.",
+      "journal": "Frontiers in neurology",
+      "date": "2026",
+      "abstract": "BACKGROUND: Parkinson's disease (PD) incidence has risen by more than eightfold in the United Arab Emirates (UAE) between 1990 and 2019, representing one of the highest increases globally and creating substantial pressure on a fragmented, multi-payer health system. Region-specific guidance has been lacking, leading clinicians to extrapolate from international guidelines that do not fully address formulary heterogeneity, advanced therapy centralization, and cultural factors. METHODS: Under the auspices of the Emirates Neurology Society, a national taskforce of 10 specialists representing major PD centers across the UAE used a three-round modified Delphi process informed by systematic literature review and key randomized controlled trials. Recommendations were graded using a GRADE-aligned system (A-C, Good Practice Points) and adapted to UAE formulary, service configuration, and cultural context. RESULTS: Consensus was achieved on 146 recommendations across eight domains: (1) mandatory adoption of MDS-2015 diagnostic criteria; (2) age-stratified pharmacologic algorithms with levodopa as first-line for older or cognitively vulnerable patients; (3) structured non-motor symptom management; (4) rehabilitation and UAE cultural lifestyle adaptations including Ramadan fasting management, DBS considerations in women, family-centered care, and multilingual practice; (5) advanced therapy referral using the 5-2-1 rule integrated with the Making Informed Decisions to Aid Timely Management of Parkinson's Disease (MANAGE-PD) tool, with five device-aided options (subcutaneous foslevodopa/foscarbidopa, apomorphine SC- subcutanous, LCIG- Levodopa Carbidopa Intestinal Gel, DBS- Deep Brain Stimulation, MRgFUS- MRI guided focussed ultrasound) presented through shared decision-making; (6) a three-tier service model; (7) UAE formulary mapping; and (8) center accreditation and registry metrics. Advanced therapies are centralized in accredited centers with clear minimum volume and multidisci",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42656222/",
+      "keywords": []
+    },
+    {
+      "pmid": "42656305",
+      "title": "Levodopa exacerbated tremor in Parkinson's disease.",
+      "journal": "Frontiers in neurology",
+      "date": "2026",
+      "abstract": "BACKGROUND: Levodopa is considered the most effective pharmacological therapy for Parkinson's disease (PD). However, it can cause side effects including diverse types of dyskinesia. In rare cases, tremor worsening has been reported in patients with PD taking levodopa. The frequency of this effect in clinical practice is unclear, and the phenomenology is poorly characterized. OBJECTIVES: We aimed to assess the frequency, clinical features, and factors associated with tremor exacerbated by levodopa in patients with PD. METHODS: We studied a cohort of 274 consecutive patients with PD and determined the frequency of tremor exacerbated by levodopa. RESULTS: Tremor exacerbation with levodopa was identified in four patients (1.46%) and 1.55% of patients taking levodopa. There were two men and two women, with ages ranging from 53 to 73 years at the time of evaluation. All patients experienced a consistent worsening of rest tremor within 20 min of taking a low dose of levodopa (62.5 mg or 125 mg). No benefit from biperiden or amantadine was observed for levodopa-exacerbated tremor in any of the cases. None of the patients showed signs of atypical parkinsonism or abnormal MRI. Patients with levodopa-exacerbated tremor were very reluctant to take more than a small dose of levodopa or any dose at all, hampering potential benefits for other parkinsonian features such as rigidity, bradykinesia, and parkinsonian gait. CONCLUSION: Tremor exacerbated by levodopa is an uncommon side effect in patients with PD that limits the benefit of this therapy.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42656305/",
+      "keywords": []
+    },
+    {
+      "pmid": "42619493",
+      "title": "Redefining Parkinson's disease: microglia and systemic immunity as gateways to early therapy.",
+      "journal": "Neurodegenerative disease management",
       "date": "2026",
       "abstract": "",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42640456/",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42619493/",
       "keywords": []
     },
     {
-      "pmid": "42641767",
-      "title": "Vaccination Strategies in Neurodegenerative Proteinopathies.",
-      "journal": "Ageing research reviews",
+      "pmid": "42651119",
+      "title": "Duodenal &#x3b1;-Synuclein PFF Injection Induces Vagus-Related Gut-to-Brain Pathology in C57BL/6J and A53T Transgenic Mice.",
+      "journal": "Brain sciences",
       "date": "2026",
-      "abstract": "Neurodegenerative diseases (NDs) such as Alzheimer's disease (AD), Parkinson's disease (PD), and prion diseases represent a growing global health crisis. Despite significant research efforts, disease-modifying therapies remain elusive. Immunotherapy, particularly vaccination, offers a promising avenue by leveraging the body's immune system to clear pathological protein aggregates central to these disorders. This review critically analyzes the historical trajectory, current advancements, and future perspectives of vaccine development across AD, PD, and prion diseases. We highlight the evolution from first-generation pan-protein-targeting strategies to precision immunogens focusing on specific pathogenic conformers, the pivotal role of immunomodulation in balancing efficacy and safety, and the emerging landscape of novel vaccine platforms and delivery systems. A central argument advanced herein is the imperative shift from broad-spectrum immune activation to highly targeted, conformation-specific immunotherapies, coupled with early intervention strategies, to unlock the full therapeutic potential of vaccines in preventing and modifying the course of NDs. We propose that integrating lessons from diverse NDs and embracing multi-target, adaptive immunization approaches, alongside advanced biomarker identification, will be critical for achieving clinical success.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42641767/",
+      "abstract": "Background",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42651119/",
       "keywords": []
     },
     {
-      "pmid": "42642486",
-      "title": "G3BP1 depletion, observed in Parkinson's Disease, drives Golgi-lysosome-autophagy defects.",
-      "journal": "Cell death and differentiation",
+      "pmid": "42647057",
+      "title": "Atmospheric Aerosol Neurotoxicity and Parkinson's Disease: Mechanisms and Perspectives.",
+      "journal": "Journal of biochemical and molecular toxicology",
       "date": "2026",
-      "abstract": "The RNA binding G3BP1 is depleted in several neurodegenerative diseases, yet its functional consequences at the cellular level remain poorly understood. While best known for its critical role in stress granule formation, we demonstrate that G3BP1 also stabilises the COPI vesicle protein beta-COP by promoting its interaction with the deubiquitinase USP10. G3BP1 depletion disrupts this interaction leading to increased ubiquitination of beta-COP, which accelerates its proteasomal degradation. This leads to compromised Golgi structure and function, and impaired lysosomal homeostasis, which causes defective autophagic flux. Consequently, the autophagic clearance of &#x3b1;-synuclein, a protein that can drive Parkinson's disease (PD), is significantly slowed. Importantly, we observe a concurrent reduction of both G3BP1 and beta-COP protein levels in brain sections from PD and dementia with Lewy Body (DLB) patients and from a PD mouse model. These findings reveal a novel mechanistic link between G3BP1, vesicular trafficking, and proteostasis in neurodegeneration.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42642486/",
+      "abstract": "Parkinson's disease (PD) is a common neurodegenerative disease threatening the health of the middle-aged and elderly population, triggered by the combined effects of genetic susceptibility, environmental exposure and nervous system aging, among which atmospheric aerosol exposure is a key risk factor for sporadic PD. As a complex heterogeneous mixture, atmospheric aerosols contain neurotoxic components such as metal particles, persistent organic pollutants (POPs), and nano/ultrafine particles, which appear to target midbrain substantia nigra dopaminergic neurons through pathways including direct entry into the brain via the olfactory pathway, penetration across the lung-blood-brain barrier, and inflammation-mediated alterations in barrier permeability. The core molecular mechanisms that have been proposed to link aerosol exposure to sporadic PD include oxidative stress and mitochondrial dysfunction, neuroinflammation and aberrant microglial activation, disrupted protein homeostasis and abnormal aggregation of &#x3b1;-synuclein (&#x3b1;-syn), as well as altered epigenetic regulation. Moreover, neurotoxic effects may be amplified via the positive feedback loop of oxidative stress-neuroinflammation, the vicious cycle of mitophagy defects and protein aggregation, and the \"multiple-hit hypothesis\". This review summarizes the toxic components of aerosols, their brain-entry routes and pathogenic mechanisms, outlines the application status of emerging technologies such as in vitro cell models and in vivo animal models, and sorts out intervention strategies including pharmacological therapy and epigenetic regulation. It also analyzes the current challenges in research on mechanisms, models, population studies and intervention strategies, and points out that future research should focus on dissecting the synergistic mechanisms of multiple components and optimizing research models, so as to provide theoretical support for exploring potential strategies for precise prevention, c",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42647057/",
       "keywords": []
     },
     {
-      "pmid": "42642835",
-      "title": "Unraveling Neurodegeneration: Common Molecular Mechanisms and Novel Therapeutic Concepts in Major Neurodegenerative Disorders.",
-      "journal": "Brain and behavior",
-      "date": "2026",
-      "abstract": "PURPOSE: Although Alzheimer's disease (AD), Parkinson's disease (PD), amyotrophic lateral sclerosis (ALS), multiple sclerosis (MS), and Huntington's disease (HD) present with markedly different clinical phenotypes, these neurodegenerative diseases (NDDs) appear to converge on a shared set of underlying molecular disturbances. This review sought to integrate disease-specific causative triggers with shared pathogenic pathways, focusing on neuroinflammatory signaling, oxidative imbalance, mitochondrial impairment, and disrupted protein homeostasis, in order to support multi-target, disease-modifying therapeutic strategies. METHOD: Relevant classical and contemporary literature, encompassing original research and review articles on the molecular basis of AD, PD, ALS, MS, and HD, was reviewed and synthesized narratively, with attention to how neuroinflammatory and oxidative stress pathways intersect, reinforce one another through mitochondrial and inflammasome-driven feedback, and recur across the five conditions. FINDING: In each disorder, persistently activated microglia and astrocytes secreted inflammatory mediators and reactive oxygen species, engaged the NLRP3 inflammasome, and progressively destabilized cellular homeostasis through a self-perpetuating cycle linking neuroinflammation and oxidative stress. Disease-specific lesions nonetheless persisted: amyloid-&#x3b2; and tau pathology in AD; &#x3b1;-synuclein aggregation with iron-driven mitochondrial damage in PD; RNA-binding protein dysfunction, proteostatic collapse, and excitotoxicity in ALS; inflammatory demyelination and axonal bioenergetic failure in MS; and mutant huntingtin-driven transcriptional and mitochondrial disruption in HD. These distinct triggers ultimately converged on shared downstream cascades. CONCLUSION: Recognizing this shared pathogenic foundation supports multi-target therapies-such as Nrf2 activation, NLRP3 inhibition, mitochondria-targeted antioxidants, and gene-based interventions-that ",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42642835/",
-      "keywords": []
-    },
-    {
-      "pmid": "42639119",
-      "title": "Network hierarchy in Alzheimer's and Lewy body spectrum disorders: functional gradients, cognitive phenotypes, and translational gaps.",
-      "journal": "Frontiers in aging neuroscience",
-      "date": "2026",
-      "abstract": "Dementia syndromes alter cortical hierarchy in addition to individual brain regions. Functional connectivity gradients offer a continuous, low-dimensional framework for examining these hierarchy-level changes. This focused structured narrative review combines a transparent evidence audit with a candidate-target comparative framework for evaluating gradient evidence in Alzheimer's disease (AD) and Lewy body spectrum disorders, including dementia with Lewy bodies and Parkinson's disease dementia. The evidence is asymmetric. AD has comparatively direct evidence for metric-specific change at the default-mode/transmodal end of the principal cortical gradient, whereas Lewy body disease has sparse and partly negative direct functional-gradient evidence. The review defines evidence tiers and eligibility rules for translating conventional functional-connectivity findings into testable gradient hypotheses, and applies them to the Lewy body literature. This framework is intended to improve evidence appraisal when emerging neuroimaging methods are applied to heterogeneous disease populations. Current data support metric-specific principal-gradient change and transmodal dedifferentiation in AD. In Lewy body disease, posterior cortical, attention, salience, and control-network findings remain FC-derived candidate targets for direct testing. The review also addresses gradient-estimation methods, disease-specific confounds, mixed pathology, brain-behavior associations, and validation standards. Gradient measures are not proposed as ready clinical biomarkers. Instead, the review specifies the evidence required to determine whether hierarchy-axis phenotyping adds value beyond conventional connectivity, atrophy, and molecular biomarkers.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42639119/",
-      "keywords": []
-    },
-    {
-      "pmid": "42635939",
-      "title": "Protein Kinase C-delta (PKC&#x3b4;) in Neurodegeneration and Cerebral Ischemia: Molecular Mechanisms and Therapeutic Implications.",
-      "journal": "Cell biochemistry and biophysics",
-      "date": "2026",
-      "abstract": "Protein kinase C delta (PKC&#x3b4;), a calcium-independent novel PKC isoform, is increasingly recognized as a compartmentalized regulator of stress signaling in the central nervous system. Through tyrosine phosphorylation, subcellular translocation, regulation of its expression, and caspase-3-dependent proteolytic activation, PKC&#x3b4; can convert transient adaptive responses into sustained oxidative, mitochondrial, inflammatory, and nuclear apoptotic signaling. This review evaluates PKC&#x3b4; across Parkinson's disease (PD), Alzheimer's disease (AD), Huntington's disease (HD), and ischemic stroke, emphasizing disease- and cell type-specific mechanisms rather than a uniformly pathogenic role. In PD, PKC&#x3b4; most consistently amplifies toxin- and &#x3b1;-synuclein-associated dopaminergic injury and glial inflammation, although human evidence remains limited. In AD, PKC&#x3b4; may link amyloidogenic processing of amyloid precursor protein (APP), amyloid-beta peptide (A&#x3b2;)-induced neuronal stress/cell cycle reentry, and glial neuroinflammation in a context-dependent feed-forward circuit. In HD, PKC&#x3b4; signaling may shift from early compensatory downregulation to stress-induced apoptotic reactivation. In ischemic stroke, the strongest evidence implicates PKC&#x3b4; in reperfusion-associated oxidative and inflammatory injury, particularly through neutrophil and translocation-dependent mechanisms. Future therapeutic development will require isoform-selective, compartment-specific, and cell type-resolved PKC&#x3b4; modulation.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42635939/",
-      "keywords": []
-    },
-    {
-      "pmid": "42642880",
-      "title": "Comparative Efficacy and Safety of Treatments for Parkinson's Disease With Depression: A Systematic Review and Bayesian Model-Based Network Meta-Analysis.",
-      "journal": "Brain and behavior",
-      "date": "2026",
-      "abstract": "OBJECTIVE: Depression is a common non-motor symptom of Parkinson's disease (PD) and substantially impairs patients' quality of life. This study aimed to compare the efficacy and safety of different interventions for depression in PD. METHODS: We conducted a systematic review and Bayesian network meta-analysis of randomized controlled trials (RCTs) in patients with PD and depression. Databases were searched from inception to September 30, 2025. Treatment effects were estimated using standardized mean differences (SMDs) for efficacy and odds ratios (ORs) for safety. Surface Under the Cumulative Ranking Curve (SUCRA) values were used to rank interventions. The protocol was registered in PROSPERO (CRD420251245403). RESULTS: This study included 51 RCTs involving 5100 patients and 42 intervention measures. Compared with placebo, citalopram (SMD = -0.99, 95% CI: -1.87 to -0.12) and primary motor cortex (M1) repetitive transcranial magnetic stimulation (rTMS) (SMD = -1.29, 95% CI: -1.93 to -0.64) significantly improved depressive symptoms with moderate-quality evidence. SUCRA rankings favored citalopram (0.831), M1 rTMS (0.825), pergolide (0.811), and supplementary motor area (SMA) + M1 rTMS (0.802), although rankings should be interpreted alongside direct statistical comparisons. Several treatments could not be included in the safety network because of insufficient connectivity. Citalopram, sertraline, rasagiline, methylphenidate, memantine, and trazodone were associated with higher withdrawal rates due to adverse events. CONCLUSION: Our findings indicate that selective serotonin reuptake inhibitors (SSRIs), dopamine agonists, and rTMS suggest relative efficacy and an acceptable safety profile in treating PD with depression. However, given the limited evidence for several interventions, these findings should be interpreted cautiously and confirmed in larger, multicenter studies.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42642880/",
-      "keywords": []
-    },
-    {
-      "pmid": "42641671",
-      "title": "Cardiovascular-Kidney-Metabolic Syndrome in neurological and psychiatric disorders: a large multi-national cohort study.",
-      "journal": "Brain, behavior, and immunity",
-      "date": "2026",
-      "abstract": "BACKGROUND: Cardiovascular-Kidney-Metabolic (CKM) syndrome is a pioneering paradigm focused on multisystem homeostasis. Nevertheless, the long-term cerebral manifestations of CKM syndrome and its specific relationship with neuropsychiatric disorders remain poorly understood. METHODS: Data for the study were obtained from Health and Retirement Study, UK Biobank, China Health and Retirement Longitudinal Study, and National Health and Nutrition Examination Survey. The exposures are continuous CKM stages (stages 0-4). The main outcomes were dementia, Parkinson's disease, depression, anxiety, and sleep disorders. Models were adjusted for demographic characteristics, lifestyle factors, and history of cancer. Proteomic signatures, brain structure, epigenetic aging, and inflammatory markers provided clues to the underlying associations. RESULTS: A total of 321,107 participants aged &#x2265;45&#x202f;years were included in the analysis. Advanced CKM syndrome exhibited higher risks of five disorders (Stage 4 in UK Biobank: HR,95%CI: 1.91,1.79-2.04 in dementia; 1.62,1.45-1.80 in Parkinson's disease; 1.75,1.66-1.84 in depression; 2.33,2.18-2.48 in sleep disorders; 1.48,1.40-1.56 in anxiety). CKM syndrome was associated with accelerated phenotypic aging and reduced volumes in the parietal, temporal, and orbitofrontal lobes. Enrichment analysis identified the \"Cytokine-cytokine receptor interaction\" pathway as a top enriched pathway in both disease clusters, highlighting the central role of immune-inflammatory signaling. Inflammatory markers, phenotypic aging, and certain proteins (GDF15 and PLAUR) may partly mediate the associations of CKM syndrome with these outcomes. CONCLUSIONS: Results of this study revealing the robust and persistent association of CKM stages with neurological and psychiatric disorders suggest that early intervention may be important for cognitive performance and emotional well-being in middle-aged and older adults.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42641671/",
-      "keywords": []
-    },
-    {
-      "pmid": "42642755",
-      "title": "Publisher Correction: Stimulation settings in subthalamic nucleus deep brain stimulation for parkinson's disease - a retrospective single-center observational study.",
-      "journal": "Neurological research and practice",
-      "date": "2026",
-      "abstract": "",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42642755/",
-      "keywords": []
-    },
-    {
-      "pmid": "42641912",
-      "title": "Midfrontal oscillatory alterations during gait imagination and observation in Parkinson's disease with freezing of gait.",
-      "journal": "Neuroscience",
-      "date": "2026",
-      "abstract": "Freezing of gait (FOG) is a disabling motor symptom in Parkinson's disease (PD), linked to impaired motor automaticity and cognitive control. Cognitive strategies like motor imagery (gait imagination, GI) and action observation (gait observation, GO) are used in rehabilitation, but their neural mechanisms are not well understood. This study used EEG to examine midfrontal oscillations during GI and GO in healthy controls (HC, n&#x202f;=&#x202f;21), PD without FOG (PDFOG-, n&#x202f;=&#x202f;16), and PD with FOG (PDFOG+, n&#x202f;=&#x202f;34), with resting-state EEG (eyes-closed and eyes-open) as baseline. During GI, both PD groups showed increased midfrontal theta power compared to HC, while during GO this increase appeared only in PDFOG&#x202f;-&#x202f;. Differences in midfrontal beta oscillations distinguished the two PD subgroups across all conditions. Specifically, the PDFOG&#x202f;-&#x202f;group displayed higher power across alpha and beta frequency bands during GO compared to both HC and PDFOG&#x202f;+&#x202f;. In the GI task, PDFOG&#x202f;+&#x202f;was characterized by significantly reduced beta power compared to the PDFOG&#x202f;-&#x202f;group. Slowing the pace of GI in PDFOG&#x202f;+&#x202f;led to a significant reduction in delta activity, while slowing the pace of GO resulted in significant reductions in both delta and theta power; these frequency-shifts were descriptively closer to oscillatory patterns observed in healthy controls. These findings suggest GI and GO involve overlapping but distinct neural mechanisms. Slower pacing may reduce cognitive-motor load and promote compensatory midfrontal activity. Identifying these oscillatory patterns improves understanding of gait dysfunction and supports refining GI and GO as targeted rehabilitation strategies for people with PD and FOG.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42641912/",
-      "keywords": []
-    },
-    {
-      "pmid": "42638740",
-      "title": "Spatiotemporal gait parameters during turning differ in Parkinson's disease patients with and without freezing of gait.",
-      "journal": "Frontiers in aging neuroscience",
-      "date": "2026",
-      "abstract": "INTRODUCTION: Turning is a complex locomotor task that can accentuate gait impairments and precipitate freezing of gait (FOG) in Parkinson's disease (PD). However, gait-derived spatiotemporal parameters during inter-episodic turning remain incompletely characterized. We compared turning-related gait patterns among healthy older adults, patients with PD without FOG, and patients with PD and a history of FOG. METHODS: Ten healthy older controls, 10 patients with PD without FOG (PD-P), and 10 patients with PD and FOG (FOG-P) performed 90&#xb0;, 180&#xb0;, and 360&#xb0; turns while undergoing optical motion capture. Spatiotemporal gait parameters were analyzed using Bayesian generalized linear models. Trials containing observable FOG episodes were excluded; consequently, the analyses represent inter-episodic turning rather than freezing episodes themselves. RESULTS: Compared with controls, PD-P participants demonstrated reduced stride width of the internal leg and increased stride width of the external leg, whereas FOG-P participants demonstrated shorter step and stride lengths. Both PD groups predominantly used step-out or mixed turning strategies and required more time and steps to complete larger-amplitude turns. DISCUSSION: Gait-derived spatial parameters during turning differed between the PD groups. PD-P participants showed more pronounced mediolateral foot-placement differences, whereas FOG-P participants showed more pronounced reductions in anteroposterior step and stride length. Because the groups differed in overall motor severity and the analyses were intentionally restricted to inter-episodic turning, these findings should be interpreted as descriptive turning gait patterns in patients with a history of FOG rather than as evidence of FOG-specific mechanisms.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42638740/",
-      "keywords": []
-    },
-    {
-      "pmid": "42640577",
-      "title": "Biofeedback in Parkinson's disease: A systematic review with meta-analysis.",
-      "journal": "Clinical rehabilitation",
-      "date": "2026",
-      "abstract": "ObjectivesThe objective was to examine whether the addition of biofeedback to practice is effective in improving lower limb activity compared with practice alone for people with Parkinson's disease.Data sourcesFour databases were searched for randomised trials of adults with idiopathic Parkinson's disease. Trials included biofeedback delivered concurrently during practice of sitting, standing up, standing and/or walking compared with the same amount of practice without biofeedback. Outcomes were measures of activity congruent with the activity trained, such as Berg Balance Scale, Timed Up and Go test, and walking speed.Review methodSystematic review with meta-analyses of randomised trials following PRISMA guidelines, using the PEDro scale for risk of bias and GRADE to determine quality of evidence.ResultsTwenty trials were included, involving 814 participants. Biofeedback during the practice of sitting and standing increased Berg Balance Scale score by 1.5 out of 56 (95% CI 0.7 to 2.3), biofeedback during the practice of standing and walking decreased Timed Up and Go time by 0.2&#x2005;s (95% CI -1.4 to 1.8), and biofeedback during the practice of walking increased walking speed by 0.02&#x2005;m/s (95% CI -0.06 to 0.1). The quality of the evidence was high for balance, moderate for mobility, and low for walking.ConclusionThis systematic review provides evidence that the addition of biofeedback to the practice of lower limb activities is no more effective than practice alone in people with Parkinson's disease.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42640577/",
-      "keywords": []
-    },
-    {
-      "pmid": "42639869",
-      "title": "Comparative Analysis of L-Dopa and Deep Brain Stimulation on Bradykinesia Components in Parkinson's Disease.",
-      "journal": "Movement disorders clinical practice",
-      "date": "2026",
-      "abstract": "BACKGROUND: Parkinson's disease (PD) bradykinesia is a complex of motor abnormalities. Subthalamic Nucleus Deep Brain Stimulation (STN-DBS) and L-dopa both improve bradykinesia, but their differential effects on each component remain unknown. OBJECTIVE: To quantify and compare the differential effects of STN-DBS and L-dopa on the individual kinematic components of bradykinesia. METHODS: PD patients with bilateral STN-DBS were prospectively evaluated at least 3&#x2009;months after surgery. Clinical and kinematic analyses of finger tapping were performed under three conditions: OFF, ON-DBS (clinically optimized stimulation), and ON-medication. Bradykinesia was decomposed into amplitude, velocity, dysrhythmia, sequence effect, hesitations, and interruptions. Data were analyzed using repeated-measures ANOVA or Friedman tests, with adjusted post-hoc comparisons. RESULTS: Twenty patients with PD were evaluated: median follow-up after surgery of 9.5 [3.75-11.5] months. Both L-dopa and STN-DBS significantly improved clinical MDS-UPDRS finger-tapping scores compared to baseline (P&#x2009;<&#x2009;0.001). STN-DBS showed a significantly greater effect on interruptions (P&#x2009;=&#x2009;0.03), while L-dopa only showed a greater effect on hesitations (P&#x2009;=&#x2009;0.03), compared with the OFF baseline. Dysrhythmia and sequence effect were unaffected by either therapy. When several features of bradykinesia were combined in a composite kinematic score, both therapies showed a significant difference compared with the OFF baseline (P&#x2009;<&#x2009;0.01). CONCLUSIONS: Despite comparable clinical efficacy, L-dopa and STN-DBS have different profiles of kinematic effects on the components of bradykinesia implicated in motor blocks. Understanding these distinctions is essential for refining motor assessments and developing therapies targeting specific pathophysiological mechanisms.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42639869/",
-      "keywords": []
-    },
-    {
-      "pmid": "42638917",
-      "title": "Flavonoid-rich dietary patterns and incident hospital-recorded Parkinson's disease: a prospective UK Biobank study.",
-      "journal": "Frontiers in nutrition",
-      "date": "2026",
-      "abstract": "INTRODUCTION: Evidence linking flavonoid-rich dietary patterns to the risk of Parkinson's disease (PD) remains limited and inconsistent, and molecular clues to this association remain scarce. This study examined the association between a flavonoid diet score (FDS) and incident hospital-recorded PD and explored related plasma proteomic and cellular expression patterns. METHODS: In this prospective analysis of 123,655 UK Biobank participants, we used multivariable Cox proportional hazards models to estimate hazard ratios (HRs) and 95% confidence intervals (CIs) for the association between FDS and incident hospital-recorded PD. In an exploratory analysis, we integrated a plasma proteomic screen with publicly available single-cell and single-nucleus transcriptomic data to provide preliminary molecular and cellular context. RESULTS: During follow-up, 796 incident hospital-recorded PD cases were identified. Higher FDS was associated with a lower risk of incident hospital-recorded PD per 1-standard deviation (SD) increase (HR, 0.93; 95% CI, 0.86-1.00), and the risk was lower in the highest than in the lowest FDS quartile (HR, 0.75; 95% CI, 0.61-0.93). In decomposition analyses, no individual food source or flavonoid subclass remained associated with incident hospital-recorded PD after multiple-testing correction. The inverse association was directionally consistent across most sensitivity analyses and in 1-5-year lag analyses, but the evidence became borderline after adjustment for coffee intake (HR, 0.93; 95% CI, 0.86-1.00) and was no longer statistically supported in 6-10-year lag analyses. In exploratory omics analyses, the proteomic screen prioritized a direction-compatible signature comprising 24 proteins, including proteins related to immune and adhesion processes, while single-cell and single-nucleus transcriptomic data provided peripheral immune and glial-vascular cellular context. DISCUSSION: In this prospective cohort, higher FDS was modestly associated with a lo",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42638917/",
-      "keywords": []
-    },
-    {
-      "pmid": "42639131",
-      "title": "Zebrafish as a translational model for peptide-mediated synaptic dysfunction related to obesity.",
-      "journal": "Frontiers in synaptic neuroscience",
-      "date": "2026",
-      "abstract": "Obesity-driven synaptic dysfunction is increasingly recognized as a key mechanism linking metabolic disorders to neurodegenerative diseases. This review aims to explore the utility of zebrafish (Danio rerio",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42639131/",
-      "keywords": []
-    },
-    {
-      "pmid": "42640367",
-      "title": "Beyond the Ribosome: The Expanding Role of the Nucleolus in Neurodegenerative Pathways.",
+      "pmid": "42618838",
+      "title": "Dual-Pathway Astrocyte Failure in Parkinson's Disease: Therapeutic Targeting of Nrf2/TFEB Suppression and cGAS-STING/Ferroptosis Activation.",
       "journal": "Molecular neurobiology",
       "date": "2026",
-      "abstract": "The nucleolus, long defined by its canonical role in ribosome biogenesis, has emerged as a critical nexus for cellular homeostasis, stress sensing, and disease pathogenesis. This article synthesizes a broad range of evidence to construct a comprehensive model of the nucleolus in the context of aging and neurodegeneration. We begin by detailing its fundamental architecture and the intricate process of ribosome production, before exploring the paradigm-shifting discovery of its vast, non-canonical proteome, which implicates it in DNA repair, cell cycle control, and genome stability. A central theme is the nucleolus's function as a primary cellular stress sensor, which, upon disruption by genetic, metabolic, or proteotoxic insults, initiates the nucleolar stress response. We provide a detailed examination of the downstream signaling cascades, focusing on the canonical p53-MDM2 axis and the interconnected mTOR pathway, which together translate nucleolar status into decisions of cell fate, including apoptosis and cell cycle arrest. We then focus on the brain, presenting the neuropathological and morphological alterations of the nucleolus-such as atrophy, fragmentation, and changes in volume-that serve as hallmarks of normal aging and neurodegenerative disorders, including Parkinson's disease, Alzheimer's disease, and C9orf72-linked ALS/FTD. We explore the deep regulatory layers of epigenetics, where DNA methylation and histone modifications of ribosomal DNA genes are dysregulated in disease, and discuss how multi-omics approaches are unraveling the complex molecular landscape of nucleolar function. Finally, we introduce the emerging concept of a gut-brain-nucleolus axis, proposing how systemic factors like the gut microbiome may influence neuronal health by triggering nucleolar stress through inflammatory and metabolic mediators. Overall, by highlighting the nucleolus as a convergence point for diverse pathogenic pathways, we frame it as a promising and druggable target ",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42640367/",
+      "abstract": "Parkinson's disease (PD) is increasingly recognized as a disorder of glial dysfunction, wherein astrocytes transition from homeostatic supporters to active drivers of neurodegeneration. This review synthesizes recent evidence to propose a novel dual-pathway failure model in which internalized alpha-synuclein orchestrates a self-amplifying cycle of astrocytic toxicity. Pathological alpha-synuclein simultaneously suppresses key cytoprotective systems, the Nrf2-mediated antioxidant response and TFEB-regulated autophagy-lysosomal degradation, while hyperactivating neuroinflammatory signaling via NF-&#x3ba;B/MAPK and the recently implicated cGAS-STING axis, triggered by mitochondrial DNA release. This imbalance fosters chronic oxidative stress, proteostatic collapse, and sustained neuroinflammation. Ferroptosis, a form of necrotic cell death characterized by iron dependency and lipid peroxidation, may represent a likely downstream consequence of astrocytic death when protective failure (Nrf2/TFEB suppression) overlaps with toxic activation (cGAS-STING/NF-&#x3ba;B signaling) and disturbances in iron and lipid homeostasis. The concurrent failure of antioxidant defenses and the buildup of labile iron and peroxidizable lipids could establish a conducive environment for ferroptotic membrane rupture, potentially resulting in secondary neuronal damage. This gliocentric model reframes PD pathogenesis as a feed-forward loop of neurotoxicity originating in astrocytic reprogramming. Therapeutically, breaking this cycle via STING inhibition, Nrf2/TFEB activation, and anti-ferroptotic agents represents a promising but still experimental avenue for intervention aimed at restoring astrocyte homeostasis and potentially halting neurodegeneration. However, it is critical to note that the evidence supporting these approaches is derived almost exclusively from preclinical models, with no approved therapies targeting these astrocytic pathways currently available for PD patients.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42618838/",
       "keywords": []
     },
     {
-      "pmid": "42642945",
-      "title": "Exploring changes in couples' functioning throughout Parkinson's disease.",
-      "journal": "British journal of health psychology",
+      "pmid": "42646623",
+      "title": "Selective Neuronal Vulnerability to Alpha-Synuclein Pathology in Parkinson's Disease: A Critical Review of Mechanistic Rationale and Biomarker Stratification.",
+      "journal": "Medical sciences (Basel, Switzerland)",
       "date": "2026",
-      "abstract": "OBJECTIVES: Couples facing Parkinson's disease (PD) deal with continuous adaptation to the numerous challenges PD brings, suggesting an evolving functioning over time, which remains understudied. The present study aimed to provide an integrative understanding of couples' functioning in PD by exploring and identifying distinct patterns of couple functioning and their potential trajectories over the course of PD. DESIGN: To overcome common challenges associated with longitudinal approaches, this study uses a qualitative cross-sectional design, aiming to put into perspective qualitative data collected at three different time points of PD. METHODS: Forty-five couples facing PD were interviewed. Data were analysed using Interpretative Phenomenological Analysis, which first enabled us to identify dyadic processes characterizing distinct patterns of couples' functioning. Their evolution was examined, revealing potential trajectories of these patterns. RESULTS: Five distinct patterns of dyadic functioning were identified: 'Coping with the disease, together', 'Helping in the shadows', 'Avoid the disease or collapse', 'Action vs. withdrawal' and 'The most total gap between us'. While some couples' functioning tends to remain stable or become more rigid within a single pattern, others may evolve and shift towards another pattern of couple functioning as PD's symptoms change, intensify or are anticipated to worsen. CONCLUSIONS: This study underscores the need to consider dyadic functioning and its potential evolution in support of couples as early as possible in the course of PD. This study also encourages studies proposing staggered, small-sample follow-ups as a viable approach to better and fully capture transitions in couples' functioning in slow-evolving illnesses like PD.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42642945/",
+      "abstract": "Background:",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42646623/",
       "keywords": []
     },
     {
-      "pmid": "42639318",
-      "title": "CNV-Finder: streamlining copy number variation discovery.",
-      "journal": "Bioinformatics advances",
+      "pmid": "42645231",
+      "title": "Effects of &#x3b1;-Synuclein on the Lipid Phenotype of SZ95 Human Sebocytes: A Preliminary Study in the Context of Parkinson's Disease.",
+      "journal": "Cells",
       "date": "2026",
-      "abstract": "MOTIVATION: Copy Number Variations (CNVs) play pivotal roles in complex disease etiology, often requiring large sample sizes to analyze disease associations. While genotyping arrays offer a cost-effective approach for CNV detection using Log R Ratio (LRR) and B Allele Frequency (BAF) signals, existing independent array-based callers suffer from high false positive rates and noise susceptibility, burdening manual validation. RESULTS: We present CNV-Finder, a deep learning pipeline employing Long Short-Term Memory (LSTM) networks for large-scale CNV identification within user-defined genomic regions. Trained on expert-annotated samples from the Global Parkinson's Genetics Program across four neurodegenerative disease-associated genes (PRKN, LINGO2, MAPT, SNCA AVAILABILITY AND IMPLEMENTATION: CNV-Finder is freely available at https://github.com/nvk23/CNV-Finder.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42639318/",
+      "abstract": "Pathological aggregation of &#x3b1;-synuclein (&#x3b1;Syn) is a hallmark of Parkinson's disease (PD), but increasing evidence indicates that &#x3b1;Syn deposits extend beyond the central nervous system to peripheral tissues, including the skin. In PD patients, cutaneous &#x3b1;Syn accumulation has been associated with seborrheic dermatitis (SD), a chronic inflammatory condition linked to sebocyte dysfunction and altered sebum production. Marked differences in sebum composition between PD patients and healthy controls have been described. We aimed to investigate whether pathological &#x3b1;Syn could contribute to dysregulated sebum production and composition by assessing key markers of sebocyte differentiation and lipogenesis in human sebaceous gland cells and skin biopsies from PD patients (n",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42645231/",
       "keywords": []
     },
     {
-      "pmid": "42639394",
-      "title": "Population Attributable Risk in Alzheimer and Parkinson Diseases.",
-      "journal": "Neurology. Genetics",
+      "pmid": "42656830",
+      "title": "Pathological Mutation E46K Acts as an Electrostatic Switch to Increase Distant Interdomain Interactions and Promote &#x3b1;&#x2011;Synuclein Phase Separation.",
+      "journal": "JACS Au",
       "date": "2026",
-      "abstract": "OBJECTIVES: Emerging evidence suggests that the genetic architecture of Alzheimer disease (AD) and Parkinson disease (PD) risk varies across ancestries. This study seeks to explore distinct and universal genetic targets across individuals of Latino, African/African-admixed, East Asian, and European populations by implementing population attributable risk (PAR) comparisons using summary statistics from genome-wide association studies (GWASs). METHODS: PAR was calculated for the most significant disease variants using summary statistics derived from select multi-ancestry GWAS meta-analyses, followed by fine-mapping analysis to validate genetic contribution of disease variants to European, African/African-admixed, East Asian, and Latino individuals. RESULTS: For AD, APOE4 DISCUSSION: This cross-ancestry evaluation of PAR reinforces the genetic heterogeneity of AD and PD. In consideration of the complex etiology of these diseases, these findings may inform the strategic prioritization of therapeutic targets and improve global health outcomes.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42639394/",
+      "abstract": "The Parkinson's disease-related protein &#x3b1;-synuclein can form solid amyloid fibrils through liquid-liquid phase separation (LLPS) and liquid-to-solid phase transition. The most deleterious familial mutation E46K has recently been shown to enhance &#x3b1;-synuclein LLPS and subsequent solidification; yet, the precise mechanisms remain largely unknown. Here, using molecular dynamics simulations at different spatiotemporal scales combined with biochemical experiments, we show that the E46K mutation acts as an electrostatic switch to remodel interactions between the oppositely charged N-terminal domain (NTD) and C-terminal domain (CTD) of &#x3b1;-synuclein. This remodeling shifts the interaction site of NTD with CTD from its N-terminus to the mutation region. Such reorganization increases the hydrophobic solvent exposure of key LLPS-promoting motifs, potentially facilitating intermolecular interactions that initiate phase separation. Phase coexistence simulations further support this hypothesis, showing that the E46K mutant exhibits enhanced LLPS and solidification propensities. This enhancement is primarily driven by intermolecular electrostatic interactions between the mutation region and the CTD, followed by the hydrophobic NAC-NAC interactions mediated by the LLPS-promoting motifs. Collectively, these results reveal that NTD-CTD electrostatic crosstalk acts as the key modulator of &#x3b1;-synuclein phase separation, while NAC-NAC interactions play an auxiliary role, both of which synergistically govern &#x3b1;-synuclein phase separation. This study offers a complete and detailed mechanistic framework for understanding &#x3b1;-synuclein phase separation and its enhancement induced by the E46K mutation.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42656830/",
+      "keywords": []
+    },
+    {
+      "pmid": "42645161",
+      "title": "Decoding Synaptic Diversity: Molecular Architectures, Phase Transitions, and Shared Postsynaptic Failure in Alzheimer's and Parkinson's Disease.",
+      "journal": "Cells",
+      "date": "2026",
+      "abstract": "Synaptic failure is the most accurate pathological correlate of cognitive and motor decline in neurodegenerative diseases. However, the molecular logic governing selective synaptic vulnerability in Alzheimer's (AD) and Parkinson's (PD) remains a fundamental enigma. This review dissects the hierarchical organization of the synaptome, arguing that synaptic decay is not a generic process of attrition but a specific collapse of subsynaptic domains (SSDs) and trans-synaptic nanocolumns, considered here within the framework of the tetrapartite synapse, which comprises the presynaptic and postsynaptic compartments together with glia and the perisynaptic extracellular matrix. We use the term pathological convergence in a restricted sense, to denote that, although the primary aggregates differ, the two diseases converge on the same postsynaptic scaffolding hubs and on a comparable loss of condensate fluidity. We propose a biophysical model where the Post-Synaptic Density (PSD) matrix, governed by liquid-liquid phase separation (LLPS), may undergo a pathological liquid-to-solid transition-characterized by condensate maturation and the formation of insoluble protein aggregates-driven by proteotoxic species. Specifically, we analyze how A&#x3b2;-mediated zinc sequestration disrupts the Shank-SAM scaffold hierarchy in AD, while &#x3b1;-synuclein aggregates arrest presynaptic vesicle dynamics and mitochondrial homeostasis in PD. Furthermore, we explore the emerging frontier of \"Precision Synaptopharmacology,\" highlighting how targeted modulation of protein-protein interaction (PPIs), synthetic synaptic organizers (e.g., CPTX), and phase-stabilizing chaperones can restore nanocolumn alignment and synaptic fluidity. We also set out the principal limitations of these strategies, including blood-brain barrier delivery, off-target effects, the immaturity of condensate-directed pharmacology and the incomplete translation of rodent findings to human disease, and we consider the vascular",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42645161/",
+      "keywords": []
+    },
+    {
+      "pmid": "42650087",
+      "title": "Genetic, Lipid, Fungal Microbiome and Neuroinflammatory Links Between Seborrheic Dermatitis and Parkinson's Disease: A Narrative Review.",
+      "journal": "Genes",
+      "date": "2026",
+      "abstract": "Background:",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42650087/",
+      "keywords": []
+    },
+    {
+      "pmid": "42652164",
+      "title": "Are Signal Peptides Hidden Regulators of Neurodegenerative Disease?",
+      "journal": "Biomedicines",
+      "date": "2026",
+      "abstract": "Canonical signal peptides (SPs) are short N-terminal sequences that direct nascent proteins into the secretory pathway, but their role extends far beyond protein targeting. Advances in sequencing and computational tools have enabled their systematic identification across proteomes, highlighting SPs as critical regulators of protein biogenesis, including endoplasmic reticulum (ER) targeting, translocation, folding, and proteostasis. Clinically, mutations affecting SP function underlie a distinct group of human disorders, while SP-derived fragments are emerging as diagnostic biomarkers and therapeutic targets. In biotechnology, SPs are engineered to enhance recombinant protein production and serve as molecular tags for intracellular delivery. Together, these developments position SPs at the intersection of fundamental cell biology, medicine, and biotechnology. While this review primarily focuses on canonical SPs, it also considers selected non-canonical targeting and topogenic sequences whose dysfunction contributes to protein misfolding, impaired ER translocation, disrupted degradation pathways, and altered intracellular trafficking in neurodegenerative diseases. Aberrations involving both conventional SPs and alternative targeting/topogenic elements contribute to pathological protein aggregation, a hallmark of major neurodegenerative disorders, including Alzheimer's disease (AD), Parkinson's disease (PD), Huntington Disease (HD), prion diseases, and amyotrophic lateral sclerosis/frontotemporal dementia (ALS/FTD); in multiple sclerosis (MS) is primarily an inflammatory demyelinating disease, where abnormal protein exposure, potentially linked to misprocessed SPs, can activate immune responses. By synthesizing current knowledge, the review explores how alterations in targeting determinants influence key proteostasis pathways, acting as upstream modulators of disease-relevant molecular cascades. It further discusses the emerging concept that SP-derived fragments may pa",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42652164/",
+      "keywords": []
+    },
+    {
+      "pmid": "42645089",
+      "title": "Blood-Derived Inflammatory Indices Across Essential Tremor, Parkinson's Disease, and Progressive Supranuclear Palsy: An Exploratory Retrospective Analysis.",
+      "journal": "Diseases (Basel, Switzerland)",
+      "date": "2026",
+      "abstract": "Background/Objectives",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42645089/",
+      "keywords": []
+    },
+    {
+      "pmid": "42656824",
+      "title": "Fluorogenic Tissue-Based Assessment of Acid Ceramidase Activity.",
+      "journal": "Bio-protocol",
+      "date": "2026",
+      "abstract": "Acid ceramidase (aCDase) is a lysosomal amidase that catalyzes the hydrolysis of sphingolipids (SphL), including ceramides and glucosylceramides. Altered expressions of aCDase are associated with several pathological conditions, such as cancer, inflammation, pain, and pulmonary disorders. aCDase activity is reduced in Farber disease, spinal muscular atrophy with progressive myoclonic epilepsy, diabetes, and cardiovascular disease. Recent reports suggest that aCDase inhibition may be an emerging strategy for treating several SphL-related neurodegenerative conditions, such as Krabbe, Gaucher, and Parkinson's disease, due to its role in the accumulation of glycosphingolipids. Therefore, the development of a tissue-based aCDase activity assay has potential applications in clinical diagnostics and drug discovery, enabling the evaluation of the onset and progression of disease from biological samples of patients, drug-target engagement analysis, and identification of biomarkers. Here, we report a detailed protocol for detecting aCDase activity in tissue lysates, using Rbm14-12 as a specific fluorogenic substrate for aCDase. Assay protocol optimization, including a procedure for the preparation and storage of tissue lysates and the identification of optimal protein tissue lysate amounts and substrate concentrations based on kinetic enzymatic parameter analyses, is described. Key features &#x2022; This protocol relies on the use of the Rbm14-12 fluorogenic substrate. &#x2022; This protocol was developed out of a need to measure the target engagement of an aCDase-targeting therapeutic in a Parkinson's disease-related animal model. &#x2022; This protocol can be broadly useful for sensitively measuring aCDase activity in central and peripheral organ tissues.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42656824/",
+      "keywords": []
+    },
+    {
+      "pmid": "42643997",
+      "title": "Structural, functional and neurochemical imaging mapping of non-motor symptoms in Parkinson's disease.",
+      "journal": "Brain communications",
+      "date": "2026",
+      "abstract": "Non-motor symptoms, including rapid eye movement sleep behaviour disorder (RBD), depression and anxiety, are common and often co-occurring in patients with Parkinson's disease. This study aimed to investigate their potential shared neurobiological substrates by integrating structural, functional and neurochemical imaging data. We analysed data from 638 Parkinson's disease patients from the Parkinson's Progression Markers Initiative (PPMI), with available 3T T1-weighted MRI scans. RBD, depression and anxiety severity were assessed using validated clinical scales (RBD Screening Questionnaire Score, Geriatric Depression Scale and State-Trait Anxiety Inventory). Voxel-based morphometry (VBM) multivariate regression analyses were performed to identify grey matter (GM) volume loss associated with each clinical symptom. All analyses were rigorously controlled for a comprehensive set of potential confounders, including age, sex, education, disease duration, motor severity and cognitive dysfunction, thereby minimizing confounding effects related to other aspects of the disease. Coordinate-based network mapping was then applied using a large normative resting-state functional connectome (N",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42643997/",
+      "keywords": []
+    },
+    {
+      "pmid": "42652076",
+      "title": "MRI-Based Quantitative Assessment of Normal-Appearing White and Gray Matter Demyelination in Multiple Sclerosis, Parkinson's Disease, Long COVID, and Normal Aging.",
+      "journal": "Biomedicines",
+      "date": "2026",
+      "abstract": "Background/Objectives",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42652076/",
+      "keywords": []
+    },
+    {
+      "pmid": "42653735",
+      "title": "Cannabis and Cannabinoids: The Medical Potential of Cannabidiol in Mental and Neurological Disorders.",
+      "journal": "Pharmaceuticals (Basel, Switzerland)",
+      "date": "2026",
+      "abstract": "Background/Objectives:",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42653735/",
+      "keywords": []
+    },
+    {
+      "pmid": "42648904",
+      "title": "Deep Brain Stimulation after Subthalamic Focused Ultrasound for Parkinson's Disease.",
+      "journal": "Movement disorders clinical practice",
+      "date": "2026",
+      "abstract": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42648904/",
+      "keywords": []
+    },
+    {
+      "pmid": "42646502",
+      "title": "Parkinson's Disease: Pathophysiology, Treatment Strategies, Wellness Approaches, and Obstacles/Paths Forward.",
+      "journal": "NeuroSci",
+      "date": "2026",
+      "abstract": "Parkinson's disease (PD) is a neurodegenerative disorder caused by the loss of dopaminergic neurons. Its symptoms affect both motor functions-such as bradykinesia, rigidity, resting tremor, and postural instability-and non-motor functions, including neuropsychiatric issues, sleep disorders, and constipation. Drawing on the literature, the following topics were developed and presented: Pathophysiology; Treatment; Neuropsychiatric and Cognitive Function; Sleep Challenges; Exercise and Movement; Striving for Wellness; and Obstacles/Paths Forward. These seven categories form the foundation of this review, which centers on four main areas related to PD: dopamine biology and pathophysiology; management of key motor and non-motor symptoms; strategies for achieving wellness; and unresolved issues in PD. The complexity of PD's clinical features is highlighted by describing patient-healthcare provider interactions, elucidating disease mechanisms, managing motor and non-motor symptoms, highlighting the benefits of exercise, emphasizing the importance of sleep, addressing mental health challenges and cognitive changes, fostering a hopeful and resilient mindset, potentially slowing disease progression, treating comorbidities, and promoting overall wellness. Although there have been tremendous advances in the basic science and clinical management of PD in recent years, PD remains incurable. Thus, we describe several roadblocks that have hindered progress in understanding PD. Only by integrating historical insights with the latest PD advances can we acquire the knowledge needed to change the disease's trajectory. Finally, this review aims to provide a meaningful summary for healthcare professionals (and students) caring for patients with PD.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42646502/",
+      "keywords": []
+    },
+    {
+      "pmid": "42649794",
+      "title": "CNN-GRU-KAN: A Novel Multi-Branch Framework for Parkinson's Disease Detection Based on Gait Classification.",
+      "journal": "Bioengineering (Basel, Switzerland)",
+      "date": "2026",
+      "abstract": "Parkinson's disease (PD) diagnosis and severity assessment increasingly rely on gait analysis. To capture complex gait dynamics from limited sensor data, we propose a novel multi-branch framework integrating a one-dimensional convolutional neural network (1D-CNN), a bidirectional gated recurrent unit (Bi-GRU), and Kolmogorov-Arnold networks (KANs) (CNN-GRU-KAN) utilizing 18-channel vertical ground reaction force (VGRF) signals. Each module serves a distinct clinical purpose: the 1D-CNN branch with squeeze-and-excitation (SE) attention extracts localized spatial plantar pressure patterns, while the Bi-GRU branch with temporal attention captures long-range rhythm abnormalities. Crucially, the KAN serves as the classification head. By utilizing learnable B-spline functions instead of traditional fixed activations, KAN adaptively models the highly non-linear boundaries between healthy controls and varying PD severities, effectively mitigating overfitting. Under rigorous subject-independent cross-validation, our model achieves 98.43% accuracy for binary PD detection and 93.46% for five-class UPDRS severity grading. These results highlight the framework's strong potential for low-cost, unobtrusive clinical tracking and home monitoring.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42649794/",
+      "keywords": []
+    },
+    {
+      "pmid": "42656749",
+      "title": "Dual-task gait and gait-cognition coupling in patients with Parkinson's disease versus healthy older adults: moderation by cognitive status.",
+      "journal": "Frontiers in aging neuroscience",
+      "date": "2026",
+      "abstract": "BACKGROUND: Gait impairment and cognitive decline frequently co-occur in Parkinson's disease (PD), yet how cognitive status modulates dual-task gait-cognition relationships remains poorly characterized. OBJECTIVE: To compare spatiotemporal gait parameters and dual-task costs (DTCs) between drug-na&#xef;ve PD and healthy older adults (HO), and to examine how cognitive status modulates gait-cognition associations within PD. METHODS: One hundred twenty-four participants (65 PD, 59 HO) were prospectively enrolled. PD patients were subclassified into cognitively normal (PDCN, n RESULTS: PD-related gait impairments were more pronounced under dual-task conditions, with cell phone use yielding the greatest between-group differences in spatiotemporal parameters and DTCs. Gait-cognition associations in the total PD group were most consistently observed during cell phone use, involving executive, language, and attention domains. DTCs were specifically correlated with executive and language domains. Subgroup analyses revealed distinct cognitive-motor profiles: PDCN showed a paradoxical pattern in which better visuospatial function was associated with greater gait variability, while PDMCI exhibited broader positive correlations between multiple cognitive domains and gait stability. Moderation analyses confirmed these patterns were statistically distinct. CONCLUSION: Dual-task gait assessment using a cell phone paradigm may effectively characterizes cognitive-motor decline in early drug-na&#xef;ve PD. Cognitive status qualitatively modulates gait-cognition coupling, with domain-specific patterns differing between PDCN and PDMCI, with implications for targeted monitoring and intervention.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42656749/",
+      "keywords": []
+    },
+    {
+      "pmid": "42619220",
+      "title": "Impact of Vibration-based Neuromodulation on Freezing of Gait in Parkinson's Disease: A Pilot Study.",
+      "journal": "Neurology India",
+      "date": "2026",
+      "abstract": "BACKGROUND: Freezing of gait (FOG) is an enigmatic phenomenon observed in patients with advanced Parkinson's disease (PD). OBJECTIVES: We present a novel wearable device, Wearable Assisted Locomotor Kinesthesia (WALK), that delivers vibration-based stimulation and test its effectiveness in PD patients with FOG. METHODS: This prospective, nonrandomized, single-center, single-blinded study included 20 PD patients with FOG. Clinical assessments with and without the WALK device were done in the medication OFF state under two conditions: (a) walking and (b) walking + cognitive dual task. A 12-item FOG scale was used to measure FOG across six FOG-provoking tasks. These were assessed at baseline using a placebo device and an active interventional device (WALK). RESULTS: The active device WALK reduced FOG severity by an average of 10.2 points, surpassing the minimal clinically important difference of 4.28 scale points, and participants experienced fewer FOG episodes (a mean of 7.15 fewer episodes). Participants experiencing total akinetic phases (>30s) were able to complete the task with WALK, whereas those receiving a placebo did not. Task completion duration improved by an average of 27.37% across different activities. WALK reduced FOG scores and freezing duration, particularly when navigating through narrow spaces. WALK was also effective in mitigating FOG severity across all Hoehn and Yahr stages. CONCLUSIONS: The WALK device significantly reduced FOG in patients with PD by providing vibration-based stimulation. This noninvasive neuromodulation-based intervention appeared effective and safe in this pilot study, with no adverse events, highlighting its potential in the management of FOG.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42619220/",
+      "keywords": []
+    },
+    {
+      "pmid": "42647554",
+      "title": "Mediating Role of Coping Strategies Between Self-Perceived Burden and Disability Acceptance in Parkinson's Disease .",
+      "journal": "Neuro endocrinology letters",
+      "date": "2026",
+      "abstract": "OBJECTIVE: This study examined the associations among self-perceived burden (SPB), medical coping strategies, and acceptance of disability (AOD) and evaluated whether avoidance coping mediated the relationship between SPB and AOD in patients with Parkinson's disease (PD). METHODS: A cross-sectional survey of 180 patients with PD admitted to the Department of Neurology, Lishui Hospital of Traditional Chinese Medicine between September 2024 and July 2025 was conducted to collect data on SPB, coping strategies, and AOD using validated questionnaires. Data were collected using a general information questionnaire, the SPB scale, the Medical Coping Modes Questionnaire, and the Acceptance of Disability Scale&#x2011;Revised. RESULTS: Correlation analysis demonstrated significant associations between SPB, coping strategies, and AOD (all p < 0.01). Mediation analysis indicated that avoidance coping partially mediated the relationship between SPB and AOD, accounting for 33.84% of the total effect of SPB on AOD in the structural equation model. CONCLUSION: SPB and avoidance coping demonstrated predictive value for AOD in patients with PD-related disability, and avoidance coping partially mediated the association between SPB and AOD. These findings suggest that psychosocial and rehabilitation interventions should aim to reduce reliance on avoidance coping and strengthen active coping to improve disability acceptance.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42647554/",
+      "keywords": []
+    },
+    {
+      "pmid": "42649750",
+      "title": "Multi-Task Wearable Parkinson's Disease Detection with a Pretrained Spatio-Temporal Graph Encoder and Task-Level Token Aggregation.",
+      "journal": "Bioengineering (Basel, Switzerland)",
+      "date": "2026",
+      "abstract": "Wearable inertial measurement units (IMUs) offer an objective, low-cost basis for Parkinson's disease (PD) assessment, but multi-task clinical protocols yield heterogeneous recordings across body locations and small cohorts, and it is unclear whether such data can support reliable PD detection without training deep models from scratch. We therefore ask whether a motion-pretrained representation transfers to this setting, and quantify how much of the discriminative signal it supplies. Each subject is represented by five task-level motion embeddings, one per clinical task, produced by a frozen pretrained spatio-temporal graph convolutional network (ST-GCN) that fuses the thirteen body-worn sensors into a whole-body embedding; a three-layer Transformer with validity-mask weighting aggregates these tokens for binary PD-versus-control classification on the WearGait-PD cohort (181 subjects: 100 PD, 81 controls). Under a leakage-free nested protocol with repeated subject-disjoint stratified 5-fold cross-validation (5 seeds; 25 estimates per model) and paired significance testing, the model attains a balanced accuracy of 0.834 &#xb1; 0.087, macro-F1 of 0.842 &#xb1; 0.094, and AUC of 0.842 &#xb1; 0.103. It leads six classical baselines and a spectrogram-CNN on accuracy-based metrics, though random forest, gradient boosting, and the spectrogram-CNN edge ahead on AUC; after correction for fold correlation, none of these between-model differences is significant. The one robust finding is a transfer effect: replacing the pretrained encoder with a random one of identical architecture lowers balanced accuracy by 15.5 points when frozen (p",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42649750/",
+      "keywords": []
+    },
+    {
+      "pmid": "42658228",
+      "title": "Not always the usual suspect: symptom variations in Parkinson's disease beyond ON-OFF fluctuations.",
+      "journal": "Journal of neural transmission (Vienna, Austria : 1996)",
+      "date": "2026",
+      "abstract": "In addition to response fluctuations caused by the pharmacokinetics of dopamine replacement medication, temporal variation in the expression and severity of motor and non-motor symptoms, which is not or only partially attributable to the effects of the medication, are also common in Parkinson's disease (PD). The spectrum of transient changes of motor symptom expression unrelated to the classical ON-OFF fluctuations ranges from brief episodes of gait freezing or tremor breakthroughs to severe akinetic crisis and non-motor phenomena include discontinuous changes in cognition and vigilance. Disease-related factors such as dementia or orthostatic dysregulation or disturbances of the circadian rhythm may also contribute to these non-pharmacological symptom fluctuations. Additionally, external factors including infections or surgery and general anaesthesia can lead to transient changes of PD symptom severity and drug responsiveness. Accurately classifying these symptom oscillations and distinguishing them from drug-induced ON-OFF fluctuations is essential for their appropriate management.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42658228/",
+      "keywords": []
+    },
+    {
+      "pmid": "42653440",
+      "title": "Activation of the Nrf2-ARE Signaling Pathway Mediates the Neuroprotective Effects of Exercise in a Mouse Model of Chronic Parkinson's Disease.",
+      "journal": "International journal of molecular sciences",
+      "date": "2026",
+      "abstract": "Currently, effective disease-modifying treatments for Parkinson's disease (PD) remain lacking. Although exercise has been confirmed to exert neuroprotective effects against PD, its specific molecular mechanisms remain unclear. In particular, the causal role of the Nuclear Factor E2-related Factor 2 (Nrf2)-antioxidant response element (ARE) signaling axis in this process has not been clearly elucidated. This study aimed to provide direct causal evidence that regular treadmill exercise protects the substantia nigra pars compacta (SNc)-striatal dopaminergic system by activating the Nrf2-ARE pathway. The results showed that exercise significantly improved motor function deficits in PD mice, preserved the number of TH-positive neurons, and restored striatal dopamine homeostasis. Mechanistically, exercise activated the Nrf2-ARE pathway, thereby inhibiting the accumulation of mitochondrial ROS (mtROS) and the activation of pro-inflammatory amoeboid microglia in the substantia nigra. Crucially, the improvements in behavioral, neuropathological, and neurochemical indicators induced by exercise were completely reversed, returning to levels comparable to those in the sedentary model group. In conclusion, this study provides clear pharmacological evidence that the neuroprotective effect of regular treadmill exercise against chronic PD strictly depends on the Nrf2-ARE pathway. These findings indicate that Nrf2 is a key mechanistic node linking exercise and neuroprotection, providing reliable preclinical evidence for Nrf2-targeted disease-modifying strategies in PD rehabilitation.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42653440/",
+      "keywords": []
+    },
+    {
+      "pmid": "42651179",
+      "title": "Maximal Handgrip Strength as a Measure of General Functional Capacity Rather than Parkinson's Disease-Specific Impairment.",
+      "journal": "Brain sciences",
+      "date": "2026",
+      "abstract": "Background/Objectives:",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42651179/",
+      "keywords": []
+    },
+    {
+      "pmid": "42655485",
+      "title": "Instrumented Timed Up and Go Analysis Identifies Biomechanical Markers Across Early Hoehn and Yahr Stages of Parkinson's Disease.",
+      "journal": "Sensors (Basel, Switzerland)",
+      "date": "2026",
+      "abstract": "The Timed Up and Go (TUG) test is widely used to assess functional mobility in Parkinson's disease (PD), although total test duration may overlook phase-specific biomechanical alterations. This cross-sectional study investigated whether phase-specific analysis of the instrumented TUG (iTUG) could identify candidate biomechanical markers characterizing differences among early-stage PD subgroups and healthy controls. Seventy-nine participants (38 PD, 41 controls) performed four iTUG trials in the OFF-medication state. Movement data were collected using synchronized inertial measurement units and optoelectronic motion capture systems. The iTUG was segmented into six phases, and temporal, spatiotemporal, variability, and multisegmental kinematic parameters were analyzed. Participants with PD at modified Hoehn and Yahr (mH&Y) stage 2 performed the iTUG more slowly than controls (p",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42655485/",
+      "keywords": []
+    },
+    {
+      "pmid": "42648906",
+      "title": "Decoding Sleep Architecture from Ambulatory Basal Ganglia Signals in Parkinson's Disease.",
+      "journal": "Movement disorders : official journal of the Movement Disorder Society",
+      "date": "2026",
+      "abstract": "BACKGROUND: Sleep architecture and circadian rhythms are frequently disrupted in Parkinson's disease (PD). BrainSense-enabled neurostimulators combined with wearable technology enable chronic assessment of nocturnal brain activity, with potential for future diagnostics and personalized treatments. OBJECTIVES: To neurophysiologically characterize and decode sleep architecture and circadian rhythmicity from ambulatory subthalamic nucleus (STN) recordings in PD and to evaluate the influence of clinical factors. METHODS: Eighteen PD patients implanted with the Medtronic Percept system underwent 4-8&#x2009;weeks of ambulatory STN local field potential recordings, alongside wearable-based sleep monitoring. Spectral dynamics of three biomarkers (low-frequency-, beta-, and finely-tuned-gamma [FTG]-activity) were characterized across circadian cycles and sleep stages (Awake, Core, Deep, REM [rapid eye movement]). Machine-learning classifiers were developed for state decoding. RESULTS: A total of 3140&#x2009;hr of representative sleep data were analyzed. All biomarkers exhibited circadian modulation, most evident in beta and FTG activity. REM sleep and nocturnal wakefulness were associated with increased beta/FTG, whereas Deep sleep showed increased low-frequency and reduced beta/FTG. Classifiers showed that beta and FTG decoded circadian states, while low-frequency identified Deep sleep. Bilateral biomarker combination improved prediction. Clinically, greater motor impairment correlated with reduced REM beta power. Levodopa dosage and electrocardiogram artefacts influenced beta-based predictions, whereas age and sleep quality affected FTG-related predictions. CONCLUSIONS: This proof-of-concept study demonstrates that ambulatory basal ganglia recordings from implantable neurostimulators can capture key aspects of sleep stage architecture in PD. Distinct spectral biomarkers show differential sleep insights and practical utility, supporting the development of diagnostic tools a",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42648906/",
+      "keywords": []
+    },
+    {
+      "pmid": "42646579",
+      "title": "Hospital-to-Home Neurological Transition Care: A Scoping Review Across Selected Chronic Neurological Disorders.",
+      "journal": "Medical sciences (Basel, Switzerland)",
+      "date": "2026",
+      "abstract": "BACKGROUND: Returning home after neurological hospitalization, rehabilitation, or specialist care transfers responsibility to patients, caregivers, and community services. We mapped mechanisms and gaps across dementia/Alzheimer's disease and related dementias (ADRD), Parkinson's disease (PD), multiple sclerosis (MS), and amyotrophic lateral sclerosis (ALS). METHODS: Following JBI guidance and PRISMA-ScR, eligibility was derived using population-concept-context. We included empirical reports involving adults with a target condition, a post-discharge, return-home, rehabilitation, telehealth, caregiver, treatment, respiratory, or palliative continuity component, and post-transition patient, caregiver, service, safety, rehabilitation, equity, or implementation outcomes. Five databases were searched through to 11 May 2026. Two reviewers independently screened records; charting and classification were verified by R.S.C., A.C., and A.Q. RESULTS: Of 24,417 records, 69 reports were included: Dementia/ADRD, 28; PD, 10; MS, 9; and ALS, 22. Eighteen were core transition reports (26.1%), 14 return-home/community re-entry reports (20.3%), 16 adjacent continuity reports (23.2%), and 21 companion/secondary reports (30.4%). Dementia/ADRD provided discharge-anchored evidence; PD and MS mapped functional carry-over; ALS mapped adjacent respiratory, telehealth, and palliative continuity. CONCLUSIONS: The main contribution is an operational cross-disease framework separating direct discharge, return-home, adjacent-continuity, and companion evidence while linking mechanisms to disease-specific pathways. This framework maps disease-specific functions, not comparative effectiveness. The proposed frameworks are author-derived and hypothesis-generating. Future studies should use explicit anchors, standardized outcomes, longer follow-up, and equity-sensitive implementation measures addressing caregiver workload, digital access, feasibility, and sustainability. They inform testable, context-se",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42646579/",
+      "keywords": []
+    },
+    {
+      "pmid": "42650189",
+      "title": "NRF2 Deletion Results in Mobility Impairment in A53TSyn Model of Synucleinopathy.",
+      "journal": "Antioxidants (Basel, Switzerland)",
+      "date": "2026",
+      "abstract": "Parkinson's Disease (PD) is the second most diagnosed neurological disorder globally, affecting millions of people worldwide. Oxidative stress is implicated in the progression of PD, yet its direct effects on motor function, particularly in the context of synucleinopathy, are not fully understood. Here, we investigated the effects of the loss of the antioxidant regulatory transcription factor NRF2 in the A53TSyn mouse model of synucleinopathy. Motor function was evaluated in separate cohorts of A53TSyn mice without NRF2 (A53TSyn/NRF2KO), as well as A53TSyn mice expressing NRF2 (A53TSyn/NRF2+) and healthy wild-type (WT) mice at four, six, and eight months of age. The overall mobility decreased in A53TSyn/NRF2KO mice relative to WT mice at all ages. Significant alterations in gait were also apparent in A53TSyn/NRF2KO mice compared to A53TSyn mice without NRF2 deletion. Expression of tyrosine hydroxylase (TH) was also quantified in the brains of those mice. While there were no differences in cortical pSyn expression between A53TSyn/NRF2+ and A53TSyn/NRF2KO mice, a reduction in TH abundance in the striatum was evident in A53TSyn/NRF2KO mice at all ages. In summary, our data suggest that NRF2 plays a role in maintaining mobility and gait in the context of synucleinopathy and may represent a therapeutic target to mitigate mobility decline in PD-affected individuals.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42650189/",
+      "keywords": []
+    },
+    {
+      "pmid": "42647051",
+      "title": "Active Video Gaming Intervention in Adults With Mobility Impairments: Concurrent Mixed Methods Single-Arm Pilot Study.",
+      "journal": "JMIR serious games",
+      "date": "2026",
+      "abstract": "BACKGROUND: Adults with mobility impairments have limited opportunities for physical activity due to environmental barriers and lack of accessible exercise options. Active video games (AVGs) have shown promise for increasing physical activity by integrating movement into engaging gameplay. However, most commercial AVG controllers are not usable by those with severe mobility limitations. The GAIMplank is a novel adaptive game controller that translates trunk movements into gameplay, addressing this accessibility gap and enabling seated participation for individuals with limited lower-extremity function. OBJECTIVE: This study aimed to assess feasibility and acceptability of a 6-week GAIMplank-based intervention in adults with mobility impairments and to evaluate participants' perceived exertion, enjoyment, and engagement during gameplay. In addition, qualitative feedback was used to characterize participants' experiences with the intervention and to provide insight into implementation considerations for adapted exergaming in this population. METHODS: In total, 6 adults (2 female; mean age 65.2, SD 12.4 years) with mobility impairments due to stroke or Parkinson participated in a concurrent mixed methods single-arm pilot study. The intervention consisted of twice-weekly AVG sessions over 6 weeks using the GAIMplank controller to play video games. Self-report baseline measures included physical function, exercise expectations, and level of physical activity. During gameplay sessions, ratings of perceived exertion (RPEs), engagement, and enjoyment (0-10 rating scale) were collected. Additionally, physical activity and exergame enjoyment surveys were completed after sessions 1, 5, and 12. After the intervention, acceptability, appropriateness, and feasibility of the intervention (0-5 rating scale) were assessed. Qualitative data were collected through session comments and postintervention semistructured interviews. Descriptive statistics were used to summarize quantitativ",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42647051/",
+      "keywords": []
+    },
+    {
+      "pmid": "42655415",
+      "title": "Concurrent Validity and Between-System Agreement of a Commercial Wearable Inertial Sensor System for Gait and Postural Sway Assessment in Progressive Supranuclear Palsy.",
+      "journal": "Sensors (Basel, Switzerland)",
+      "date": "2026",
+      "abstract": "Wearable inertial measurement units (IMUs) offer an accessible alternative to optical motion capture (MoCap) gait analysis, but their performance in Progressive Supranuclear Palsy (PSP) requires validation. We assessed the concurrent validity of IMU-derived versus MoCap-derived gait metrics and static postural sway in 30 patients with PSP using Bland-Altman analysis, Intraclass Correlation Coefficients (ICC), and Spearman rank correlations. Finally, we assessed equivalence using the Two one-sided tests (TOST) procedure. Multivariable linear regression was used to determine whether clinical severity, as measured by the PSP Rating Scale (PSPRS), independently predicted absolute IMU measurement error while controlling for patient age and gait velocity. IMUs demonstrated excellent between-system agreement for parameters such as cadence (100.76 &#xb1; 11.42 vs. 100.52 &#xb1; 11.59) and cycle time (1.21 &#xb1; 0.15 vs. 1.22 &#xb1; 0.15; ICC > 0.98), despite a systematic underestimation of gait velocity (p",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42655415/",
+      "keywords": []
+    },
+    {
+      "pmid": "42648207",
+      "title": "Perillaldehyde alleviates Parkinson's disease via the gut microbiota-5-methyltetrahydrofolate-homocysteine methylation axis.",
+      "journal": "Phytomedicine : international journal of phytotherapy and phytopharmacology",
+      "date": "2026",
+      "abstract": "BACKGROUND: Gut microbiota dysbiosis is critically involved in the pathogenesis of Parkinson's disease (PD), yet therapeutic strategies targeting the gut-brain axis remain underexplored. Perillaldehyde (PAH), a natural monoterpene aldehyde primarily extracted from Perilla frutescens, exhibits significant neuroprotective and anti-inflammatory properties in vitro, but its effects on PD in vivo, particularly regarding microbiota-mediated mechanisms, have yet to be fully elucidated. PURPOSE: This study aims to investigate the anti-PD effects of PAH with a specific focus on the role of intestinal flora in it. METHODS: The protective effects of PAH on motor function and dopaminergic neurons were evaluated in a rotenone (ROT)-induced PD mice model using behavioral tests, immunofluorescence, and Western blotting. The involvement of gut microbiota was assessed through 16S rRNA sequencing, antibiotic-induced flora depletion, and fecal microbiota transplantation (FMT). Key metabolites were identified via metabolomics and validated by replenishment assays. The underlying molecular mechanism was further clarified through mitochondrial function analysis and gene knockdown experiments. RESULTS: PAH relieves PD-like pathologies in ROT- induced mice, such as motor disorders, gastrointestinal dysfunction, and nerve damage. FMT and co-housing experiments confirmed that the gut microbiota is essential for PAH's neuroprotective effects. Metabolomic analysis further showed that PAH can increase the levels of 5-methyltetrahydrofolate (5-MTHF) in mice serum. Supplementing 5-MTHF restores the weakened neuroprotective effect of PAH caused by microbiota clearance. Further in vitro mechanistic studies indicated that 5-MTHF improves neuronal mitochondrial dysfunction and alleviates ROT-induced nerve damage by lowering neurotoxic homocysteine (Hcy) levels, while knocking down the methionine synthase (Mtr) eliminates the mitochondrial protection provided by 5-MTHF. CONCLUSION: These findings unco",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42648207/",
+      "keywords": []
+    },
+    {
+      "pmid": "42645011",
+      "title": "How Gut Microbiota Influence Healthy Aging: Overview of Reviews.",
+      "journal": "Geriatrics (Basel, Switzerland)",
+      "date": "2026",
+      "abstract": "Background",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42645011/",
+      "keywords": []
+    },
+    {
+      "pmid": "42653806",
+      "title": "Pathogenesis-Driven Drug Repurposing with a Self-Nanoemulsifying Delivery System for Parkinson's Disease.",
+      "journal": "Pharmaceuticals (Basel, Switzerland)",
+      "date": "2026",
+      "abstract": "Background/Objectives",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42653806/",
+      "keywords": []
+    },
+    {
+      "pmid": "42649090",
+      "title": "Duzhong Fang (DZF) alleviates rotenone-induced Parkinson's disease-like pathological alterations through regulation of the gut-brain axis via the intestinal TPH1/5-HT pathway.",
+      "journal": "Drug discoveries & therapeutics",
+      "date": "2026",
+      "abstract": "The gut-brain axis is increasingly recognized as a critical pathway in Parkinson's disease (PD), but the gut-targeted mechanisms underlying the therapeutic effects of herbal formulas remain poorly understood. In this study, an enterogenic PD-like mouse model was established by long-term rotenone gavage and treated with Duzhong Fang (DZF) to investigate whether DZF acts through intestinally retained components to influence gut-brain &#x3b1;-synuclein pathology. DZF markedly improved motor dysfunction, increased nigral tyrosine hydroxylase (TH)-positive cell density, alleviated colonic inflammation, and reduced &#x3b1;-Syn accumulation in the vagus nerve and brain, while colonic &#x3b1;-Syn showed a decreasing trend. Mechanistically, DZF downregulated colonic TPH1 and 5-HT3A expression, reshaped gut microbiota composition, and modulated fecal metabolites related to tryptophan metabolism and the 5-HT biosynthetic pathway. Molecular docking predicted potential interactions between TPH1 and gut-retained gingerol-related compounds, including 6-shogaol, 10-gingerdione, 10-gingerol, and 4-gingerol. These findings suggest that DZF ameliorates rotenone-induced PD-like phenotypes and may act by modulating the intestinal TPH1/5-HT-related pathway and &#x3b1;-Syn pathology along the gut-brain axis. This study supports a gut-targeted, neural-regulated therapeutic paradigm for traditional Chinese medicine and provides potential lead compounds for gut-directed anti-PD intervention.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42649090/",
+      "keywords": []
+    },
+    {
+      "pmid": "42646562",
+      "title": "Identifying Risk Factors for Caregiver Burden in Neurological Disorders Using Machine Learning.",
+      "journal": "Medical sciences (Basel, Switzerland)",
+      "date": "2026",
+      "abstract": "Background:",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42646562/",
+      "keywords": []
+    },
+    {
+      "pmid": "42658689",
+      "title": "Assistive technology for independent community living: a scoping review of needs and solutions related to physical impairments.",
+      "journal": "Disability and rehabilitation. Assistive technology",
+      "date": "2026",
+      "abstract": "PURPOSE: This study aimed to clarify research and development trends in assistive technologies (ATs) designed to maintain and improve physical function during the community-living phase, using a scoping review approach. MATERIALS AND METHODS: A comprehensive search of Web of Science, PubMed, and IEEE Xplore was conducted for studies published between 2010 and 15 March 2024. A total of 1,112 records were retrieved, of which 63 studies met the inclusion criteria, focusing on ATs in community-living contexts. These studies were classified into investigations of support needs and challenges, and studies evaluating or implementing technological components. RESULTS: The majority of studies targeted individuals with physical disabilities, older adults, or those experiencing frailty. Stroke was the most frequently studied condition, followed by Parkinson's disease and spinal cord injury. Needs assessments revealed unmet requirements for mobility-related AT, home adaptations, and information technology (IT) services. The technologies that have reached the implementation stage primarily include telerehabilitation and mobile applications. ATs for walking and fall-risk assessment have advanced to implementation, whereas upper-limb functional training devices remain in the verification stage. CONCLUSIONS: This review identifies priority areas for advancing AT research and development, particularly for maintaining and improving physical functions during community living.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42658689/",
+      "keywords": []
+    },
+    {
+      "pmid": "42618781",
+      "title": "An Icelandic pangenome reference.",
+      "journal": "Nature",
+      "date": "2026",
+      "abstract": "Reference bias is an issue that affects most genomic studies analysing short reads mapped to a reference genome1,2",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42618781/",
+      "keywords": []
+    },
+    {
+      "pmid": "42650103",
+      "title": "RNA Splicing Dysregulation in Parkinson's Disease.",
+      "journal": "Genes",
+      "date": "2026",
+      "abstract": "Genetic mutations, altered RNA regulation, and protein aggregation are the main hallmarks of Parkinson's disease (PD), a neurodegenerative disorder. Investigation into the molecular basis of the disease revealed that post-transcriptional regulation, specifically RNA processing, contributes to neuronal vulnerability in PD. Alterations in alternative splicing affecting genes involved in neuronal function and cellular homeostasis have been reported in PD, including SNCA",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42650103/",
+      "keywords": []
+    },
+    {
+      "pmid": "42658426",
+      "title": "Selenium-Related Genes Modulate Susceptibility to Parkinson's Disease Via Combination and SNCA-Interactive Effects Rather than Independent Effects: A Case-Control Study.",
+      "journal": "Biological trace element research",
+      "date": "2026",
+      "abstract": "Oxidative stress is widely recognized as a key contributor to the pathogenesis of Parkinson's disease (PD), yet the contribution of genetic variation in selenium-related pathways remains incompletely understood. In this study, we investigated whether selenium-related genetic variations contribute to PD susceptibility in a Han Chinese population comprising 527 sporadic PD patients and 499 controls. Nine polymorphisms in SNCA, EEFSEC, GPX1, GPX4, TXNRD2, SELENOP, SELENOW, SOD2, and CAT were genotyped using improved multiplex ligation detection reaction. Logistic regression analyses adjusted for age and sex were performed to evaluate individual associations. Combined genotype and interaction analyses were conducted to investigate combination effects among the variants and their interactions with SNCA. Among the investigated variants, only SNCA rs356203 was significantly associated with PD after Bonferroni correction. Although no significant association was observed individually for the remaining variants, a genotype combination involving EEFSEC, GPX1, GPX4, and TXNRD2 was significantly associated with reduced PD susceptibility. Interaction analyses using the recessive model revealed no significant interactions between the selenium-related gene variants and SNCA rs356203 in the total population. However, significant sex-specific interactions were observed: EEFSEC with SNCA in males, and TXNRD2 with SNCA in females. These findings confirm the association between SNCA rs356203 and PD risk and suggest that selenium-related genes may modulate PD susceptibility primarily through combined rather than independent effects. Our study also offers novel genetic insights linking SNCA to selenium-related antioxidant pathways in sporadic PD.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42658426/",
+      "keywords": []
+    },
+    {
+      "pmid": "42651749",
+      "title": "Distinct Transcriptomic Signatures of HIV-1 Tat and gp120 Uncover Differential Neuroimmune Vulnerability in a Gba1-Deficient Synucleinopathy Model.",
+      "journal": "Current issues in molecular biology",
+      "date": "2026",
+      "abstract": "HIV-associated neurocognitive disorders (HAND) persist despite effective antiretroviral therapy, indicating that chronic neuroimmune dysfunction extends beyond active viral replication. Among HIV-1-derived factors, the viral proteins Tat and gp120 are contributors to sustained brain inflammation. Nevertheless, their comparative impact in genetically vulnerable neural environments remains unclear. Here, we performed a secondary transcriptomic analysis of publicly available RNA-seq data derived from the striatal tissue of hSNCA",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42651749/",
       "keywords": []
     }
   ]

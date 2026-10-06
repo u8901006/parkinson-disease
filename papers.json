@@ -1,60 +1,150 @@
 {
-  "date": "2026-10-06",
-  "generated_at": "2026-10-05T20:53:24.573Z",
-  "total_fetched": 6,
+  "date": "2026-10-07",
+  "generated_at": "2026-10-06T18:37:57.670Z",
+  "total_fetched": 16,
   "papers": [
     {
-      "pmid": "42831534",
-      "title": "Blood-brain barrier opening with focused ultrasound reduces neuromelanin in a non-human primate model.",
-      "journal": "Brain : a journal of neurology",
-      "date": "2026",
-      "abstract": "Age-related accumulation of neuromelanin (NM) has been implicated in the intrinsic vulnerability of catecholaminergic neurons in Parkinson's disease. Postmortem studies in Parkinson's disease patients have revealed elevated intracellular and extracellular NM in the substantia nigra pars compacta, whereas experimental enhancement of NM synthesis in animal models disrupts neuronal homeostasis and accelerates neurodegeneration. Low-intensity focused ultrasound combined with microbubbles (LIFU-MB) induces focal opening of the blood-brain barrier. It has been shown to influence protein aggregation and modulate pigment-related processes, thereby raising the possibility that it may also impact NM dynamics in the brain. Here, we investigated the possibility that repeated LIFU-MB-mediated blood-brain barrier opening could modify NM accumulation in a non-human primate model that overexpresses human tyrosinase, leading to elevated NM accumulation in the substantia nigra pars compacta. Comprehensive characterization revealed that these animals exhibit several features compatible with early pathological changes in Parkinson's disease including extracellular NM release, increased iron accumulation, nigral inflammatory changes, and intracellular inclusion formation. Importantly, these alterations occur in the absence of substantial dopaminergic cell loss and behavioral deficits. LIFU-MB-treated animals showed a marked reduction in both intracellular and extracellular NM, accompanied by a trend toward decreased free ferric iron. These results indicate that early, non-invasive LIFU-MB intervention can counteract mechanisms linked to excessive NM accumulation. Moreover, this approach provides a translational framework to explore the broader feasibility of reducing intracellular pigments and pathological aggregates in the brain. Given its clinical safety, capacity to reach deep brain structures, and non-invasive nature, LIFU-MB warrants further investigation as a possible therapeutic ",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42831534/",
-      "keywords": []
-    },
-    {
-      "pmid": "42830532",
-      "title": "Astaxanthin Nanoemulsion Attenuates Paraquat-Induced Parkinsonism via Modulation of Oxidative Stress, Neuroinflammation, and Dopaminergic Dysfunction in Rats.",
-      "journal": "Xenobiotica; the fate of foreign compounds in biological systems",
-      "date": "2026",
-      "abstract": "1. BACKGROUND: Parkinson's disease (PD) involves dopaminergic dysfunction, oxidative stress, and neuroinflammation. This study evaluated an optimized astaxanthin-loaded nanoemulsion (AXTNE) in paraquat-induced experimental Parkinsonism. 2. METHODS: Male Wistar rats were randomly assigned to nine groups (n&#x2009;=&#x2009;6). Parkinsonian alterations were induced by paraquat (10&#x2009;mg/kg, i.p.) twice weekly for 4 weeks. Aqueous astaxanthin (AXT; 30&#x2009;mg/kg), AXTNE (15 and 30&#x2009;mg/kg), levodopa&#x2009;+&#x2009;carbidopa (15&#x2009;+&#x2009;3.75&#x2009;mg/kg), and AXTNE-levodopa combinations were administered orally for 28 days. Motor function was assessed using catalepsy, locomotor activity, grip strength, postural instability, and beam-walk tests. Pooled bilateral striatal tissue was analyzed for oxidative stress, inflammatory cytokines, monoaminergic neurotransmitters, and dopaminergic protein markers. 3. RESULTS: Paraquat induced motor deficits, oxidative imbalance, increased inflammatory cytokines, reduced dopamine and noradrenaline, and altered tyrosine hydroxylase (TH), aromatic L-amino acid decarboxylase (AADC), and &#x3b1;-synuclein levels. AXTNE attenuated these alterations and reduced MDA levels measured by TBARS. AXTNE-levodopa combinations produced additional improvements across several endpoints. 4. CONCLUSION: AXTNE attenuated multiple paraquat-associated Parkinsonian alterations, with generally greater numerical improvements than aqueous AXT. Combination with levodopa showed potential complementary effects. Further histopathological, pharmacokinetic, biodistribution, and mechanistic studies are warranted.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42830532/",
-      "keywords": []
-    },
-    {
-      "pmid": "42830106",
-      "title": "DNA Methylation of the SNCA Intron&#xa0;1 and Alpha-Synuclein Expression in the CD45+ Blood Cells in Parkinson's Disease.",
-      "journal": "Biochemistry. Biokhimiia",
-      "date": "2026",
-      "abstract": "Alpha-synuclein oligomers are believed to be the major neurotoxic agents in neurodegenerative process in Parkinson's disease&#xa0;(PD). The&#xa0;SNCA",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42830106/",
-      "keywords": []
-    },
-    {
-      "pmid": "42830104",
-      "title": "mTOR and STING Modulation Restores Hydrolase Activities and Decreases Alpha-Synuclein Pathology in the Cells from the Patients with GBA1-Associated Parkinson's Disease.",
-      "journal": "Biochemistry. Biokhimiia",
-      "date": "2026",
-      "abstract": "Parkinson's disease&#xa0;(PD) is a progressive neurodegenerative disorder characterized by dopaminergic neuron loss and pathological accumulation of alpha-synuclein. Aberrant activation of the mechanistic target of rapamycin (mTOR) and of the stimulator of interferon genes (STING) signaling pathways are increasingly recognized as central contributors to PD pathogenesis. The GBA1",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42830104/",
-      "keywords": []
-    },
-    {
-      "pmid": "42830340",
-      "title": "A 46-year-old man with progressive gait impairment and parkinsonism - when a simple diagnosis does not fit all symptoms.",
-      "journal": "Neurological sciences : official journal of the Italian Neurological Society and of the Italian Society of Clinical Neurophysiology",
+      "pmid": "42832828",
+      "title": "Punding induced by continuous subcutaneous foslevodopa/foscarbidopa infusion in atypical parkinsonism.",
+      "journal": "Parkinsonism & related disorders",
       "date": "2026",
       "abstract": "",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42830340/",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42832828/",
       "keywords": []
     },
     {
-      "pmid": "42830617",
-      "title": "Effect of Continuous Subcutaneous Foslevodopa/Foscarbidopa Infusion on Parkinson's Disease-Related Pain: A 6-Month Real-World Longitudinal Study.",
-      "journal": "Movement disorders clinical practice",
+      "pmid": "42832827",
+      "title": "Disentangling amantadine response variability in levodopa related dyskinesias: Role of clinical and genetic factors.",
+      "journal": "Parkinsonism & related disorders",
       "date": "2026",
-      "abstract": "BACKGROUND: Foslevodopa/foscarbidopa (LDp/CDp) infusion may reduce PD-related pain; however, its effects on different pain manifestations remain unclear. OBJECTIVE: The aim was to evaluate longitudinal changes in overall and domain-specific PD-related pain after LDp/CDp infusion. METHODS: Twenty-six patients with advanced PD initiating LDp/CDp infusion underwent evaluation at baseline (T0) and 6&#x2009;months (T1). Pain was assessed using the King's Parkinson's Disease Pain Scale (KPPS). Secondary outcomes included motor complications, quality of life (QoL), dopaminergic treatment burden, and pain-motor correlations. RESULTS: At T1, KPPS total score decreased (9.6&#x2009;&#xb1;&#x2009;6.5 vs. 2.7&#x2009;&#xb1;&#x2009;4.7, P&#x2009;<&#x2009;0.001), with improvements in chronic (P&#x2009;=&#x2009;0.01), fluctuation-related (P&#x2009;<&#x2009;0.001), and nocturnal (P&#x2009;<&#x2009;0.001) pain. Motor complications reduced (P&#x2009;<&#x2009;0.001), and fluctuation-related pain reduction correlated with motor complication changes (&#x3c1;&#x2009;=&#x2009;0.46, P&#x2009;=&#x2009;0.04). QoL improved (P&#x2009;=&#x2009;0.006), whereas dopaminergic treatment burden was unchanged. CONCLUSIONS: LDp/CDp infusion improved PD-related pain, particularly chronic, fluctuation-related, and nocturnal pain, with a parallel improvement in QoL, suggesting benefits beyond motor complication management.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42830617/",
+      "abstract": "BACKGROUND: Amantadine is the most commonly used pharmacologic treatment for levodopa-related dyskinesias (LRD), yet its efficacy and tolerability vary substantially, challenging clinical decision-making. OBJECTIVE: To explore clinical, demographic, and genetic factors associated with variability in amantadine treatment outcomes. METHODS: Cross-sectional study of Parkinson's disease (PD) patients treated with amantadine for LRD. Participants were classified as responders or non-responders; with non-responders further subdivided according to the presence of intolerable side effects. Clinical and demographic data were collected and participants underwent genotyping. Polygenic risk scores for PD risk (PD-PRS) and genetic variants associated with levodopa or amantadine metabolism and LRD susceptibility were assessed. RESULTS: A total of 146 participants were included (male 57%, mean age 66.9 years); 94 provided biological samples and 86 passed quality control. Responders had a longer interval from PD diagnosis to amantadine initiation (median 5.5 vs. 3 years, p&#x202f;=&#x202f;0.005) and higher levodopa equivalent daily dose (LEDD) (1057.6&#x202f;mg&#x202f;&#xb1;&#x202f;431.5 vs. 831.1&#x202f;mg&#x202f;&#xb1;&#x202f;504.7, p&#x202f;=&#x202f;0.006). Among non-responders, LEDD was lower in those experiencing side effects (725.2&#x202f;mg&#x202f;&#xb1;&#x202f;397.5 vs. 1013.5&#x202f;mg&#x202f;&#xb1;&#x202f;613.6, p&#x202f;=&#x202f;0.015). The DRD1 rs4532-C allele was nominally associated with favorable response, whereas ANKK1, DRD2, and COMT variants were nominally associated with side effects. PD-PRS showed no association with response. CONCLUSIONS: Clinical and genetic factors may influence amantadine response. Earlier amantadine initiation and lower LEDD were associated with a poorer response to amantadine. Genetic markers in the dopaminergic pathways may facilitate a personalized treatment approach in PD.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42832827/",
+      "keywords": []
+    },
+    {
+      "pmid": "42834087",
+      "title": "Behavioral changes preceded by subthalamic nucleus activity alterations in a progressive macaque model of Parkinson's disease.",
+      "journal": "NPJ Parkinson's disease",
+      "date": "2026",
+      "abstract": "Parkinson's disease (PD) is diagnosed after motor symptoms appear, although non-motor symptoms emerge years earlier. Following years of pharmacological treatment, high-frequency stimulation (HFS) of the subthalamic nucleus (STN), a key hub in goal-directed behaviors, can be proposed. While HFS-STN reliably improves motor symptoms, it does not specifically address non-motor symptoms. Clarifying how STN dysfunction contributes to these symptoms could improve stimulation strategies. Here, we longitudinally recorded STN local field potentials in two macaques performing a demanding task during chronic low-dose MPTP treatment. This progressive model, evolving from an asymptomatic stage to motivational, cognitive, and motor deficits, enabled detailed characterization of non-motor stages preceding motor impairment. Each stage was associated with distinct electrophysiological alterations, including early loss of reward-related theta activity, followed by disappearance of decision-related theta oscillations and later reduction of movement-related beta rebound. In the stable parkinsonian stage, stimulation of different STN territories produced complementary behavioral effects: dorsal HFS improved motor performance, whereas ventral low-frequency stimulation alleviated motivational deficits. These findings reveal a temporal relationship between STN dysfunction and symptom onset and support site- and frequency-specific stimulation strategies to address motor and non-motor symptoms in PD.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42834087/",
+      "keywords": []
+    },
+    {
+      "pmid": "42833593",
+      "title": "Plasma PINK1/Parkin ratio and ATF5 as potential biomarkers associated with dyskinesia in Parkinson's disease.",
+      "journal": "Neurobiology of disease",
+      "date": "2026",
+      "abstract": "BACKGROUND: Motor complications (MCs), particularly dyskinesia (DYS), affect many PD patients within years of levodopa therapy, yet reliable biomarkers for MC subtypes remain elusive. Mitochondrial quality control (MQC) pathways, including mitophagy and the mitochondrial unfolded protein response (UPRmt METHODS: In this cross-sectional study, a total of 247 PD patients were enrolled and analyzed in a mitophagy discovery set (n&#x202f;=&#x202f;174), a UPRmt RESULTS: Neither mitophagy nor UPRmt CONCLUSIONS: Circulating MQC biomarkers, particularly the PINK1/Parkin ratio and ATF5, are associated with prevalent DYS in PD, suggesting that MQC-related pathways may be involved in DYS pathophysiology.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42833593/",
+      "keywords": []
+    },
+    {
+      "pmid": "42834215",
+      "title": "AA and Parkinson's Disease.",
+      "journal": "Reviews of physiology, biochemistry and pharmacology",
+      "date": "2027",
+      "abstract": "Parkinson's disease (PD) is due to degeneration of dopaminergic neurons in substantia nigra pars compacta. PD neuropathology is characterized by the presence of Lewy bodies that contain aggregated &#x3b1;-synuclein, which has been implicated in a range of interactions with phospholipid membranes and free fatty acids. I propose that &#x3b1;-synuclein interacts with arachidonic acid (AA) to regulate the function of dopaminergic neurons. &#x3b1;-Synuclein sequesters AA, whereas AA induces the formation of oligomers that are alpha-helical; resistant to fibril formation; more prone to disaggregation, enzymatic digestion, and degradation; and hence less likely to cause neuronal damage and induce PD. In addition, AA interacts with syntaxin to regulate exocytosis of various neurotransmitters, including dopamine. AA has potent anti-inflammatory actions, serves as a mechanotransducer, influences cell membrane fluidity, enhances glucose uptake by neurons, possesses cytoprotective action, and is the precursor of anti-inflammatory lipoxin A4 (LXA4), actions that maintain the integrity of dopaminergic neurons in the substantia nigra pars compacta. The dynamic equilibrium among &#x3b1;-synuclein, syntaxin, AA, exocytosis of dopamine, formation of LXA4, and the inflammatory process is involved in the development of PD. This implies that deficiency of AA can render dopaminergic neurons susceptible to inflammatory neurodegeneration and development of PD. Hence, it is proposed that administration of AA and DHA (that are present in substantial amounts in the brain) can be used in the prevention and management of PD.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42834215/",
+      "keywords": []
+    },
+    {
+      "pmid": "42833352",
+      "title": "Frontal aperiodic activity and sensorimotor theta clustering are differentially modulated by tDCS during proprioceptive training in Parkinson's disease: An EEG study.",
+      "journal": "Neuroscience",
+      "date": "2026",
+      "abstract": "Proprioceptive deficits are a core feature of Parkinson's disease (PD), but the neural mechanisms by which transcranial direct current stimulation (tDCS) may augment proprioceptive learning remain unknown. This study investigated whether six sessions of anodal tDCS combined with proprioceptive training modulates EEG&#x2011;derived aperiodic activity, Lempel&#x2011;Ziv complexity (LZC), and theta clustering in individuals with PD. Twenty&#x2011;four participants with mild&#x2011;to&#x2011;moderate PD were randomly assigned to active (2 mA, 20 min) or sham tDCS over the supplementary motor area, combined with a proprioceptive exercise protocol (three sessions/week for two weeks). EEG was recorded during quiet standing with eyes closed before and after the intervention. Aperiodic exponent, aperiodic offset, LZC, and theta clustering were extracted from frontal and central lobes. Significant group&#xd7;time interactions were observed in the frontal lobe for aperiodic exponent (p=0.022), aperiodic offset (p=0.005), and LZC (p<0.001). The sham group showed flattening of the aperiodic exponent, reduced offset, and increased LZC (+108%), while the active tDCS group remained stable or decreased. In the central lobe, significant interactions were found for LZC (p=0.035) and theta clustering (p=0.014), with the sham group increasing and the active group decreasing on both metrics. No significant interactions were observed in parietal, temporal, occipital, or global parameters. tDCS may serve as a valuable adjunct to proprioceptive rehabilitation in PD by accelerating the transition from effortful, compensatory processing to automatic, efficient sensorimotor control potentially enhancing balance and gait training, reducing fall risk, and informing mechanism-based neurorehabilitation. EEG-derived aperiodic and complexity metrics may serve as biomarkers of intervention response.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42833352/",
+      "keywords": []
+    },
+    {
+      "pmid": "42818243",
+      "title": "Higher cortical beta oscillatory power before balance perturbations is associated with worse balance in older adults with Parkinson's Disease, but not in age-matched older adults.",
+      "journal": "bioRxiv : the preprint server for biology",
+      "date": "2026",
+      "abstract": "UNLABELLED: Elevated beta activity is hypothesized to reflect reduced flexibility in updating motor and sensory states, which may impair the rapid integration of sensory information required for balance. Therefore, we predicted that higher cortical beta power immediately before balance perturbations would be associated with poorer clinical balance performance, particularly in individuals with Parkinson's Disease (PD). Seventeen individuals with PD (median Hoehn C Yahr = 2) and eighteen neurotypical older adults stood on a translating platform while 32-channel electroencephalography was recorded. For each participant, the cortical component contributing most strongly to the perturbation-evoked N1 response, a balance-related cortical response localized to the supplementary motor area, was identified. Oscillatory beta power (13-30 Hz) during the one-second period immediately preceding perturbation onset was extracted from this N1-related cortical source and parameterized using Fitting Oscillations and One-Over-F (FOOOF). Balance ability was assessed using the Mini-Balance Evaluation Systems Test (Mini-BESTest). Beta power derived from this N1-related source did not differ between groups; however, within individuals with PD, higher pre-perturbation beta power was associated with lower Mini-BESTest scores, a relationship not observed in neurotypical older adults. A subset of older adults exhibited an additional, higher-frequency beta peak absent in PD, suggesting heterogeneity in cortical beta dynamics with aging. These findings suggest that elevated cortical beta oscillations immediately preceding balance perturbations are linked to clinically meaningful balance impairment in PD, supporting beta activity as a potential cortical biomarker of balance dysfunction in this population. NEW AND NOTEWORTHY: This study provides novel evidence linking pre-perturbation beta oscillations over central sensorimotor regions to clinical balance impairments in people with Parkinson's di",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42818243/",
+      "keywords": []
+    },
+    {
+      "pmid": "42836023",
+      "title": "Longitudinal characterization of biomechanical alterations in a Parkinson's disease mouse model using three-dimensional ground reaction forces.",
+      "journal": "Clinical parkinsonism & related disorders",
+      "date": "2026",
+      "abstract": "OBJECTIVE: To longitudinally characterize locomotor biomechanical changes following unilateral intrastriatal &#x3b1;-Syn PFF inoculation in a Parkinson's disease mouse model and explore candidate the ground reaction force (GRF) based measures for their quantitative assessment. METHODS: Based on biomechanical principles, this study analyzed the GRF of mice following &#x3b1;-Synuclein preformed fibril (PFF) inoculation to investigate longitudinal biomechanical indicators of changes in motor function after inoculation. A unilateral intrastriatal PFF injection mouse model was established, and a three-dimensional force sensor array was developed to measure GRF in control and PFF-injected mice at 0, 1, 3, and 6&#xa0;months post-modeling. Independent-samples t RESULTS: At 0-months post-modeling, no significant differences in GRF or gait parameters were observed between the control and PFF groups. At 1-month post-inoculation, a significant difference in the maximum force-vector angle of the left hindlimb was observed, together with a separate difference in right forelimb GRF. At 3-months post-modeling, the PFF group exhibited prolonged gait-cycle and stance-phase durations, accompanied by reduced left-side GRF and pronounced bilateral asymmetry. At 6-months post-modeling, interlimb asymmetry further increased, particularly in the hindlimbs, whereas some between-group differences in gait parameters became less pronounced. CONCLUSION: Three-dimensional GRF analysis revealed time-dependent changes in locomotor biomechanics following unilateral intrastriatal PFF inoculation. Parameters including GRF magnitude, force-vector angles, gait-cycle duration, stance-phase duration, and inter-limb asymmetry serve as candidate biomechanical markers for longitudinally characterizing motor dysfunction in mouse models of Parkinson's disease, though further validation in larger animal cohorts is required.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42836023/",
+      "keywords": []
+    },
+    {
+      "pmid": "42821418",
+      "title": "Crosstalk between exosomes and cellular senescence: A core vicious loop promoting &#x3b1;-synuclein pathology in Parkinson's disease.",
+      "journal": "Neural regeneration research",
+      "date": "2026",
+      "abstract": "Parkinson's disease is characterized by &#x3b1;-synuclein aggregation, dopaminergic neuron loss, and neuroinflammation. Emerging evidence reveals complex crosstalk between exosomes and cellular senescence in Parkinson's disease pathogenesis. Exosomes mediate &#x3b1;-synuclein transmission and neuroinflammation, while delivering protective factors such as miRNAs that inhibit cellular senescence. Senescent cells secrete pro-inflammatory factors via mitochondrial dysfunction and the senescence-associated secretory phenotype, linking to Parkinson's disease mitophagy defects. This forms a vicious \"senescence-protein deposition-inflammation\" cycle, with senescent cell-derived exosomes exacerbating &#x3b1;-synuclein aggregation and inflammation. Therapeutically, exosomes are ideal drug carriers due to blood-brain barrier penetrability and low immunogenicity for targeted antioxidant delivery. Future perspectives highlight exosome-based biomarkers and brain-gut axis intervention as promising directions. We propose integrating exosome engineering and senolytic strategies to lay the foundation for early diagnosis and precision therapy of Parkinson's disease, promoting diagnosis-intervention translational research and bridging bench-tobedside translation.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42821418/",
+      "keywords": []
+    },
+    {
+      "pmid": "42834905",
+      "title": "The influence of DanceSport on the mental health of patients with chronic diseases: a systematic review.",
+      "journal": "Frontiers in psychology",
+      "date": "2026",
+      "abstract": "BACKGROUND: Chronic diseases have a significant influence on patients' mental health. DanceSport, as a form of exercise that combines physical activity, musical expression, and social interaction, may serve as an effective means of improving the physical and mental health of patients with chronic diseases; however, the current evidence regarding the influence of DanceSport on the mental health of these patients remains unclear. Clarifying this relationship will provide guidance for promoting mental health and designing exercise intervention programs for individuals with chronic diseases. Therefore, this study aims to investigate the effect of DanceSport on the mental health of patients with chronic diseases. METHODS: A systematic search was conducted in the PubMed, EBSCO, and Web of Science databases for English-language literature published from the inception of each database through 7 April 2026. The literature screening process consisted of three stages: removal of duplicates, title and abstract screening, and full-text review. The entire study strictly followed the PRISMA guidelines, and the methodological quality of the included studies was assessed using the Cochrane Risk of Bias Assessment Tool. RESULTS: This study ultimately included 21 studies involving a total of 1,087 patients with chronic diseases. The results showed that DanceSport interventions had a certain impact on mental health-related indicators in patients with chronic diseases, including depression, anxiety, wellbeing, cognitive function, emotional state, self-confidence, self-efficacy, apathy, fear, loneliness, stress, feelings of shame, and frustration. Tango and Argentine tango interventions were most widely used among patients with Parkinson's disease; relevant studies primarily reported positive changes in outcomes such as depression, wellbeing, certain cognitive functions, emotional state, and confidence in balance. In addition, ballroom dancing, samba, waltz, and comprehensive dance inter",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42834905/",
+      "keywords": []
+    },
+    {
+      "pmid": "42835402",
+      "title": "Ultrasound neuromodulation in brain disorders: from mechanotransduction mechanisms to clinical translation.",
+      "journal": "Frontiers in neuroscience",
+      "date": "2026",
+      "abstract": "Brain disorders impose a major global health burden, yet current pharmacological and neuromodulation therapies are often constrained by invasiveness, limited spatial precision, poor access to deep brain structures, or insufficient long-term efficacy. Non-invasive ultrasound neuromodulation has emerged as a promising approach combining high spatial resolution, deep tissue penetration, and reversible modulation. Its biological effects arise from multiscale mechanotransduction involving membrane deformation, mechanosensitive ion channels, intracellular calcium signaling, glial regulation, and neurovascular coupling. Together, these processes modulate neuronal excitability, synaptic plasticity, network connectivity, neuroinflammation, and cerebral perfusion. Preclinical studies support its therapeutic potential across neurological and psychiatric disorders, while early clinical studies indicate short-term tolerability and preliminary target engagement in Alzheimer's disease, Parkinson's disease, and depression. Emerging approaches, including individualized treatment planning, closed-loop stimulation, and sonogenetics, may further improve the precision and cellular specificity of ultrasound neuromodulation. This review summarizes the physical principles and cellular mechanisms of ultrasound neuromodulation, evaluates its therapeutic and clinical applications, and discusses key challenges and future directions, including personalized stimulation, closed-loop systems, sonogenetics, and disease-modifying strategies.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42835402/",
+      "keywords": []
+    },
+    {
+      "pmid": "42834674",
+      "title": "Directional Adaptive Deep Brain Stimulation: An Initial Report of Safety, Tolerability, and Effectiveness.",
+      "journal": "Movement disorders : official journal of the Movement Disorder Society",
+      "date": "2026",
+      "abstract": "BACKGROUND: Adaptive deep brain stimulation (aDBS) is a safe and effective therapy for people with Parkinson's disease (PWP). Utilization of directional aDBS has not been specifically evaluated. OBJECTIVES: The goal is to report the first data on the safety, tolerability, and preliminary effectiveness of chronic, directional aDBS in PWP. METHODS: A supplemental cohort from the Adaptive DBS Algorithm for Personalized Therapy in Parkinson's Disease Trial received directional aDBS. Participants who were previously receiving stable continuous directional DBS (dDBS) completed an open-label evaluation of two aDBS modes. RESULTS: Seventeen participants were enrolled, with 15 completing directional aDBS evaluation. The prespecified primary endpoint and post hoc success criterion was met for both directional aDBS modes. On-time without troublesome dyskinesia was increased, with a median of 1.2&#x2009;hours/day in directional dual threshold aDBS mode. Stimulation-related events were similar between dDBS and directional aDBS. All 15 participants chose to continue with directional aDBS chronically. CONCLUSIONS: Preliminary data indicates chronic directional aDBS is feasible, tolerable, effective, and safe in PWP. &#xa9; 2026 The Author(s). Movement Disorders published by Wiley Periodicals LLC on behalf of International Parkinson and Movement Disorder Society.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42834674/",
+      "keywords": []
+    },
+    {
+      "pmid": "42834951",
+      "title": "Distinct brain activation patterns linked to clinical symptoms during hand grasping in Parkinson's disease.",
+      "journal": "Frontiers in aging neuroscience",
+      "date": "2026",
+      "abstract": "OBJECTIVE: This study aimed to investigate the characteristics of brain functional activation during a hand grasping task in patients with Parkinson's Disease (PD) using functional near-infrared spectroscopy (fNIRS), and to further explore the clinical factors associated with the level of regional brain activation. METHODS: Fifty-nine PD patients were enrolled. Demographic data (age, sex, education level) and clinical characteristics (disease duration, Hoehn-Yahr stage, UPDRS-III score, side of onset, motor complications, cognitive function, activities of daily living, non-motor symptoms, and levodopa equivalent daily dose) were collected for all participants. Oxygenated hemoglobin (HbO2 RESULTS: Among the 59 PD patients, 38 (64.4%) had constipation and 17 (28.8%) had freezing of gait (FOG). Under the left-hand task, constipation was significantly positively correlated with parameters in 13 brain regions (pFDR < 0.05), mainly including the bilateral dorsolateral prefrontal cortex, left frontal eye field, and left premotor area (regression coefficients: 0.0033-0.8538). No other clinical variables showed significant associations. Under the right-hand task, FOG was significantly negatively correlated with the full width at half maximum (FWHM) of the right primary motor cortex (&#x3b2; = -8.52, 95% CI: -12.98 to -4.06, pFDR = 0.010). No other clinical variables showed significant associations; however, larger studies are needed to confirm these findings and to evaluate potential subtle effects, particularly for RBD. CONCLUSION: In PD patients, constipation is associated with cortical hyperactivation in the prefrontal-premotor areas during the non-dominant hand task. Conversely, FOG correlates with reduced hemodynamic persistence and shortened activation duration in the right primary motor cortex (M1) during the dominant hand task. fNIRS can act as an objective tool to explore the cortical mechanisms of motor and non-motor symptoms in PD, providing hypothesis-generating ",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42834951/",
+      "keywords": []
+    },
+    {
+      "pmid": "42834785",
+      "title": "Home-based visual perceptual learning improves contrast sensitivity in Parkinson's disease: a proof-of-concept study.",
+      "journal": "Journal of movement disorders",
+      "date": "2026",
+      "abstract": "PURPOSE: To assess whether visual perceptual learning (VPL) enhances contrast sensitivity function (CSF) in Parkinson's disease (PD); as a secondary exploratory aim, to describe whether the two protocols targeting different spatial frequency ranges produced differential effects. METHODS: Seventeen patients with PD were randomized to two VPL protocols using dichoptic Gabor patch video-games for 30 minutes/day, six days/week, over 8 weeks. The M-H group trained at 8-16 cpd and the L-M group at 0.5-2 cpd. CSF was measured at baseline, 2, 4, and 8 weeks. BCVA and VIPD-Q were assessed at baseline and 8 weeks. RESULTS: Significant progressive improvements in CSF were observed across all spatial frequencies and in the area under the log CSF curve from 1 month of training (p<0.001). VIPD-Q scores improved significantly in both groups (p=0.02 and p=0.008, respectively). CONCLUSIONS: Home based VPL was associated with significant improvements in CSF in PD; however, the absence of a control group means that these findings remain preliminary.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42834785/",
+      "keywords": []
+    },
+    {
+      "pmid": "42832012",
+      "title": "Correction to: Network state transitions under deep brain stimulation: A Wilson-Cowan model of Parkinson's Disease.",
+      "journal": "Journal of computational neuroscience",
+      "date": "2026",
+      "abstract": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42832012/",
+      "keywords": []
+    },
+    {
+      "pmid": "42835413",
+      "title": "Targeted in vitro suppression of Parkinson's disease-associated Desulfovibrio by selective probiotic and potential probiotic strains.",
+      "journal": "Frontiers in microbiology",
+      "date": "2026",
+      "abstract": "INRODUCTION: Emerging evidence links fecal Desulfovibrio METHODS: This study evaluated the inhibitory potential of 32 probiotic and potential probiotic strains against three DSV strains isolated from three individual PD patients. Antimicrobial activity was quantified using agar well diffusion and microplate assays, and the operational minimum inhibitory con centration (MIC&#x2089;&#x2080;) was determined based on the total crude dry matter content of cell-free supernatants (CFS). RESULTS: All tested lactic acid bacteria (LAB) strains, except Limosilactobacillus reuteri DISCUSSION: These findings demonstrate that specific probiotics can target PD-derived DSV, offering a novel strategy for microbiome-based PD management.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42835413/",
       "keywords": []
     }
   ]

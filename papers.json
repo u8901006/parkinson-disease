@@ -1,114 +1,105 @@
 {
-  "date": "2026-10-20",
-  "generated_at": "2026-10-19T18:50:31.652Z",
-  "total_fetched": 12,
+  "date": "2026-10-21",
+  "generated_at": "2026-10-20T17:32:48.457Z",
+  "total_fetched": 11,
   "papers": [
     {
-      "pmid": "42894034",
-      "title": "Computer vision, Parkinson's disease, and the unfinished work of clinical translation.",
+      "pmid": "42897176",
+      "title": "Machine learning image analysis predicts Parkinson disease genotype and mitochondrial lysosomal abnormalities in iPS neurons.",
       "journal": "NPJ Parkinson's disease",
       "date": "2026",
+      "abstract": "Mitochondrial and lysosomal dysfunction are central features of Parkinson's disease (PD) across major genetic forms including PRKN, SNCA, and LRRK2. We applied cell morphomics, a machine-learning-based framework combining high-content imaging with quantitative feature extraction, to analyse mitochondrial and lysosomal morphology at single-cell resolution in iPS cell-derived cortical neurons from PD patients and healthy controls (13 lines total). Supervised machine-learning models distinguished PD neurons from controls with high accuracy (AUC&#x2009;=&#x2009;0.87) and reliably separated individual genotypes. Feature importance and attribution analysis revealed genotype-specific organelle biases in the relative contribution of mitochondrial and lysosomal features, with mitochondrial features dominating classification in PRKN neurons, balanced mitochondrial and lysosomal contributions in SNCA neurons, and a greater lysosomal contribution in LRRK2 neurons. Multi-class models retained strong performance, and findings were reproduced across two independent laboratories using different dyes and imaging conditions. These results demonstrate that morphomics provides a robust and scalable framework to quantify genotype-specific organelle abnormalities in PD neurons and supports its application for cellular stratification and biomarker discovery.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42897176/",
+      "keywords": []
+    },
+    {
+      "pmid": "42897155",
+      "title": "Dopamine amplifies subthalamic long-latency responses to cortical stimulation in patients with Parkinson's disease.",
+      "journal": "NPJ Parkinson's disease",
+      "date": "2026",
+      "abstract": "The cortico-subthalamic hyperdirect pathway provides a rapid route for cortical influence over basal ganglia processing and is a key target of deep brain stimulation (DBS) in Parkinson's disease (PD). However, to what degree dopamine modulates signal transmission along this pathway in humans remains unclear. Using bidirectional cortical and subthalamic electrical stimulation while invasively recording evoked responses in 15 PD patients undergoing DBS surgery, we examined cortico-subthalamic communication across dopaminergic states. Cortical stimulation evoked a short-latency subthalamic response consistent with monosynaptic hyperdirect activation that was preserved across medication conditions. In contrast, longer-latency subthalamic responses showed significant dopaminergic modulation, while cortical responses to subthalamic stimulation remained unchanged. These results reveal a temporal dissociation within the cortex-basal ganglia network, whereby fast cortical transmission is unaffected by dopamine, which in turn amplifies slower network level communication to the subthalamic nucleus. This separation of fast and delayed components provides a mechanistic framework for understanding how dopamine shapes information flow in the cortex-basal ganglia system.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42897155/",
+      "keywords": []
+    },
+    {
+      "pmid": "42898622",
+      "title": "Neuromelanin-sensitive magnetic resonance imaging in the diagnosis and assessment of Parkinson's disease.",
+      "journal": "Frontiers in neurology",
+      "date": "2026",
+      "abstract": "Parkinson's disease (PD) is a progressive neurodegenerative disorder characterized primarily by the progressive loss of dopaminergic neurons in the substantia nigra pars compacta (SNpc); noradrenergic neurons in the locus coeruleus (LC) are also frequently affected. Because clinical motor symptoms usually emerge only after substantial neurodegeneration has occurred, there is a compelling need for noninvasive imaging biomarkers capable of detecting early pathological changes. Neuromelanin-sensitive magnetic resonance imaging (NM-MRI) generates neuromelanin-related image contrast in the SNpc and LC and can indirectly reflect the structural integrity of these catecholaminergic nuclei. Current evidence suggests that NM-MRI may be useful for distinguishing patients with PD from healthy controls, supporting the differential diagnosis of selected atypical parkinsonian syndromes and essential tremor, assessing disease stage, monitoring longitudinal change, and evaluating high-risk individuals in the prodromal phase. This review provides an updated account of recent advances in the use of NM-MRI for diagnostic support, differential diagnosis, prodromal assessment, longitudinal monitoring, multimodal imaging, and artificial intelligence-based analysis, and discusses its clinical role relative to other imaging and fluid biomarkers. Combining NM-MRI with complementary imaging measures, such as quantitative susceptibility mapping and diffusion MRI, and with automated analytical methods may further enhance pathological characterization and quantitative assessment. However, the available evidence is derived largely from single-center or case-control studies with limited sample sizes. Substantial variability may arise from differences in scanners, magnetic field strengths, acquisition protocols, and analytical methods, while independent external validation and prospective multicenter longitudinal evidence remain limited. The biological basis of the NM-MRI signal has not been fully ",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42898622/",
+      "keywords": []
+    },
+    {
+      "pmid": "42897149",
+      "title": "Imaging nanoscopic co-assemblies of &#x3b1;-synuclein and Tau in human samples.",
+      "journal": "Nature communications",
+      "date": "2026",
+      "abstract": "&#x3b1;-synuclein (&#x3b1;S), amyloid-&#x3b2; (A&#x3b2;), and Tau aggregates are hallmarks of many neurodegenerative diseases, yet the prevalence and nature of their nanoscopic co-assemblies remain poorly understood. Here, we adapt a single-molecule pull-down (SiMPull) assay to profile &#x3b1;S, A&#x3b2;, and Tau co-assemblies across post-mortem brain tissue homogenates, soluble brain fractions, human serum, cerebrospinal fluid, and saliva. We show that &#x3b1;S-Tau co-assemblies are abundant across all sample matrices, accounting for ~10-70% of total &#x3b1;S aggregates in both Parkinson's disease (PD) and control samples. Notably, &#x3b1;S-Tau co-assemblies&#xa0;in&#xa0;soluble brain fractions from controls exhibit higher Proteinase K (PK) resistance than those from PD cases. Biophysically, Tau accelerates &#x3b1;S aggregation in simple in vitro systems, but this effect is suppressed in complex environments. Together, this work establishes a framework for probing co-assemblies, revealing that &#x3b1;S-Tau species possess heterogeneous biophysical features and are unlikely to act as a single, uniformly toxic species in PD pathology.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42897149/",
+      "keywords": []
+    },
+    {
+      "pmid": "42896281",
+      "title": "Virulence mechanisms of Desulfovibrio bacteria: viability-dependent processes promote alpha-synuclein aggregation and toxicity in C. elegans.",
+      "journal": "Biomedicine & pharmacotherapy = Biomedecine & pharmacotherapie",
+      "date": "2026",
+      "abstract": "OBJECTIVES: Desulfovibrio (DSV) species have been linked to Parkinson's disease (PD) and demonstrated to enhance alpha-synuclein (alpha-syn) aggregation, a pathological hallmark of PD, in a Caenorhabditis elegans model. However, the bacterial factors underlying this virulence remain unclear. We investigated whether DSV-induced alpha-syn aggregation and toxicity are more strongly driven by bacterial viability-dependent processes or by bacterial structures retained after paraformaldehyde (PFA) treatment. METHODS: Live or paraformaldehyde (PFA)-treated (non-viable) DSV cells, and curli-producing or curli-deficient E. coli as controls were fed to C. elegans. Worm survival, alpha-syn aggregation, hydrogen sulfide production, and expression of genes associated with inflammation, oxidative stress, proteostasis and dopaminergic function were evaluated. RESULTS: Curli-producing E. coli retained its ability to induce alpha-syn aggregation, whereas PFA-treated DSV strains lost this effect, showing reduced aggregate number and volume (P&#x202f;<&#x202f;0.05). Worm survival improved when fed PFA-treated cells, although the difference was not statistically significant. Expression of pmk-1, skn-1 and hsf-1 did not differ between worms fed live and PFA-treated DSV bacteria, while cat-2 expression increased in worms fed PFA-treated bacteria compared to those fed live cells. Patient-derived DSV strains produced substantially higher levels of H2 CONCLUSIONS: DSV-derived viability-dependent processes, including metabolic activity, more strongly promote alpha-syn aggregation and toxicity than structural components. These findings highlight the important contribution of bacterial viability-dependent processes to DSV-mediated pathogenic effects relevant to Parkinson's disease.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42896281/",
+      "keywords": []
+    },
+    {
+      "pmid": "42883433",
+      "title": "Targeting Ferroptosis in Neurodegenerative Diseases: Therapeutic Potential and Mechanistic Insights of Traditional Chinese Medicine.",
+      "journal": "Biology",
+      "date": "2026",
+      "abstract": "Neurodegenerative diseases (NDs), including Alzheimer's disease, Parkinson's disease, Huntington's disease, amyotrophic lateral sclerosis, and multiple sclerosis, are characterized by progressive and irreversible neuronal loss, whereas current treatments remain largely symptomatic. Ferroptosis is an iron-dependent form of regulated cell death whose execution is defined by iron-enabled phospholipid peroxidation and failure of cellular ferroptosis-defense systems. Mitochondrial metabolism can modify ferroptosis susceptibility, but its contribution varies with cell type and initiating stimulus. Converging evidence implicates ferroptosis in multiple NDs, in which affected regions commonly show iron accumulation, glutathione depletion, and increased lipid peroxidation. With their multi-component and multi-target properties, traditional Chinese medicine (TCM) interventions may modulate several nodes in this network. This review summarizes the core execution and defense mechanisms of ferroptosis, evaluates their roles in major NDs, and critically appraises bioactive herbal compounds, compound formulas, acupuncture, electroacupuncture, and moxibustion. The reported interventions mainly engage the Nrf2/GPX4 antioxidant axis, TFR1/FPN1/FTH1/NCOA4-mediated iron handling, ACSL4-dependent lipid peroxidation, and GPX4-independent defense systems. Because most studies are preclinical and many infer ferroptosis from non-specific markers, the evidence is graded here as direct, supportive, indirect, mixed, or complementary. Translation will require standardized formulations, causal ferroptosis validation, pharmacokinetic and brain-exposure data, validated human biomarkers, and rigorously designed clinical trials.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42883433/",
+      "keywords": []
+    },
+    {
+      "pmid": "42897443",
+      "title": "Automated Magnetic Resonance Volumetry to Measure Multiple System Atrophy Disease Progression in Clinical Trials.",
+      "journal": "Movement disorders : official journal of the Movement Disorder Society",
+      "date": "2026",
+      "abstract": "BACKGROUND: Recent studies have reported longitudinal brain atrophy in multiple system atrophy (MSA) in relatively small patient cohorts. OBJECTIVE: To compare longitudinal regional brain volume and clinical changes as endpoint measures for MSA clinical trials. METHODS: MSA patients with 1-year longitudinal brain magnetic resonance imaging (MRI) were selected from the placebo arm of the M-STAR Study (NCT03952806) and stratified into MSA-cerebellar (MSA-C) and MSA-parkinsonism (MSA-P) subtypes. A multisite healthy control (HC) cohort from international datasets was included for comparison. Baseline and longitudinal atrophy were assessed through automated MRI volumetry. Standardized longitudinal effect size values with 95% confidence intervals (CIs) and sample sizes required to detect treatment effect were estimated for 42 individual regional brain volumes, four combined volumetric indexes, nine clinical scales, and serum neurofilament light chain. RESULTS: The final study cohort included 129 MSA patients (76 MSA-C, 53 MSA-P) and 184 HC. The most atrophic structures at baseline were infratentorial regions in MSA-C and putamen in MSA-P. In both subtypes, infratentorial structures showed the largest longitudinal volume loss compared with HC. The annualized change of a cerebellum-pons-putamen volumetric index was the most powerful progression biomarker in MSA patients (effect size: -1.81 [95% CI: -2.14, -1.55]) and in both subtypes (MSA-C: -2.04 [95% CI: -2.58, -1.68], MSA-P: -1.55 [95% CI: -2.08, -1.22]), requiring the lowest sample size per arm (MSA, N&#x2009;=&#x2009;55 to detect 30% treatment effect), and outperforming clinical measures (-59.6% patients required per arm). CONCLUSION: These findings support longitudinal MRI-derived regional atrophy rates as sensitive imaging endpoints to assess treatment efficacy in MSA clinical trials. &#xa9; 2026 The Author(s). Movement Disorders published by Wiley Periodicals LLC on behalf of International Parkinson and Movement Di",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42897443/",
+      "keywords": []
+    },
+    {
+      "pmid": "42897722",
+      "title": "Brain Stimulation as a Treatment for Apathy: A Scoping Review of Effects and Safety.",
+      "journal": "The Journal of neuropsychiatry and clinical neurosciences",
+      "date": "2026",
+      "abstract": "OBJECTIVE: Apathy is a neuropsychiatric syndrome characterized by impairment of goal-directed behavior, cognition, and emotional responsiveness. In this scoping review, the authors evaluated the literature on brain stimulation for the treatment of patients with apathy across diagnostic categories and provide recommendations to guide future research and practice. METHODS: The authors searched PubMed, Scopus, and PsycInfo for studies involving brain stimulation for apathy as a primary or secondary outcome. RESULTS: From 1,209 records, 52 studies evaluating brain stimulation were included; of these, 10 systematic reviews or meta-analyses were synthesized separately. Modalities included repetitive transcranial magnetic stimulation (rTMS; N=26), deep brain stimulation (DBS; N=7), transcranial direct current stimulation (tDCS; N=6), electroconvulsive therapy (N=1), transcranial alternating current stimulation (N=1), and transcranial pulsating electromagnetic field therapy (N=1). Populations included patients with schizophrenia (N=477), Parkinson's disease (PD; N=289), depression (N=288), Alzheimer's disease (AD) and mild cognitive impairment (MCI) (N=210), Huntington's disease (N=42), PD with MCI (N=28), traumatic brain injury (N=28), stroke (N=14), COVID-19 (N=12), and dementia with Lewy bodies (N=6) (total N=1,366). rTMS improved apathy measures, most consistently in AD, with positive trends in depression, MCI, stroke, and schizophrenia. tDCS showed variable effects, with some benefits for schizophrenia. DBS showed mixed results, varying with stimulation location. Observed adverse events were mild and modality specific. CONCLUSIONS: Investigations into brain stimulation as a treatment for apathy show some promise. Conclusions were limited by small sample sizes, heterogeneous study designs, and variable outcome measures. Randomized trials with common validated apathy instruments, standardized stimulation parameters, and harmonized diagnostic measures may help advance the",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42897722/",
+      "keywords": []
+    },
+    {
+      "pmid": "42897672",
+      "title": "Childhood-onset parkinsonism, dystonia and severe muscle wasting in a Sudanese girl caused by a novel homozygous DnaJ heat shock protein family (heat shock protein 40) member C6 frameshift variant, with an incidental pathogenic breast cancer 1 gene secondary finding: a case report.",
+      "journal": "Journal of medical case reports",
+      "date": "2026",
+      "abstract": "BACKGROUND: DNAJC6-related juvenile parkinsonism is a rare autosomal recessive disorder of auxilin, a co-chaperone essential for clathrin-mediated synaptic vesicle recycling. Fewer than 50 kindreds have been reported worldwide, and the condition is easily missed when first-line investigations come back normal. We describe a Sudanese adolescent in whom a previously unreported homozygous DNAJC6 frameshift variant was identified only after a prolonged diagnostic journey that included a period during which her illness was mistakenly attributed to a functional neurological disorder. Clinical whole-exome sequencing additionally returned an incidental medically actionable BRCA1 secondary finding. CASE PRESENTATION: A 13-year-old Sudanese girl, the eldest child of first-cousin parents, was born preterm and ventilated neonatally for severe respiratory distress. Her development was normal until age five, when an isolated upper-limb tremor first appeared. Over the next 8&#xa0;years her condition progressed into severe juvenile parkinsonism: bilateral rest-and-action tremor, rigidity, bradykinesia, generalized dystonia with prominent oromandibular involvement, dysphagia, profound cachexia, cognitive and behavioral decline, sleep and autonomic disturbance, episodic oculogyric crises and three discrete seizures. By approximately 11 she was wheelchair-dependent. Earlier, unrevealing investigations had led to a psychiatric diagnosis of functional neurological disorder, and the dopamine antagonists prescribed on that basis worsened her condition. Whole-exome sequencing later identified a novel homozygous DNAJC6 frameshift deletion (NM_001256864.2:c.1480del; p.Glu494ArgfsTer12), absent from population databases, alongside a heterozygous pathogenic BRCA1 deletion reported as an actionable secondary finding. Levodopa produced partial motor benefit, complicated by on-state dyskinesias, visual hallucinations and excessive daytime somnolence. Subsequent up-titration of carbidopa/levodopa ",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42897672/",
+      "keywords": []
+    },
+    {
+      "pmid": "42897092",
+      "title": "The Sounds Remain.",
+      "journal": "Journal of the American Geriatrics Society",
+      "date": "2026",
       "abstract": "",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42894034/",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42897092/",
       "keywords": []
     },
     {
-      "pmid": "42893778",
-      "title": "A critical mechanistic synthesis of PINK1-mediated mitophagy signaling and its therapeutic targeting in Parkinson's disease neurodegeneration.",
-      "journal": "Experimental neurology",
+      "pmid": "42897464",
+      "title": "Anaesthetic challenges in a nonagenarian with Parkinson's disease undergoing hip fracture surgery: a case report.",
+      "journal": "BMC anesthesiology",
       "date": "2026",
-      "abstract": "Parkinson's disease (PD) is a progressive neurodegenerative disorder that is associated with loss of dopaminergic neurons, mitochondrial dysfunction and disruption of cellular homeostasis. PTEN-induced kinase 1 (PINK1) plays a crucial role in mitochondrial quality control by regulating mitophagy, mitochondrial dynamics, and calcium signaling to maintain neuronal bioenergetic homeostasis. This review critically evaluates the molecular pathways underlying PINK1-mediated mitochondrial integrity and the mechanisms by which loss-of-function mutations contribute to the pathogenesis of PD. Familial early-onset PD is strongly associated with pathogenic PINK1 mutations identified through genetic studies. Therapeutic approaches targeting the PINK1 pathway are examined, including adeno-associated virus (AAV)-based gene delivery, direct small-molecule PINK1 activation (MTK458), and indirect modulation of mitophagy and mitochondrial homeostasis by compounds such as curcumin, resveratrol, cannabidiol, gastrodin, and quercetin. Moreover, the complementary restoration of mitochondrial homeostasis through the modulation of downstream targets, such as transcription factor EB (TFEB) activation and BCL2-interacting protein 3-like (BNIP3L/NIX)-mediated mitophagy, is discussed as an indirect therapeutic strategy. Another important finding is that PD is a biologically and clinically heterogeneous disease that requires biomarker-directed and genotype-stratified therapeutic development. Finally, major translational issues are critically evaluated, including challenges related to blood-brain barrier penetration, target specificity, and long-term safety of mitochondrial modulators.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42893778/",
-      "keywords": []
-    },
-    {
-      "pmid": "42895345",
-      "title": "Interpreting peripheral immune phenotypes in Parkinson's disease: an immune-context framework for biomarker qualification.",
-      "journal": "Reviews in the neurosciences",
-      "date": "2026",
-      "abstract": "Peripheral immune alterations are widely reported in Parkinson's disease (PD), but their biological meaning and clinical utility remain uncertain because circulating immune profiles are shaped by aging, latent infection, medication exposure, comorbidity, disease stage, and preanalytical conditions. This concept-driven narrative review examines how technically valid peripheral immune findings should be biologically interpreted and clinically qualified through an immune-context phenotyping framework. Available human evidence suggests alterations in neutrophil- and monocyte-related inflammatory indices and cellular states, &#x3b1;-synuclein-responsive T-cell pathways, cytotoxic and regulatory T-cell states, B-cell phenotypic alterations, and peripheral-central immune associations. Much of this evidence, however, derives from cross-sectional and cohort-dependent studies, and within the human evidence considered in this review, PD specificity remains insufficiently established for most candidate signals. An observed blood difference may reflect altered production, survival, differentiation, redistribution, denominator effects, systemic inflammatory context, or measurement-related distortion rather than a single disease mechanism. Immune-context phenotyping, therefore, integrates trait, state, disease-trajectory, measurement, and treatment contexts with biological identifiability, disease-control comparisons, cross-compartment corroboration, repeated sampling, and external validation. The framework adapts established biomarker concepts to distinguish diagnostic, prognostic, monitoring, predictive, pharmacodynamic/response, and treatment-selection claims without treating peripheral target engagement, CNS engagement, pathway modification, and clinical benefit as equivalent. Based on the human evidence considered in this review, no peripheral immune phenotype appears ready for stand-alone clinical implementation in PD. The proposed framework defines a testable path from desc",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42895345/",
-      "keywords": []
-    },
-    {
-      "pmid": "42894080",
-      "title": "Radiosynthesis and quality control testing of two 18F-labeled radiopharmaceuticals for &#x3b1;-synuclein imaging in clinical investigations.",
-      "journal": "EJNMMI radiopharmacy and chemistry",
-      "date": "2026",
-      "abstract": "BACKGROUND: 18 RESULTS: [18 CONCLUSIONS: We successfully prepared two PET radiopharmaceuticals, [18",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42894080/",
-      "keywords": []
-    },
-    {
-      "pmid": "42895193",
-      "title": "The morphology of &#x3b1;-synuclein fibrils changes during formation, storage, and upon exposure to ligands.",
-      "journal": "Organic & biomolecular chemistry",
-      "date": "2026",
-      "abstract": "Protein fibrils are pathological hallmarks of many neurodegenerative diseases, including Parkinson's disease. The preparation of &#x3b1;-synuclein (&#x3b1;Syn) fibrils in vitro",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42895193/",
-      "keywords": []
-    },
-    {
-      "pmid": "42893649",
-      "title": "Integrating graph attention networks and deep learning with multi-stage computational screening: Bisdemethoxycurcumin as a potent A&#x2082;A receptor inhibitor for Parkinson's disease.",
-      "journal": "Bioorganic chemistry",
-      "date": "2026",
-      "abstract": "Parkinson's disease (PD) remains a progressive neurodegenerative disorder with limited disease modifying therapies, as current treatments such as L-DOPA offer only symptomatic relief and are associated with severe adverse effects. This study presents an integrated multi-stage computational pipeline that combines quantitative structure activity relationship (QSAR) modelling enhanced by graph attention networks (GATs), molecular docking, density functional theory (DFT), molecular dynamics (MD) simulations, and ADMET profiling to identify natural inhibitors targeting four key PD related proteins: adenosine A&#x2082;A receptor (A&#x2082;AR), gamma aminobutyric acid type A receptor (GABA-A), nuclear factor erythroid 2- related factor 2 (Nrf2), and (&#x3b1;-synuclein). A comprehensive dataset of 1393 structurally diverse compounds derived from 6- hydroxybenzothiazole 2-carboxamide and related scaffolds was assembled and used to train and validate seven regression algorithms. GATs achieved superior predictive performance (R2",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42893649/",
-      "keywords": []
-    },
-    {
-      "pmid": "42882211",
-      "title": "Longitudinal Changes in the Digitized Archimedes Spiral Drawing Test Following iTBS of the Left DLPFC in Parkinson's Disease: An Exploratory Feasibility Study.",
-      "journal": "Journal of clinical medicine",
-      "date": "2026",
-      "abstract": "Background:",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42882211/",
-      "keywords": []
-    },
-    {
-      "pmid": "42894650",
-      "title": "Identification of platelet-derived biomarker in a cohort of Parkinson's disease.",
-      "journal": "Genes & diseases",
-      "date": "2027",
-      "abstract": "Evidence has suggested that platelets (PLTs) share biochemical properties with neurons. However, whether PLTs might serve as biomarkers of Parkinson's disease (PD) remains uncertain. In this study, we first analyzed RNA data from a publicly available microarray of the substantia nigra (SN) and RNA-seq data from the PLTs of newly recruited PD patients using weighted gene coexpression network analysis (WGCNA). We found that in the SN, the majority of network modules were associated with chromatin organization, energy metabolism, and synaptic signaling, whereas those in the PLTs were related to chromatin organization and DNA metabolism. Potential PLT biomarkers were then screened by comparing the differentially expressed genes (DEGs) in the significant module pathways with those identified in the SN data by microarray. Additionally, significant genes were identified using genome-wide association study (GWAS) and transcriptome-wide association study (TWAS). The resulting 20 candidate genes were further tested for consistency in single-cell RNA-seq data, followed by assessment using receiver operating characteristic curve (ROC) analysis and qPCR validation. The combination of the CRLF3 and LRRC37A2 genes exhibited the best diagnostic performance. Collectively, both PLTs and the SN were common in the chromatin organization pathway, and the diagnostic value of PLT-derived CRLF3 and LRRC37A2 genes deserves further large-scale studies.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42894650/",
-      "keywords": []
-    },
-    {
-      "pmid": "42861814",
-      "title": "Natural Bioactives Targeting &#x3b1;- Synuclein Aggregation in PD: A Review of Multi-mechanism Phytochemicals.",
-      "journal": "Mini reviews in medicinal chemistry",
-      "date": "2026",
-      "abstract": "Parkinson's Disease (PD) is a progressive neurodegenerative disorder characterised by the misfolding and aggregation of &#x3b1;-synuclein, a central pathological event that contributes to oxidative stress, mitochondrial dysfunction, impaired proteostasis, neuroinflammation, synaptic dysfunction and progressive dopaminergic neuronal loss. This review highlights current research on natural bioactive compounds that target &#x3b1;-synuclein aggregation as potential disease-modifying therapies for PD. Relevant material was identified through searches of major scientific databases, including PubMed, Google Scholar, Scopus and Web of Science, focused on research studying natural products and &#x3b1;-synuclein-associated neurodegeneration. The review examines significant types of phytochemicals, including flavonoids, polyphenols, alkaloids, terpenoids, and related natural substances such as baicalein, Epigallocatechin-3-Gallate (EGCG), berberine, curcumin, naringenin, mangiferin, silibinin, and oleuropein etc. Together, these substances have shown a variety of neuroprotective mechanisms in preclinical models such as preventing &#x3b1;-synuclein fibrillization, improving protein clearance pathways, reducing oxidative stress and neuroinflammation, maintaining mitochondrial function, and modifying cellular signalling pathways related to neuronal survival. Important translational obstacles are also highlighted by the current data, such as low oral bioavailability, quick metabolic breakdown, inadequate brain exposure, and the lack of clinical efficacy for several prospective candidates. Most of the information currently available comes from preclinical trials, even though natural bioactive substances constitute a potential avenue of investigation for targeting &#x3b1;- synuclein disease. To determine their therapeutic potential as disease-modifying therapies, more drug-delivery optimisation, pharmacokinetic characteristics, and well-planned clinical studies would be necessary fo",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42861814/",
-      "keywords": []
-    },
-    {
-      "pmid": "42895147",
-      "title": "Mechanistic Evaluation of Psilocybin in Neurodegenerative Disorders: Relevance of 5-HT2A Receptors and Downstream Pathways.",
-      "journal": "CNS & neurological disorders drug targets",
-      "date": "2026",
-      "abstract": "More than fifty million individuals worldwide are experiencing neurodegenerative disorders, which include Parkinson's disease, Alzheimer's disease, amyotrophic lateral sclerosis, Huntington's disease, multiple sclerosis, and frontotemporal dementia. These disorders have a significant role in the gradual degradation of cognition and motor skills. Most current treatment approaches have little effect on changing the course of the disease and are largely symptomatic. Psilocybin, a naturally occurring tryptamine alkaloid from psilocybin mushrooms, has become a promising medicinal agent because of its hallucinogenic, neuroprotective, and neuroplastic properties. After being metabolically transformed into its active form, psilocin, it primarily activates serotonin 5-HT2A receptors. This modulates glutamatergic neurotransmission and neurotrophic signaling pathways such as BDNF/TrkB and mTOR, which regulate synaptic remodeling, dendritic complexity, neurogenesis, neuroinflammatory response, and default mode network connectivity, all of which are linked to depression and dementia. Preclinical research studies demonstrate that psilocybin increases hippocampal plasticity, restores dendritic complexity, lowers proinflammatory cytokine levels, and promotes fear extinction in experimental models of stress, ischemic stroke, and neurodegeneration. Emerging clinical studies also indicate that individuals with moderate cognitive impairment, early-onset Alzheimer's disease, and Parkinson's disease may see long-term decreases in anxiety and depression as well as improvements in cognitive function, frequently after a single dose administration. Additionally, psilocybin has demonstrated promise in treating mental comorbidities that often accompany neurodegenerative illness, such as treatment-resistant depression, drug use disorders, and obsessive-compulsive disorder. However, there are still significant obstacles to overcome, such as optimizing dosing schedules, assessing safety issues su",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42895147/",
-      "keywords": []
-    },
-    {
-      "pmid": "42895023",
-      "title": "Feedback Control of Arterial Pressure Using Deep Brain Stimulation: Transfer Function Analysis and Simulation Study.",
-      "journal": "Hypertension (Dallas, Tex. : 1979)",
-      "date": "2026",
-      "abstract": "BACKGROUND: Deep brain stimulation (DBS) is an established treatment for Parkinson disease. Emerging evidence suggests that DBS of the subthalamic nuclei may be a target for neuromodulation therapy for orthostatic hypotension due to efferent baroreflex failure. To develop a central algorithm for an artificial baroreflex system, we first estimated the dynamic responses of arterial pressure to DBS, and then determined the feedback correction factors for DBS. METHODS: A total of 14 Parkinson disease patients treated with DBS participated in submaximal stimulation screening tests for 20 s to identify responders exhibiting a pressor reaction of &#x2265;10 mm&#x2009;Hg in systolic arterial pressure. In the responders, we randomly performed stimulation while tonometrically measuring the systolic arterial pressure. The transfer function from stimulation-to-systolic arterial pressure was computed using a fast Fourier transform algorithm. Finally, the feedback correction factors were determined via numerical simulations. RESULTS: The transfer function was identifiable in all 3 responders. The average stimulation-to-systolic arterial pressure transfer function exhibited low-pass characteristics, with a steady-state gain of 8.24 mm&#x2009;Hg/stimulation, corner frequency of 0.02 Hz, and pure delay of 2.5 s. Based on these results, the proportional and integral correction factors were set to 0.12 and 0.018, respectively, for the feedback control of the stimulation. Computer simulations revealed that the system could quickly and effectively attenuate a sudden drop in systolic arterial pressure induced by external disturbances, such as head-up tilt. CONCLUSIONS: An artificial baroreflex system with the feedback correction of stimulation of DBS may be a novel therapeutic approach for efferent baroreflex failure.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42895023/",
-      "keywords": []
-    },
-    {
-      "pmid": "42893513",
-      "title": "Lexico-Semantic and Morphosyntactic Skills in Individuals With Parkinson's Disease: A Scoping Review.",
-      "journal": "International journal of language & communication disorders",
-      "date": "2026",
-      "abstract": "PURPOSE: This scoping review examines lexico-semantic and morphosyntactic skills in English-speaking individuals with Parkinson's disease (PD) using behavioral and neuroimaging data to inform clinical assessment and intervention. METHOD: Following PRISMA-ScR guidelines, observational case-control studies published between 2004 and 2024 were retrieved from PubMed, PsycINFO, Web of Science, Scopus and ERIC. Thirty-nine studies met inclusion criteria. Methodological quality was evaluated using the Joanna Briggs Institute Checklist for Case-Control Studies. RESULTS: Lexico-semantic impairments in PD are characterized by deficits in semantic fluency, action-verb retrieval, and figurative-language processing, particularly under higher cognitive load. Individuals with PD show reduced efficiency in lexical access, difficulty shifting between semantic categories, and weaker inhibition of competing meanings. Morphosyntactic studies similarly report slower processing and lower accuracy for syntactically complex sentences. CONCLUSION: Linguistic impairments in PD are best understood as a dynamic interaction between linguistic demands and domain-general cognitive resources, emerging most clearly under conditions of increased cognitive load. This pattern positions language as a sensitive indicator of broader cognitive vulnerability within the communication profile of PD, with direct implications for assessment and clinical practice. WHAT THIS PAPER ADDS: What is already known on the subject Language impairments are a well-recognized non-motor feature of PD and can significantly affect communication and quality of life. Previous studies have reported lexico-semantic and morphosyntactic difficulties in PD, but findings are scattered across heterogeneous tasks and study designs, with no synthesis examining these domains together. What this study adds to the existing knowledge This scoping review synthesizes evidence from behavioral and neuroimaging studies and shows that language di",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42893513/",
+      "abstract": "BACKGROUND: Hip fractures in nonagenarian patients with multiple comorbidities present substantial anaesthetic challenges. Parkinson's disease (PD) adds further complexity through motor symptoms, autonomic dysfunction, and the imperative for uninterrupted dopaminergic therapy. CASE PRESENTATION: We report the perioperative anaesthetic management of a 93-year-old male with hypertension, Parkinson's disease, hypothyroidism, and dyslipidaemia who underwent cemented left hemiarthroplasty for a transcervical neck of femur fracture. The case was additionally complicated by a significant language barrier, as the patient was exclusively fluent in Newari. Spinal anaesthesia was administered at L3-L4 using 3 mL of 0.5% hyperbaric bupivacaine with 5&#xa0;&#xb5;g intrathecal dexmedetomidine, selected to prolong anaesthesia based on discussion with the orthopaedic team; the rationale and limitations of this dosing strategy are critically appraised in the Discussion. Intraoperatively, the patient developed three episodes of hypotension, likely related to sympathetic blockade and adjuvant effects, managed with incremental doses of mephentermine. An episode of intraoperative hypoglycaemia (blood glucose 55&#xa0;mg/dL) was promptly corrected with 50% dextrose. Postoperatively, the patient developed transient hypoactive delirium due to temporary interruption of dopaminergic therapy, which resolved after resumption of enteral medications by postoperative day 2. On postoperative day 3, the patient developed aspiration pneumonia after oral feeding was initiated by family members despite a functioning nasogastric tube. The condition was managed with antibiotics and supportive care. The patient subsequently improved and was discharged on postoperative day 10. CONCLUSION: Spinal anaesthesia is feasible in nonagenarians with multiple comorbidities, including Parkinson's disease. This case highlights the need for evidence-based dose optimisation and proactive complication prevention. It furt",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42897464/",
       "keywords": []
     }
   ]
